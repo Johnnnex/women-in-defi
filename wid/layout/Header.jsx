@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Header = () => {
+  const {pathname, asPath, events} = useRouter()
   const paths = [
     {
       path: "/",
@@ -31,7 +33,7 @@ const Header = () => {
   ]
   const links = paths.map(({path, text}) => {
     return (
-      <li key={text} className="">
+      <li key={text} className={`${asPath === path ? "active" : ""} hover:text-[#0673EF] transition-[.4s] font-[500] text-[#666481]`}>
         <Link href={path}>
           {text}
         </Link>
@@ -50,7 +52,7 @@ const Header = () => {
             // sizes="100px"
           />
         </div>
-        <div className="flex flex-1 justify-between gap-[50px]">
+        <div className="flex flex-1 items-center justify-between gap-[50px]">
           <ul className="flex flex-1 justify-between">
             {links}
           </ul>

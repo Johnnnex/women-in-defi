@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+   --brand-colour: #0673EF; 
+}
+.active {
+    color: var(--brand-colour) !important;
+    text-decoration: underline;
+}
+.btn-generic {
+    padding: 20px 24px;
+    background-color: var(--brand-colour);
+    border-radius: 32px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
