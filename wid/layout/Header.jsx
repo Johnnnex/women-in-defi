@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -40,8 +41,13 @@ const Header = () => {
       </li>
     )
   })
+  useEffect (() => {
+    window.addEventListener(scroll, () => {
+      console.log("hi")
+    }, window.scrollHeight == 0)
+  }, [])
   return (
-    <header className="">
+    <header className="fixed left-0 top-0 w-full">
       <section className="w-[90%] flex gap-[218px] items-center max-w-[1267px] mx-auto">
         <div className="w-[100px] relative h-[100px]">
           <Image 
