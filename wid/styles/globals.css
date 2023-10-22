@@ -27,3 +27,8 @@
     font-weight: 500;
     line-height: normal;
 }
+.grid-container {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 16px;
+}
