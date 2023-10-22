@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import HeadComp from '@/layout/HeadComp'
+import CountDown from '@/reusable components/count-down'
 
 const Homepage = () => {
   return (
     <>
       <HeadComp title="Women In DeFi || Home" />
-      <main className="pt-[244px] pb-[120px]">
-        <section className="max-w-[1272px] w-[85%] mx-auto">
+      <main className="pt-[244px]">
+        <section className="max-w-[1272px] w-[85%] pb-[120px] mx-auto">
           <h1 className="text-[#110138] text-[52px] font-[600] leading-[68px] text-center mb-[16px]">
             Empowering Women Globally Through Decentralised  Finance
           </h1>
@@ -79,6 +80,7 @@ const Homepage = () => {
             </div>
           </div>
         </section>
+        <CountDown />
       </main>
     </>
   )
