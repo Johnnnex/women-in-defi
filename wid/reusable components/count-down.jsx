@@ -13,7 +13,7 @@ const CountDown = () => {
                 Far
             </h2>
             <ScrollTrigger className="flex-1 justify-between flex" onEnter={()=> setHyState(true)} onExit={()=> setHyState(false)}>
-                <div className="">
+                <div>
                     <p className="font-[600] text-[40px] leading-[52px] mb-[8px]">
                         {hydrationState == true ? <CountUp start={0} end={7} /> : "0"}
                     </p>
@@ -22,7 +22,7 @@ const CountDown = () => {
                         Cohorts
                     </span>
                 </div>
-                <div className="">
+                <div>
                     <p className="font-[600] text-[40px] leading-[52px] mb-[8px]">
                         {hydrationState == true ? <CountUp start={0} end={3000} /> : "0"}+
                     </p>
@@ -31,7 +31,7 @@ const CountDown = () => {
                         Members
                     </span>
                 </div>
-                <div className="">
+                <div>
                     <p className="font-[600] text-[40px] leading-[52px] mb-[8px]">
                         {hydrationState == true ? <CountUp start={0} end={3} /> : "0"}+
                     </p>
@@ -40,7 +40,7 @@ const CountDown = () => {
                         Hosted
                     </span>
                 </div>
-                <div className="">
+                <div>
                     <p className="font-[600] text-[40px] leading-[52px] mb-[8px]">
                         {hydrationState == true ? <CountUp start={0} end={16} /> : "0"}+
                     </p>

@@ -47,7 +47,7 @@ const Header = () => {
     }, window.scrollHeight == 0)
   }, [])
   return (
-    <header className="fixed left-0 top-0 w-full">
+    <header className="fixed z-[2] left-0 top-0 w-full">
       <section className="w-[90%] flex gap-[218px] items-center max-w-[1267px] mx-auto">
         <div className="w-[100px] relative h-[100px]">
           <Image 
