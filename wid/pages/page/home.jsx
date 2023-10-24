@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import HeadComp from '@/layout/HeadComp'
 import CountDown from '@/reusable components/count-down'
+import Testimonial from '@/reusable components/testimonial'
 
 const Homepage = () => {
   return (
@@ -316,6 +317,7 @@ const Homepage = () => {
             </div>
           </div>
         </section>
+        <Testimonial />
       </main>
     </>
   )
