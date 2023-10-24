@@ -1,10 +1,13 @@
-import React, { useEffect } from 'react'
+"use client"
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Header = () => {
   const {pathname, asPath, events} = useRouter()
+  const [navScrollState, setNavState] = useState(false)
+  const header = useRef()
   const paths = [
     {
       path: "/",
@@ -40,15 +43,16 @@ const Header = () => {
       </li>
     )
   })
+
   useEffect (() => {
-    window.addEventListener(scroll, () => {
-      console.log("hi")
-    }, window.scrollHeight == 0)
+    window.addEventListener("scroll", () => {
+      header.current.classList.toggle("header-sticky", window.scrollY > 0)
+  })
   }, [])
   return (
-    <header className="fixed z-[2] left-0 top-0 w-full">
+    <header ref={header} className={`fixed z-[2] py-4 bg-white left-0 top-0 w-full`}>
       <section className="w-[90%] flex gap-[218px] items-center max-w-[1267px] mx-auto">
-        <div className="w-[100px] relative h-[100px]">
+        <div className="w-[100px] relative h-[80px]">
           <Image 
             src="/images/wid.svg" 
             alt="logo" 
