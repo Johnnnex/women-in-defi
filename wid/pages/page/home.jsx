@@ -4,6 +4,7 @@ import HeadComp from '@/layout/HeadComp'
 import CountDown from '@/reusable components/count-down'
 import Testimonial from '@/reusable components/testimonial'
 import Connect from '@/reusable components/connect-w-us'
+import AttendEvent from '@/reusable components/attend-an-event'
 
 const Homepage = () => {
   return (
@@ -11,13 +12,13 @@ const Homepage = () => {
       <HeadComp title="Women In DeFi || Home" />
       <main className="pt-[244px]">
         <section className="max-w-[1272px] w-[85%] pb-[120px] mx-auto">
-          <h1 className="text-[#110138] text-[52px] font-[600] leading-[68px] text-center mb-[16px]">
+          <h1 className="text-[#110138] wow fadeInDown text-[52px] font-[600] leading-[68px] text-center mb-[16px]">
             Empowering Women Globally Through Decentralised  Finance
           </h1>
-          <p className="text-[#666481] text-[18px] mb-[40px] font-[400] leading-[28px] text-center">
+          <p className="text-[#666481] wow fadeInDown text-[18px] mb-[40px] font-[400] leading-[28px] text-center">
             Women in DeFi raising the next generation of leading ladies in the Blockchain space.
           </p>
-          <div className="flex gap-[24px] w-fit mx-auto">
+          <div className="flex gap-[24px] wow fadeIn w-fit mx-auto">
             <button className="btn-trans">Donate Now</button>
             <button className="btn-generic">Join Community</button>
           </div>
@@ -25,8 +26,7 @@ const Homepage = () => {
             <div className="w-[24%] h-[390px] relative">
               <Image 
                 src="/images/hero-img-6.png" 
-                alt="hero-image" 
-                priority 
+                alt="hero-image"  
                 fill
               />
             </div>
@@ -35,7 +35,6 @@ const Homepage = () => {
                 <Image 
                   src="/images/hero-img-5.png" 
                   alt="hero-image" 
-                  priority 
                   fill 
                 />
               </div>
@@ -43,7 +42,6 @@ const Homepage = () => {
                 <Image 
                   src="/images/hero-img-4.png" 
                   alt="hero-image" 
-                  priority 
                   fill 
                 />
               </div>
@@ -52,8 +50,7 @@ const Homepage = () => {
               <div className="w-full h-[49%] relative">
                 <Image 
                   src="/images/hero-img-3.png" 
-                  alt="hero-image" 
-                  priority 
+                  alt="hero-image"
                   fill 
                 />
               </div>
@@ -61,7 +58,6 @@ const Homepage = () => {
                 <Image 
                   src="/images/hero-img-2.png" 
                   alt="hero-image" 
-                  priority 
                   fill 
                 />
               </div>
@@ -69,8 +65,7 @@ const Homepage = () => {
             <div className="w-[24%] h-[390px] relative">
               <Image 
                 src="/images/hero-img-1.png" 
-                alt="hero-image" 
-                priority 
+                alt="hero-image"  
                 fill
               />
             </div>
@@ -90,7 +85,6 @@ const Homepage = () => {
             <Image 
               src="/images/frame-13.png" 
               alt="section-img" 
-              priority 
               fill
             />
           </div>
@@ -129,31 +123,12 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
-          <div className="w-[49%]">
-            <h3 className="mb-[16px] text-[#110138] font-[600] text-[40px] leading-[52px]">
-              Attend A WID Event
-            </h3>
-            <p className="text-[#666481] mb-[32px] text-[18px] font-[400] leading-[26px]">
-              Be a part of any of our online or offline events including twitter spaces, webinars, defi training, skill-up program, codes,charts and cocktails, and several more!
-            </p>
-            <button className="btn-generic">View Upcoming Events</button>
-          </div>
-          <figure className="relative h-[491px] w-[45%] max-w-[540px]">
-            <Image 
-              src="/images/Frame-14.png" 
-              alt="section-img" 
-              priority 
-              fill
-            />
-          </figure>
-        </section>
+        <AttendEvent />
         <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
           <figure className="relative h-[491px] w-[45%] max-w-[540px]">
             <Image 
               src="/images/Frame-15.png" 
               alt="section-img" 
-              priority 
               fill
             />
           </figure>
@@ -182,7 +157,6 @@ const Homepage = () => {
             <Image 
               src="/images/Frame-16.png" 
               alt="section-img" 
-              priority 
               fill
             />
           </figure>

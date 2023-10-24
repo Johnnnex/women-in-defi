@@ -1,6 +1,9 @@
+import { useEffect } from 'react'
 import { Poppins } from 'next/font/google'
 import Layout from '@/layout/Layout'
 import '@/styles/globals.css'
+const isServer = typeof window === 'undefined'
+const WOW = !isServer ? require('wow.js') : null
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -9,6 +12,9 @@ const poppins = Poppins({
 })
 
 export default function App({ Component, pageProps }) {
+  useEffect (() => {
+    new WOW().init()
+  }, [])
   return (
     <main className={` ${poppins.variable} font-poppins`}>
       <Layout>

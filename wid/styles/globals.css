@@ -39,3 +39,6 @@
 header {
     transition: .4s !important;
 }
+.bx-shadw {
+    box-shadow: 0px 4px 20px 0px rgba(6, 6, 11, 0.05);
+}
