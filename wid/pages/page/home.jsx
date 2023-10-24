@@ -228,7 +228,7 @@ const Homepage = () => {
               </div>
               <div className="p-[18px] bg-[#F9F9FF] rounded-[16px] h-fit">
                 <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
-                  Determination and WID TEAM are synonymous. Honestly, there’s a lot to say about WOMEN IN DEFI (WID) Community, the massive love the cooperation, and the active tutors are just what anyone can’t get elsewhere. I came in with Zero knowledge but today i can say am Good with What i Do. Defi is the future, joining a good community is the way forward.  <br />
+                  Determination and WID TEAM are synonymous. Honestly, there&apos;s a lot to say about WOMEN IN DEFI (WID) Community, the massive love the cooperation, and the active tutors are just what anyone can&apos;t get elsewhere. I came in with Zero knowledge but today i can say am Good with What i Do. Defi is the future, joining a good community is the way forward.  <br />
                   Thank you Miss Sarah for all the hard work you have put in place for the smooth running of the community.
                 </p>
                 <div className="flex gap-[8px] flex-col">
@@ -256,7 +256,7 @@ const Homepage = () => {
                       I was onboarded into the web3 space by the WID community in April this year; that was the best thing that happened to me.
                       Before now, I had no knowledge of what web3 is or what the decentralized space is all about. <br />
                       The only knowledge I had on crypto then was buying low and selling high 😅 <br />
-                      A big thank you to the founder of WomenInDefi and the core team members, WID was a game changer for me. Today, I'm an ardent believer in Decentralized Finance
+                      A big thank you to the founder of WomenInDefi and the core team members, WID was a game changer for me. Today, I&apos;m an ardent believer in Decentralized Finance
                     </p>
                     <div className="flex gap-[8px] flex-col">
                       <Image src="/images/img-3.png" alt="testimonial_avatar" height={1} width={50} />
@@ -280,7 +280,7 @@ const Homepage = () => {
                 </div>
                 <div className="p-[18px] bg-[#F9F9FF] rounded-[16px] h-fit">
                     <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
-                      WID was the start of my defi journey and the start of my millionaire journey. I discovered so many opportunities that i can leverage to make myself financially stable in the defi space. The biggest motivation is the fact that i’m taught by women who have broken records, which gives me the inspiration to do more. Then being part of a community that looks out for you can’t be overemphasized as it speeds up my growth.
+                      WID was the start of my defi journey and the start of my millionaire journey. I discovered so many opportunities that i can leverage to make myself financially stable in the defi space. The biggest motivation is the fact that i&apos;m taught by women who have broken records, which gives me the inspiration to do more. Then being part of a community that looks out for you can&apos;t be overemphasized as it speeds up my growth.
                     </p>
                     <div className="flex gap-[8px] flex-col">
                       <Image src="/images/img-5.png" alt="testimonial_avatar" height={1} width={50} />
