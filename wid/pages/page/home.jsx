@@ -3,6 +3,7 @@ import Image from 'next/image'
 import HeadComp from '@/layout/HeadComp'
 import CountDown from '@/reusable components/count-down'
 import Testimonial from '@/reusable components/testimonial'
+import Connect from '@/reusable components/connect-w-us'
 
 const Homepage = () => {
   return (
@@ -318,6 +319,7 @@ const Homepage = () => {
           </div>
         </section>
         <Testimonial />
+        <Connect />
       </main>
     </>
   )

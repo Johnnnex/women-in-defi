@@ -158,7 +158,7 @@ const Testimonial = () => {
         }
     }
   return (
-    <section className="pt-[40px]">
+    <section className="py-[40px]">
         <h3 className="text-[32px] font-[600] mb-[16px] text-center leading-[42px]">
         WID <span className="text-[#0673EF]">Chapters</span>
         </h3>
@@ -179,7 +179,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.one == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.one == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -198,7 +198,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.two == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.two == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -217,7 +217,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.three == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.three == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -236,7 +236,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.four == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.four == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -255,7 +255,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.five == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.five == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -274,7 +274,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.six == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.six == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -293,7 +293,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.seven == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.seven == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -312,7 +312,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.eight == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.eight == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -331,7 +331,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.nine == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.nine == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
@@ -350,7 +350,7 @@ const Testimonial = () => {
                     )}
                 </button>
             </div>
-            <p className={`text-[16px] ${testimonials.ten == false ? "max-h-0 invisible" : "pt-[16px]"} transition-[.4s] font-[400]`}>
+            <p className={`text-[16px] ${testimonials.ten == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
                 <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
             </p>
         </div>
