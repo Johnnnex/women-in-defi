@@ -7,12 +7,12 @@ const CountDown = () => {
   return (
     <section className="bg-[#0673EF] text-white py-[38px]">
         <div className="max-w-[1272px] flex items-center w-[85%] gap-[32px] mx-auto">
-            <h2 className="font-[600] text-[40px] leading-[52px] pr-[100px] border-r border-[#FFFFFF36] py-[16px]">
+            <h2 className="font-[600] wow fadeInUp text-[40px] leading-[52px] pr-[100px] border-r border-[#FFFFFF36] py-[16px]">
                 Our <br />
                 Reach So <br />
                 Far
             </h2>
-            <ScrollTrigger className="flex-1 justify-between flex" onEnter={()=> setHyState(true)} onExit={()=> setHyState(false)}>
+            <ScrollTrigger className="flex-1 wow fadeInDown justify-between flex" onEnter={()=> setHyState(true)} onExit={()=> setHyState(false)}>
                 <div>
                     <p className="font-[600] text-[40px] leading-[52px] mb-[8px]">
                         {hydrationState == true ? <CountUp start={0} end={7} /> : "0"}

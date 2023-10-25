@@ -22,7 +22,7 @@ const Homepage = () => {
             <button className="btn-trans">Donate Now</button>
             <button className="btn-generic">Join Community</button>
           </div>
-          <div className="pt-[80px] flex justify-between w-full">
+          <div className="pt-[80px] wow fadeIn flex justify-between w-full">
             <div className="w-[24%] h-[390px] relative">
               <Image 
                 src="/images/hero-img-6.png" 
@@ -74,14 +74,14 @@ const Homepage = () => {
         <CountDown />
         <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
           <div className="w-[49%]">
-            <h3 className="mb-[16px] text-[#110138] font-[600] text-[40px] leading-[52px]">
+            <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
               About Us
             </h3>
-            <p className="text-[#666481] text-[18px] font-[400] leading-[26px]">
+            <p className="text-[#666481] wow fadeIn text-[18px] font-[400] leading-[26px]">
               Women in Defi is a non-profit organization dedicated to promoting knowledge and empowerment among women in the areas of Blockchain Technology and Decentralized Finance. Our fundamental approach is to provide our community members with high-quality mentorship that focuses on their individual areas of expertise within the Blockchain Technology domain.
             </p>
           </div>
-          <div className="relative h-[491px] w-[45%] max-w-[540px]">
+          <div className="relative wow bounceIn h-[491px] w-[45%] max-w-[540px]">
             <Image 
               src="/images/frame-13.png" 
               alt="section-img" 
@@ -91,41 +91,41 @@ const Homepage = () => {
         </section>
         <section className="flex gap-[24px] max-w-[1272px] w-[85%] mx-auto">
           <div className="p-[32px] h-[500px] bg-[#FCFFF9] flex-1">
-            <h4 className="text-[#110138] leading-[42px] mb-[16px] font-[500] text-[32px]">Mission</h4>
-            <p className="text-[#666481] tet-[18px] font-[400] leading-[42px]">
+            <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[32px]">Mission</h4>
+            <p className="text-[#666481] wow fadeIn text-[18px] font-[400] leading-[42px]">
               We envision a thriving, inclusive community of women in the Blockchain space, where diverse talents and perspective converge to revolutionize the Web3 landscape. <br />
               Through mentorship, education, and collaboration, we strive to break down barriers, fostering innovation and leading the way towards a more equitable digital future.
             </p>
           </div>
           <div className="p-[32px] h-[500px] bg-[#F9F9FF] flex-1">
-            <h4 className="text-[#110138] leading-[42px] mb-[16px] font-[500] text-[32px]">Vision</h4>
-            <p className="text-[#666481] tet-[18px] font-[400] leading-[42px]">
+            <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[32px]">Vision</h4>
+            <p className="text-[#666481] wow fadeIn text-[18px] font-[400] leading-[42px]">
               We aim to educate 2,000,000 girls and women about blockchain technology, fostering understanding, creating opportunities, and nurturing future leaders in the blockchain space.
             </p>
           </div>
         </section>
         <section className="bg-[#0673EF] pt-[86px] pb-[69px]">
           <div className="max-w-[1272px] w-[85%] mx-auto">
-            <div className="flex mb-[56px] items-center leading-[42px] text-white">
+            <div className="flex wow bounceIn mb-[56px] items-center leading-[42px] text-white">
               <h3 className="mr-[8px] text-[32px] font-[600]">Core Values</h3>🥳
             </div>
             <div className="mb-[32px] flex gap-[50px]">
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Advocacy</button>
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empathy</button>
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Sustainability</button>
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Support</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Advocacy</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empathy</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Sustainability</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Support</button>
             </div>
             <div className="flex gap-[50px]">
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empowerment</button>
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Inclusivity</button>
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Education</button>
-              <button className="p-[10px] border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Collaboration</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empowerment</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Inclusivity</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Education</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Collaboration</button>
             </div>
           </div>
         </section>
         <AttendEvent />
         <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
-          <figure className="relative h-[491px] w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn h-[491px] w-[45%] max-w-[540px]">
             <Image 
               src="/images/Frame-15.png" 
               alt="section-img" 
@@ -133,27 +133,27 @@ const Homepage = () => {
             />
           </figure>
           <div className="w-[49%]">
-            <h3 className="mb-[16px] text-[#110138] font-[600] text-[40px] leading-[52px]">
+            <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
               Embracing Partnerships and Collaborations
             </h3>
-            <p className="text-[#666481] mb-[32px] text-[18px] font-[400] leading-[26px]">
+            <p className="text-[#666481] wow fadeIn mb-[32px] text-[18px] font-[400] leading-[26px]">
               Actively looking forward to embracing partners and corporations who concur with our vision and are willing to impact lives.
             </p>
-            <button className="btn-generic">Partner With Us</button>
+            <button className="btn-generic wow fadeIn">Partner With Us</button>
           </div>
         </section>
         <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
           <div className="w-[49%]">
-            <h3 className="mb-[16px] text-[#110138] font-[600] text-[40px] leading-[52px]">
+            <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
               Supporting The Women-In-Defi Cause
             </h3>
-            <p className="text-[#666481] mb-[32px] text-[18px] font-[400] leading-[26px]">
+            <p className="text-[#666481] wow fadeIn mb-[32px] text-[18px] font-[400] leading-[26px]">
               Help sponsor our events and initiatives to empower more African women in Blockchain Technology via a donation or more.
               This donation will go a long way supporting our numerous initiatives and facilitating our events and programs across our several chapters.
             </p>
-            <button className="btn-trans">Donate Now</button>
+            <button className="btn-trans wow fadeIn">Donate Now</button>
           </div>
-          <figure className="relative h-[491px] w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn h-[491px] w-[45%] max-w-[540px]">
             <Image 
               src="/images/Frame-16.png" 
               alt="section-img" 
