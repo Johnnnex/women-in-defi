@@ -53,7 +53,30 @@ const EventCard = () => {
                     fill
                 />
             </div>
-        <
+        </section>
+        <section className={`grid ${events != "two" ? "hidden" : ""} grid-cols-3 gap-y-[16px] gap-x-[24px]`}>
+            <div className="w-full relative h-[452px]">
+                <Image 
+                    src="/images/wid-event-1.png"
+                    alt="event_images"
+                    fill
+                />
+            </div>
+            <div className="w-full relative h-[452px]">
+                <Image 
+                    src="/images/wid-event-2.png"
+                    alt="event_images"
+                    fill
+                />
+            </div>
+            <div className="w-full relative h-[452px]">
+                <Image 
+                    src="/images/wid-event-3.png"
+                    alt="event_images"
+                    fill
+                />
+            </div>
+        </section>
         <section className={`grid ${events != "three" ? "hidden" : ""} grid-cols-3 gap-y-[16px] gap-x-[24px]`}>
             <div className="w-full relative h-[452px]">
                 <Image 
@@ -93,29 +116,6 @@ const EventCard = () => {
             <div className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-1.png"
-                    alt="event_images"
-                    fill
-                />
-            </div>
-        </section>/section>
-        <section className={`grid ${events != "two" ? "hidden" : ""} grid-cols-3 gap-y-[16px] gap-x-[24px]`}>
-            <div className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/wid-event-1.png"
-                    alt="event_images"
-                    fill
-                />
-            </div>
-            <div className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/wid-event-2.png"
-                    alt="event_images"
-                    fill
-                />
-            </div>
-            <div className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/wid-event-3.png"
                     alt="event_images"
                     fill
                 />
