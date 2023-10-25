@@ -20,7 +20,7 @@ const Donation = () => {
           <div className="wow bounceIn h-fit grid grid-cols-2 w-fit">
             <figure className="relative w-[216px] h-[212px]">
                 <Image 
-                src="/images/donate-img-1.png" 
+                src="/images/donation-fr-1.png" 
                 alt="hero-img"  
                 fill
               />
@@ -42,6 +42,48 @@ const Donation = () => {
             <figure className="relative w-[216px] h-[212px]">
               <Image 
                 src="/images/donate-img-4.png" 
+                alt="hero-img"  
+                fill
+              />              
+            </figure>
+          </div>
+        </section>
+        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
+          <div className="w-[49%]">
+          <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
+            Supporting The Women-In-Defi
+          </h3>
+          <p className="text-[#666481] wow fadeIn mb-[32px] text-[18px] font-[400] leading-[26px]">
+            Help sponsor our events and initiatives to empower more African women in Blockchain technology via a donation or more. <br />
+            This donation will go a long way in supporting our numerous initiatives and facilitating our events and programs across several chapters. 
+          </p>
+          <button className="btn-trans wow fadeIn">Donate Now</button>
+          </div>
+          <div className="wow bounceIn h-fit grid grid-cols-2 w-fit">
+            <figure className="relative w-[216px] h-[212px]">
+                <Image 
+                src="/images/donation-fr-1.png" 
+                alt="hero-img"  
+                fill
+              />
+            </figure>
+            <figure className="relative w-[216px] h-[212px]">
+                <Image 
+                src="/images/donation-fr-2.png" 
+                alt="hero-img"  
+                fill
+              />
+            </figure>
+            <figure className="relative w-[216px] h-[212px]">
+                <Image 
+                src="/images/donation-fr-3.png" 
+                alt="hero-img"  
+                fill
+              />
+            </figure>
+            <figure className="relative w-[216px] h-[212px]">
+              <Image 
+                src="/images/donation-fr-4.png" 
                 alt="hero-img"  
                 fill
               />              
