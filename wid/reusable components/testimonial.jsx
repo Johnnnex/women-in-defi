@@ -1,361 +1,91 @@
-import React, { useMemo, useState } from 'react'
+import React from 'react'
+import Image from 'next/image'
 
 const Testimonial = () => {
-    const [testimonials, setTestimonials] = useState({
-        one : false,
-        two : false,
-        three : false,
-        four : false,
-        five : false,
-        six : false,
-        seven : false,
-        eight : false,
-        nine : false,
-        ten : false,
-    })
-    const toggleVisibility = (val) => {
-        switch(val) {
-            case "one" :
-                setTestimonials({
-                    one: !testimonials.one,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "two" :
-                setTestimonials({
-                    one: false,
-                    two: !testimonials.two,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "three" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: !testimonials.three,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "four" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: !testimonials.four,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "five" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: !testimonials.five,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "six" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: !testimonials.six,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "seven" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: !testimonials.seven,
-                    eight: false,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "eight" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: !testimonials.eight,
-                    nine: false,
-                    ten: false
-                })
-                break
-            case "nine" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: !testimonials.nine,
-                    ten: false
-                })
-                break
-            case "ten" :
-                setTestimonials({
-                    one: false,
-                    two: false,
-                    three: false,
-                    four: false,
-                    five: false,
-                    six: false,
-                    seven: false,
-                    eight: false,
-                    nine: false,
-                    ten: !testimonials.ten
-                })
-                break
-        }
-    }
   return (
-    <section className="py-[40px]">
-        <h3 className="text-[32px] font-[600] mb-[16px] text-center leading-[42px]">
-        WID <span className="text-[#0673EF]">Chapters</span>
-        </h3>
-        <p className="text-[#666481] text-[18px] font-[400] text-center mb-[40px]">Ready to become a Blockchain Baddie? Join a WID chapter in your region </p>
-        <section className="w-[54%] max-w-[819px] mx-auto py-[40px] px-[20px]">
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.one == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Lagos State Chapter</h5>
-                <button onClick={()=> toggleVisibility("one")}>
-                    { testimonials.one == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
+        <section className="pt-[98px] pb-[92px] max-w-[1272px] w-[85%] mx-auto">
+          <h3 className="text-[32px] wow fadeInDown font-[500] mb-[60px] text-center leading-[42px]">
+            What WID <span className="text-[#0673EF]">Baddies</span> are Saying About Us
+          </h3>
+          <div className="flex gap-[24px]">
+            <div className="wow fadeIn flex-1">
+              <div className="p-[18px] md:mb-[40px] mb-[16px] bg-[#F9F9FF] rounded-[16px] h-fit">
+                <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
+                  WID changed my view about blockchain and crypto. A community blessed with great tutors that are patient in explaining and carrying their students along. My Defi journey has been a great one. It all started with #WID
+                </p>
+                <div className="flex gap-[8px] flex-col">
+                    <Image src="/images/img-7.png" alt="testimonial_avatar" height={1} width={50} />
+                    <p className="font-[500]">
+                      Nemi James
+                    </p>
+                </div>
+              </div>
+              <div className="p-[18px] bg-[#F9F9FF] rounded-[16px] h-fit">
+                <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
+                  Determination and WID TEAM are synonymous. Honestly, there&apos;s a lot to say about WOMEN IN DEFI (WID) Community, the massive love the cooperation, and the active tutors are just what anyone can&apos;t get elsewhere. I came in with Zero knowledge but today i can say am Good with What i Do. Defi is the future, joining a good community is the way forward.  <br />
+                  Thank you Miss Sarah for all the hard work you have put in place for the smooth running of the community.
+                </p>
+                <div className="flex gap-[8px] flex-col">
+                  <Image src="/images/img-1.png" alt="testimonial_avatar" height={1} width={50} />
+                  <p className="font-[500]">
+                    Thompson Dora
+                  </p>
+                </div>
+              </div>
             </div>
-            <p className={`text-[16px] ${testimonials.one == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.two == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Edo State Chapter</h5>
-                <button onClick={()=> toggleVisibility("two")}>
-                    { testimonials.two == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
+            <div className="wow fadeIn flex-1">
+                <div className="p-[18px] md:mb-[40px] mb-[16px] bg-[#F9F9FF] rounded-[16px] h-fit">
+                    <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
+                      Joining women in Defi was actually one of my best gift the lord gave me the year 2022. It changed my life and made me meet a lot of important people that i could call sisters. They really make the community look like family. I am grateful for having the best tutors also.
+                    </p>
+                    <div className="flex gap-[8px] flex-col">
+                      <Image src="/images/img-2.png" alt="testimonial_avatar" height={1} width={50} />
+                      <p className="font-[500]">
+                        Swizzabane Mide
+                      </p>
+                    </div>
+                </div>
+                <div className="p-[18px] bg-[#F9F9FF] rounded-[16px] h-fit">
+                    <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
+                      I was onboarded into the web3 space by the WID community in April this year; that was the best thing that happened to me.
+                      Before now, I had no knowledge of what web3 is or what the decentralized space is all about. <br />
+                      The only knowledge I had on crypto then was buying low and selling high 😅 <br />
+                      A big thank you to the founder of WomenInDefi and the core team members, WID was a game changer for me. Today, I&apos;m an ardent believer in Decentralized Finance
+                    </p>
+                    <div className="flex gap-[8px] flex-col">
+                      <Image src="/images/img-3.png" alt="testimonial_avatar" height={1} width={50} />
+                      <p className="font-[500]">
+                        Vivian Adeniyi
+                      </p>
+                    </div>
+                </div>
             </div>
-            <p className={`text-[16px] ${testimonials.two == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.three == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Akwa Ibom Chapter</h5>
-                <button onClick={()=> toggleVisibility("three")}>
-                    { testimonials.three == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
+            <div className="wow fadeIn flex-1">
+                <div className="p-[18px] md:mb-[40px] mb-[16px] bg-[#F9F9FF] rounded-[16px] h-fit">
+                    <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
+                      The WID team has not only taught me about Defi but also help me stand my feet in the decentralized finance space through the process of close watch and constant follow-up even after the class. After the class, i have been able to get jobs that have given me funds to get gadgets to improve my tech journey, funds to process admission, and also my upkeep. A big thanks to the team for also reaching out and helping.
+                    </p>
+                    <div className="flex gap-[8px] flex-col">
+                      <Image src="/images/img-4.png" alt="testimonial_avatar" height={1} width={50} />
+                      <p className="font-[500]">
+                        Lady Benny
+                      </p>
+                    </div>
+                </div>
+                <div className="p-[18px] bg-[#F9F9FF] rounded-[16px] h-fit">
+                    <p className="mb-[24px] text-[#666481] text-[18px] font-[400]">
+                      WID was the start of my defi journey and the start of my millionaire journey. I discovered so many opportunities that i can leverage to make myself financially stable in the defi space. The biggest motivation is the fact that i&apos;m taught by women who have broken records, which gives me the inspiration to do more. Then being part of a community that looks out for you can&apos;t be overemphasized as it speeds up my growth.
+                    </p>
+                    <div className="flex gap-[8px] flex-col">
+                      <Image src="/images/img-5.png" alt="testimonial_avatar" height={1} width={50} />
+                      <p className="font-[500]">
+                        Uwadimma Christabel
+                      </p>
+                    </div>
+                </div>
             </div>
-            <p className={`text-[16px] ${testimonials.three == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.four == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Rivers State Chapter</h5>
-                <button onClick={()=> toggleVisibility("four")}>
-                    { testimonials.four == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.four == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.five == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Abuja State Chapter </h5>
-                <button onClick={()=> toggleVisibility("five")}>
-                    { testimonials.five == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.five == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.six == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Ebonyi State Chapter</h5>
-                <button onClick={()=> toggleVisibility("six")}>
-                    { testimonials.six == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.six == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.seven == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Ogun State Chapter</h5>
-                <button onClick={()=> toggleVisibility("seven")}>
-                    { testimonials.seven == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.seven == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.eight == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Oyo State Chapter</h5>
-                <button onClick={()=> toggleVisibility("eight")}>
-                    { testimonials.eight == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.eight == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.nine == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Plateau State Chapter</h5>
-                <button onClick={()=> toggleVisibility("nine")}>
-                    { testimonials.nine == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.nine == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
-        <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.ten == false ? "border-[#666481]" : "border-[#0673ef]"}`}>
-            <div className="flex justify-between items-center">
-                <h5 className="text-[#110138] text-[24px] font-[500]">WID Anambra State Chapter</h5>
-                <button onClick={()=> toggleVisibility("ten")}>
-                    { testimonials.ten == false ? 
-                    (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-                        <path d="M17.5 29.1665C11.0687 29.1665 5.83329 23.9311 5.83329 17.4998C5.83329 11.0686 11.0687 5.83317 17.5 5.83317C23.9312 5.83317 29.1666 11.0686 29.1666 17.4998C29.1666 23.9311 23.9312 29.1665 17.5 29.1665ZM17.5 2.9165C15.5848 2.9165 13.6885 3.29371 11.9192 4.02659C10.1498 4.75948 8.54217 5.83368 7.18799 7.18786C4.45308 9.92277 2.91663 13.6321 2.91663 17.4998C2.91663 21.3676 4.45308 25.0769 7.18799 27.8118C8.54217 29.166 10.1498 30.2402 11.9192 30.9731C13.6885 31.706 15.5848 32.0832 17.5 32.0832C21.3677 32.0832 25.077 30.5467 27.8119 27.8118C30.5468 25.0769 32.0833 21.3676 32.0833 17.4998C32.0833 15.5847 31.7061 13.6884 30.9732 11.919C30.2403 10.1497 29.1661 8.54205 27.8119 7.18786C26.4577 5.83368 24.8501 4.75948 23.0808 4.02659C21.3114 3.29371 19.4151 2.9165 17.5 2.9165ZM18.9583 10.2082H16.0416V16.0415H10.2083V18.9582H16.0416V24.7915H18.9583V18.9582H24.7916V16.0415H18.9583V10.2082Z" fill="#666481"/>
-                    </svg>) : 
-                    (
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
-                            <path d="M17.5 29.6665C11.0687 29.6665 5.83329 24.4311 5.83329 17.9998C5.83329 11.5686 11.0687 6.33317 17.5 6.33317C23.9312 6.33317 29.1666 11.5686 29.1666 17.9998C29.1666 24.4311 23.9312 29.6665 17.5 29.6665ZM17.5 3.4165C15.5848 3.4165 13.6885 3.79371 11.9192 4.52659C10.1498 5.25948 8.54217 6.33368 7.18799 7.68786C4.45308 10.4228 2.91663 14.1321 2.91663 17.9998C2.91663 21.8676 4.45308 25.5769 7.18799 28.3118C8.54217 29.666 10.1498 30.7402 11.9192 31.4731C13.6885 32.206 15.5848 32.5832 17.5 32.5832C21.3677 32.5832 25.077 31.0467 27.8119 28.3118C30.5468 25.5769 32.0833 21.8676 32.0833 17.9998C32.0833 16.0847 31.7061 14.1884 30.9732 12.419C30.2403 10.6497 29.1661 9.04205 27.8119 7.68786C26.4577 6.33368 24.8501 5.25948 23.0808 4.52659C21.3114 3.79371 19.4151 3.4165 17.5 3.4165ZM10.2083 19.4582H24.7916V16.5415H10.2083" fill="#0673EF"/>
-                        </svg>
-                    )}
-                </button>
-            </div>
-            <p className={`text-[16px] ${testimonials.ten == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
-            </p>
-        </div>
+          </div>
         </section>
-    </section>
   )
 }
 

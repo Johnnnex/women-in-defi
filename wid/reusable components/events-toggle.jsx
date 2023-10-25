@@ -5,7 +5,7 @@ const EventCard = () => {
     const [ events, setEventState ] = useState("one")
   return (
     <section className="max-w-[1272px] w-[85%] mx-auto">
-        <div className="flex p-[10px] mb-[57px] rounded-[200px] justify-between bg-[#F9F9FF]">
+        <div className="flex p-[10px] w-fit mx-auto mb-[57px] rounded-[200px] justify-between bg-[#F9F9FF]">
             <button onClick={() => setEventState("one")} className={`px-[32px] ${events == "one" ? "text-[#110138] font-[500] bg-white bx-shadw rounded-[200px]" : "font-[400] text-[#666481]"} py-[16px] leading-[24px]`}>Codes Charts and Cocktails Edo 2022</button>
             <button onClick={() => setEventState("two")} className={`px-[32px] ${events == "two" ? "text-[#110138] font-[500] bg-white bx-shadw rounded-[200px]" : "font-[400] text-[#666481]"} py-[16px] leading-[24px]`}>International Women&apos;s Day  Celebration 2023</button>
             <button onClick={() => setEventState("three")} className={`px-[32px] ${events == "three" ? "text-[#110138] font-[500] bg-white bx-shadw rounded-[200px]" : "font-[400] text-[#666481]"} py-[16px] leading-[24px]`}>Codes Charts and Cocktails 2023</button>

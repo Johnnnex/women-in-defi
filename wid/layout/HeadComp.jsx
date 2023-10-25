@@ -18,7 +18,7 @@ const HeadComp = ({title}) => {
         <meta property="og:type" content="website" />
         <meta property="og:description" content="John's version of 'SIGFLOW'" />
         <meta property="og:site_name" content="John's Submission . Sigflow" /> */}
-        {/* <link rel="icon" href="/john.ico" /> */}
+        <link rel="icon" href="/wid.ico" />
     </Head>
   )
 }
