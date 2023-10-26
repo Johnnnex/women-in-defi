@@ -8,17 +8,19 @@ import 'swiper/css/navigation'
 import "swiper/css/bundle"
 import 'swiper/css'
 
-const ImgSlider = ({imgArr}) => {
+const ImgSlider = ({imgArr, wantsNav, preferredEffect}) => {
     const renderImg = imgArr.map (({key, imgSrc}) => {
-        <SwiperSlide key={key}>
-            <figure className="h-[425px] relative w-full">
-                <Image 
-                src={imgSrc}
-                alt="hero-image"  
-                fill
-                />
-            </figure>
-        </SwiperSlide>
+        return (
+            <SwiperSlide key={key}>
+                <figure className="h-[425px] relative w-full">
+                    <Image 
+                    src={imgSrc}
+                    alt="hero-image"  
+                    fill
+                    />
+                </figure>
+            </SwiperSlide>
+        )
     })
   return (
     <section className="md:hidden">
@@ -26,18 +28,18 @@ const ImgSlider = ({imgArr}) => {
             className="w-[100%] h-fit"
             modules={[Navigation, A11y, Autoplay, EffectCube]}
             grabCursor={true}
-            navigation
+            navigation = {wantsNav == true && true} 
             autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
             }}
-            cubeEffect={{
+            cubeEffect={ preferredEffect == "cube" && {
                 shadow: true,
                 slideShadows: true,
                 shadowOffset: 20,
                 shadowScale: 0.94,
             }}
-            effect={'cube'}
+            effect={preferredEffect}
             spaceBetween={50}
             slidesPerView={1}
         >

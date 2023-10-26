@@ -9,6 +9,20 @@ import Testimonial from '@/reusable components/testimonial'
 import ImgSlider from '@/reusable components/imgSlider'
 
 const Homepage = () => {
+  const imgArr = [
+    {
+      key: 1,
+      imgSrc: "/images/hero-img-6.png",
+    },
+    {
+      key: 2,
+      imgSrc: "/images/hero-img-2.png",
+    },
+    {
+      key: 3,
+      imgSrc: "/images/hero-img-1.png",
+    },
+  ]
   return (
     <>
       <HeadComp title="Women In DeFi || Home" />
@@ -74,7 +88,11 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-          <ImgSlider />
+          <ImgSlider
+            imgArr={imgArr}
+            wantsNav={false}
+            preferredEffect="cube"
+          />
         </section>
         <CountDown />
         <section id="about" className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
