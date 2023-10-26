@@ -1,8 +1,9 @@
 "use client"
 import React, { useEffect, useMemo, useRef, useState } from 'react'
+import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+
 
 const Header = () => {
   const {pathname, asPath, events} = useRouter()
@@ -77,7 +78,7 @@ const Header = () => {
             // sizes="100px"
           />
         </div>
-        <nav className={`flex md:flex-1 h-[100vh] md:h-fit fixed top-0 w-full bg-[#ffffffee] transition-[.4s] pt-[20vh] md:pt-0 gap-[50px] left-0 md:relative border ${navState ? "translate-y-0" : "translate-y-[-100%] md:translate-y-0"} items-center flex-col md:flex-row md:justify-between md:gap-[50px]`}>
+        <nav className={`flex md:flex-1 h-[100vh] md:h-fit fixed top-0 w-full bg-[#ffffffee] transition-[.4s] pt-[20vh] md:pt-0 gap-[50px] left-0 md:relative ${navState ? "translate-y-0" : "translate-y-[-100%] md:translate-y-0"} items-center flex-col md:flex-row md:justify-between md:gap-[50px]`}>
           <ul className="flex flex-col gap-[5vh] md:flex-row md:flex-1 items-center md:justify-between">
             {links}
           </ul>

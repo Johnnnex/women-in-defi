@@ -6,74 +6,78 @@ import Chapters from '@/reusable components/chapters'
 import Connect from '@/reusable components/connect-w-us'
 import AttendEvent from '@/reusable components/attend-an-event'
 import Testimonial from '@/reusable components/testimonial'
+import ImgSlider from '@/reusable components/imgSlider'
 
 const Homepage = () => {
   return (
     <>
       <HeadComp title="Women In DeFi || Home" />
-      {/* <main className="pt-[244px]">
-        <section className="max-w-[1272px] w-[85%] pb-[120px] mx-auto">
-          <h1 className="text-[#110138] wow fadeInDown text-[52px] font-[600] leading-[68px] text-center mb-[16px]">
+      <main className="md:pt-[244px] pt-[150px]">
+        <section className="max-w-[1272px] md:w-[85%] w-[90%] pb-[30px] md:pb-[120px] mx-auto">
+          <h1 className="text-[#110138] wow fadeInDown text-[24px] md:text-[52px] font-[600] leading-[40px] md:leading-[68px] md:text-center mb-[16px]">
             Empowering Women Globally Through Decentralised  Finance
           </h1>
-          <p className="text-[#666481] wow fadeInDown text-[18px] mb-[40px] font-[400] leading-[28px] text-center">
+          <p className="text-[#666481] wow fadeInDown text-[18px] mb-[32px] md:mb-[40px] font-[400] leading-[28px] md:text-center">
             Women in DeFi raising the next generation of leading ladies in the Blockchain space.
           </p>
-          <div className="flex gap-[24px] wow fadeIn w-fit mx-auto">
+          <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
             <button className="btn-trans">Donate Now</button>
             <button className="btn-generic">Join Community</button>
           </div>
-          <div className="pt-[80px] wow fadeIn flex justify-between w-full">
-            <div className="w-[24%] h-[390px] relative">
-              <Image 
-                src="/images/hero-img-6.png" 
-                alt="hero-image"  
-                fill
-              />
-            </div>
-            <div className="w-[24%] flex h-[390px] flex-col justify-between">
-              <div className="w-full h-[49%] relative">
+          <section className="md:block hidden">
+            <div className="pt-[80px] wow fadeIn flex justify-between w-full">
+              <figure className="w-[24%] h-[390px] relative">
                 <Image 
-                  src="/images/hero-img-5.png" 
-                  alt="hero-image" 
-                  fill 
+                  src="/images/hero-img-6.png" 
+                  alt="hero-image"  
+                  fill
+                />
+              </figure>
+              <div className="w-[24%] flex h-[390px] flex-col justify-between">
+                <figure className="w-full h-[49%] relative">
+                  <Image 
+                    src="/images/hero-img-5.png" 
+                    alt="hero-image" 
+                    fill 
+                  />
+                </figure>
+                <figure className="w-full h-[49%] relative">
+                  <Image 
+                    src="/images/hero-img-4.png" 
+                    alt="hero-image" 
+                    fill 
+                  />
+                </figure>
+              </div>
+              <div className="w-[24%] flex h-[390px] flex-col justify-between">
+                <figure className="w-full h-[49%] relative">
+                  <Image 
+                    src="/images/hero-img-3.png" 
+                    alt="hero-image"
+                    fill 
+                  />
+                </figure>
+                <figure className="w-full h-[49%] relative">
+                  <Image 
+                    src="/images/hero-img-2.png" 
+                    alt="hero-image" 
+                    fill 
+                  />
+                </figure>
+              </div>
+              <div className="w-[24%] h-[390px] relative">
+                <Image 
+                  src="/images/hero-img-1.png" 
+                  alt="hero-image"  
+                  fill
                 />
               </div>
-              <div className="w-full h-[49%] relative">
-                <Image 
-                  src="/images/hero-img-4.png" 
-                  alt="hero-image" 
-                  fill 
-                />
-              </div>
             </div>
-            <div className="w-[24%] flex h-[390px] flex-col justify-between">
-              <div className="w-full h-[49%] relative">
-                <Image 
-                  src="/images/hero-img-3.png" 
-                  alt="hero-image"
-                  fill 
-                />
-              </div>
-              <div className="w-full h-[49%] relative">
-                <Image 
-                  src="/images/hero-img-2.png" 
-                  alt="hero-image" 
-                  fill 
-                />
-              </div>
-            </div>
-            <div className="w-[24%] h-[390px] relative">
-              <Image 
-                src="/images/hero-img-1.png" 
-                alt="hero-image"  
-                fill
-              />
-            </div>
-          </div>
+          </section>
+          <ImgSlider />
         </section>
         <CountDown />
-        <section id="about" className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
+        <section id="about" className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="w-[49%]">
             <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
               About Us
@@ -90,7 +94,7 @@ const Homepage = () => {
             />
           </div>
         </section>
-        <section className="flex gap-[24px] max-w-[1272px] w-[85%] mx-auto">
+        <section className="flex gap-[24px] max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="p-[32px] h-[500px] bg-[#FCFFF9] flex-1">
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[32px]">Mission</h4>
             <p className="text-[#666481] wow fadeIn text-[18px] font-[400] leading-[42px]">
@@ -106,7 +110,7 @@ const Homepage = () => {
           </div>
         </section>
         <section className="bg-[#0673EF] pt-[86px] pb-[69px]">
-          <div className="max-w-[1272px] w-[85%] mx-auto">
+          <div className="max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
             <div className="flex wow bounceIn mb-[56px] items-center leading-[42px] text-white">
               <h3 className="mr-[8px] text-[32px] font-[600]">Core Values</h3>🥳
             </div>
@@ -125,7 +129,7 @@ const Homepage = () => {
           </div>
         </section>
         <AttendEvent />
-        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
+        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <figure className="relative wow bounceIn h-[491px] w-[45%] max-w-[540px]">
             <Image 
               src="/images/Frame-15.png" 
@@ -143,7 +147,7 @@ const Homepage = () => {
             <button className="btn-generic wow fadeIn">Partner With Us</button>
           </div>
         </section>
-        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
+        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="w-[49%]">
             <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
               Supporting The Women-In-Defi Cause
@@ -163,7 +167,7 @@ const Homepage = () => {
           </figure>
         </section>
         <section className="py-[64px]">
-          <div className="max-w-[1272px] flex justify-between px-[24px] bg-[#0673EFCC] rounded-[24px] pt-[92px] pb-[70px] w-[85%] mx-auto">
+          <div className="max-w-[1272px] flex justify-between px-[24px] bg-[#0673EFCC] rounded-[24px] pt-[92px] pb-[70px] md:w-[85%] w-[90%] mx-auto">
             <div className="">
               <h3 className="mb-[25px] wow fadeInDown text-white text-[32px] font-[600] leading-[42px]">Follow Us On Our Social Media</h3>
               <div className="flex gap-[24px] wow fadeInUp items-center">
@@ -213,7 +217,7 @@ const Homepage = () => {
         <Testimonial />
         <Chapters />
         <Connect />
-      </main> */}
+      </main>
     </>
   )
 }
