@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import HeadComp from '@/layout/HeadComp'
+import Connect from '@/reusable components/connect-w-us'
 
 const Donation = () => {
   return (
@@ -20,7 +21,7 @@ const Donation = () => {
           <div className="wow bounceIn h-fit grid grid-cols-2 w-fit">
             <figure className="relative w-[216px] h-[212px]">
                 <Image 
-                src="/images/donation-fr-1.png" 
+                src="/images/donate-img-1.png" 
                 alt="hero-img"  
                 fill
               />
@@ -48,6 +49,22 @@ const Donation = () => {
             </figure>
           </div>
         </section>
+        <section className="flex gap-[24px] max-w-[1272px] w-[85%] mx-auto">
+          <div className="p-[32px] h-[500px] text-white bg-[#0673EF] flex-1">
+            <h4 className="leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[32px]">Sponsoring A Skill-Up Cohort</h4>
+            <p className="wow fadeIn text-[18px] font-[400] mb-[76px] leading-[42px]">
+              Have your protocol/infrastructure taught during a Skill up Cohort, co-organize events, support women going to hackathons and Web3 events, provide scholarships to advanced training, or reach out to us on other sponsorship opportunities
+            </p>
+            <button className="btn-trans-w wow fadeIn">Enquire about Sponsorship</button>
+          </div>
+          <div className="p-[32px] h-[500px] bg-[#F9F9FF] flex-1">
+            <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[32px]">Organizational Training</h4>
+            <p className="text-[#666481] wow fadeIn text-[18px] font-[400] leading-[42px]">
+              Is your company or organization interested in providing education on Web3, Crypto, Defi and NFTs for your employees? We provide customized corporate training programs aligned with your Web3 objectives. <br />
+              Contact <a href="mailto:sarahidahosa001@gmail.com" className="text-[#0673EF]" rel="noopener noreferrer">sarahidahosa001@gmail.com</a> today to bring your company to speed on crypto.
+            </p>
+          </div>
+        </section>
         <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
           <div className="w-[49%]">
           <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
@@ -61,21 +78,21 @@ const Donation = () => {
           </div>
           <div className="wow bounceIn h-fit grid grid-cols-2 w-fit">
             <figure className="relative w-[216px] h-[212px]">
-                <Image 
+              <Image 
                 src="/images/donation-fr-1.png" 
                 alt="hero-img"  
                 fill
               />
             </figure>
             <figure className="relative w-[216px] h-[212px]">
-                <Image 
+              <Image 
                 src="/images/donation-fr-2.png" 
                 alt="hero-img"  
                 fill
               />
             </figure>
             <figure className="relative w-[216px] h-[212px]">
-                <Image 
+              <Image 
                 src="/images/donation-fr-3.png" 
                 alt="hero-img"  
                 fill
@@ -90,6 +107,7 @@ const Donation = () => {
             </figure>
           </div>
         </section>
+        <Connect />
       </main>
     </>
   )

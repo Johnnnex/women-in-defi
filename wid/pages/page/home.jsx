@@ -73,7 +73,7 @@ const Homepage = () => {
           </div>
         </section>
         <CountDown />
-        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
+        <section id="about" className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] w-[85%] mx-auto">
           <div className="w-[49%]">
             <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
               About Us

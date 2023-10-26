@@ -5,6 +5,9 @@
 :root {
    --brand-colour: #0673EF; 
 }
+html {
+    scroll-behavior: smooth;
+}
 .active {
     color: var(--brand-colour) !important;
     text-decoration: underline;
@@ -18,14 +21,20 @@
     font-weight: 500;
     line-height: normal;
 }
-.btn-trans {
+.btn-trans, .btn-trans-w {
     padding: 18px 24px;
-    outline: 1px solid var(--brand-colour);
     border-radius: 32px;
-    color: var(--brand-colour);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.btn-trans {
+    outline: 1px solid var(--brand-colour);
+    color: var(--brand-colour);
+}
+.btn-trans-w {
+    outline: 1px solid #fff;
+    color: #fff;
 }
 .grid-container {
     display: grid !important;
