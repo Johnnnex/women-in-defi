@@ -20,6 +20,7 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    /* width: 100%; */
 }
 .btn-trans, .btn-trans-w {
     padding: 18px 24px;
@@ -50,4 +51,16 @@ header {
 }
 .bx-shadw {
     box-shadow: 0px 4px 20px 0px rgba(6, 6, 11, 0.05);
+}
+/* removing highlight issue */
+
+@layer base {
+    html {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+@layer utilities {
+    .pb-safe {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
 }

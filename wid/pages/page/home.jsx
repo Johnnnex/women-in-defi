@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
     <>
       <HeadComp title="Women In DeFi || Home" />
-      <main className="pt-[244px]">
+      {/* <main className="pt-[244px]">
         <section className="max-w-[1272px] w-[85%] pb-[120px] mx-auto">
           <h1 className="text-[#110138] wow fadeInDown text-[52px] font-[600] leading-[68px] text-center mb-[16px]">
             Empowering Women Globally Through Decentralised  Finance
@@ -213,7 +213,7 @@ const Homepage = () => {
         <Testimonial />
         <Chapters />
         <Connect />
-      </main>
+      </main> */}
     </>
   )
 }
