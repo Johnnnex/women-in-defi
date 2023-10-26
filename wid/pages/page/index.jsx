@@ -127,18 +127,18 @@ const Homepage = () => {
             </p>
           </div>
         </section>
-        <section className="bg-[#0673EF] pt-[86px] pb-[69px]">
+        <section className="bg-[#0673EF] pt-[55px] md:pt-[86px] pb-[69px]">
           <div className="max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-            <div className="flex wow bounceIn mb-[56px] items-center leading-[42px] text-white">
-              <h3 className="mr-[8px] text-[32px] font-[600]">Core Values</h3>🥳
+            <div className="flex wow bounceIn mb-[32px] md:mb-[56px] items-center leading-[42px] text-white">
+              <h3 className="mr-[8px] text-[24px] md:text-[32px] font-[600]">Core Values</h3>🥳
             </div>
-            <div className="mb-[32px] flex gap-[50px]">
+            <div className="md:mb-[32px] mb-[16px] flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[50px]">
               <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Advocacy</button>
               <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empathy</button>
               <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Sustainability</button>
               <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Support</button>
             </div>
-            <div className="flex gap-[50px]">
+            <div className="flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[50px]">
               <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empowerment</button>
               <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Inclusivity</button>
               <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Education</button>
