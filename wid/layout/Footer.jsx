@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className="py-[34px] border bg-white">
+    <footer className="md:py-[34px] py-[50px] bg-white">
       <section className="max-w-[1272px] flex gap-[16px] md:gap-0 justify-between flex-col md:flex-row items-center w-[85%] mx-auto">
-        <p className="text-[#666481] font-[500] text-[18px] leading-[24px]">&copy; 2023 Women in Defi All Rights Reserved</p>
+        <p className="text-[#666481] font-[500] text-center md:text-left text-[18px] leading-[24px]">&copy; 2023 Women in Defi All Rights Reserved</p>
         <figure className="md:w-[100px] w-[58px] h-[58px] md:h-[100px] relative">
           <Image 
             src="/images/wid.svg" 
