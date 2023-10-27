@@ -5,7 +5,7 @@ import TestimonialMobile from './testimonial-mobile'
 const Testimonial = () => {
   return (
         <section className="pt-[98px] pb-[92px] max-w-[1272px] w-[85%] mx-auto">
-          <h3 className="text-[32px] wow fadeInDown font-[600] mb-[60px] text-center leading-[42px]">
+          <h3 className="md:text-[32px] text-[24px] wow fadeInDown font-[600] mb-[60px] text-center leading-[42px]">
             What WID <span className="text-[#0673EF]">Baddies</span> are Saying About Us
           </h3>
           <section className="md:block hidden">
