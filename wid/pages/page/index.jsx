@@ -16,11 +16,11 @@ const Homepage = () => {
     },
     {
       key: 2,
-      imgSrc: "/images/hero-img-2.png",
+      imgSrc: "/images/hero-img-q-2.jpeg",
     },
     {
       key: 3,
-      imgSrc: "/images/hero-img-1.png",
+      imgSrc: "/images/hero-img-q-1.jpeg",
     },
   ]
   return (
@@ -79,9 +79,9 @@ const Homepage = () => {
                   />
                 </figure>
               </div>
-              <div className="w-[24%] h-[390px] relative">
+              <div className="w-[24%] h-[390px] rounded-[16px] overflow-hidden relative">
                 <Image 
-                  src="/images/hero-img-1.png" 
+                  src="/images/hero-img-q-1.jpeg" 
                   alt="hero-image"  
                   fill
                 />
