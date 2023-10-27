@@ -68,7 +68,7 @@ const Header = () => {
   }, [])
   return (
     <header ref={header} className={`fixed z-[2] py-4 bg-white left-0 top-0 w-full`}>
-      <section className="w-[90%] flex gap-[218px] items-center max-w-[1267px] mx-auto">
+      <section className="w-[90%] flex gap-[218px] justify-between items-center max-w-[1267px] mx-auto">
         <div className="w-[100px] relative z-[2] h-[80px]">
           <Image 
             src="/images/wid.svg" 
@@ -82,8 +82,8 @@ const Header = () => {
           <ul className="flex flex-col gap-[5vh] md:flex-row md:flex-1 items-center md:justify-between">
             {links}
           </ul>
-          <div className="w-fit">
-            <button type='button' className="btn-generic">Join Community</button>
+          <div className="md:w-fit w-[90%] mx-auto">
+            <button type='button' className="btn-generic w-full">Join Community</button>
           </div>
         </nav>
         <button type='button' onClick={toggleNav} className="z-[2] md:hidden">
