@@ -12,11 +12,13 @@ const ImgSlider = ({imgArr, wantsNav, preferredEffect}) => {
     const renderImg = imgArr.map (({key, imgSrc}) => {
         return (
             <SwiperSlide key={key}>
-                <figure className="h-[425px] relative w-full">
+                <figure className="h-[425px] rounded-[24px] overflow-hidden relative w-full">
                     <Image 
                     src={imgSrc}
                     alt="hero-image"  
                     fill
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
                     />
                 </figure>
             </SwiperSlide>

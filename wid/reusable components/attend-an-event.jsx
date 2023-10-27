@@ -13,12 +13,13 @@ const AttendEvent = () => {
           </p>
           <button className="btn-generic md:w-fit w-full wow fadeIn">View Upcoming Events</button>
         </div>
-        <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
+        <figure className="relative wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
           <Image 
-              src="/images/Frame-14.png" 
+              src="/images/hero-img-q-1.jpeg" 
               alt="section-img" 
               priority 
               fill
+              sizes="(max-width: 768px) 353px, 540px"
           />
         </figure>
     </section>

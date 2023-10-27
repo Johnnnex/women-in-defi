@@ -45,6 +45,8 @@ const Homepage = () => {
                   src="/images/hero-img-q-6.jpeg" 
                   alt="hero-image"  
                   fill
+                  priority
+                  sizes="(max-width: 768px) 100%, 540px"
                 />
               </figure>
               <div className="w-[24%] flex h-[390px] flex-col justify-between">
@@ -53,6 +55,8 @@ const Homepage = () => {
                     src="/images/hero-img-q-5.jpeg" 
                     alt="hero-image" 
                     fill 
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
                   />
                 </figure>
                 <figure className="w-full rounded-[100px] overflow-hidden h-[49%] relative">
@@ -60,6 +64,8 @@ const Homepage = () => {
                     src="/images/hero-img-q-4.jpeg" 
                     alt="hero-image" 
                     fill 
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
                   />
                 </figure>
               </div>
@@ -69,13 +75,17 @@ const Homepage = () => {
                     src="/images/hero-img-q-3.jpeg" 
                     alt="hero-image"
                     fill 
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
                   />
                 </figure>
                 <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
                   <Image 
                     src="/images/hero-img-q-2.jpeg" 
                     alt="hero-image" 
-                    fill 
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px" 
                   />
                 </figure>
               </div>
@@ -84,6 +94,8 @@ const Homepage = () => {
                   src="/images/hero-img-q-1.jpeg" 
                   alt="hero-image"  
                   fill
+                  priority
+                  sizes="(max-width: 768px) 100%, 540px"
                 />
               </div>
             </div>
@@ -104,11 +116,13 @@ const Homepage = () => {
               Women in Defi is a non-profit organization dedicated to promoting knowledge and empowerment among women in the areas of Blockchain Technology and Decentralized Finance. Our fundamental approach is to provide our community members with high-quality mentorship that focuses on their individual areas of expertise within the Blockchain Technology domain.
             </p>
           </div>
-          <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/frame-13.png" 
+              src="/images/frame-q-13.jpeg" 
               alt="section-img" 
               fill
+              priority
+              sizes="(max-width: 768px) 100%, 540px"
             />
           </figure>
         </section>
@@ -148,11 +162,12 @@ const Homepage = () => {
         </section>
         <AttendEvent />
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/Frame-15.png" 
+              src="/images/Frame-q-15.jpeg" 
               alt="section-img" 
               fill
+              sizes="(max-width: 768px) 100%, 540px"
             />
           </figure>
           <div className="md:w-[49%]">
@@ -176,11 +191,12 @@ const Homepage = () => {
             </p>
             <button className="btn-trans wow fadeIn">Donate Now</button>
           </div>
-          <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/Frame-16.png" 
+              src="/images/Frame-q-16.png" 
               alt="section-img" 
               fill
+              sizes="(max-width: 768px) 100%, 540px"
             />
           </figure>
         </section>

@@ -16,7 +16,7 @@ const Testimonial = () => {
                     WID changed my view about blockchain and crypto. A community blessed with great tutors that are patient in explaining and carrying their students along. My Defi journey has been a great one. It all started with #WID
                   </p>
                   <div className="flex gap-[8px] flex-col">
-                      <Image src="/images/img-7.png" alt="testimonial_avatar" height={1} width={50} />
+                      <Image src="/images/img-q-7.png" className="rounded-[50%]" alt="testimonial_avatar" height={1} width={50} />
                       <p className="font-[500]">
                         Nemi James
                       </p>
@@ -28,7 +28,7 @@ const Testimonial = () => {
                     Thank you Miss Sarah for all the hard work you have put in place for the smooth running of the community.
                   </p>
                   <div className="flex gap-[8px] flex-col">
-                    <Image src="/images/img-1.png" alt="testimonial_avatar" height={1} width={50} />
+                    <Image src="/images/img-q-1.png" className="rounded-[50%]" alt="testimonial_avatar" height={1} width={50} />
                     <p className="font-[500]">
                       Thompson Dora
                     </p>
@@ -41,7 +41,7 @@ const Testimonial = () => {
                         Joining women in Defi was actually one of my best gift the lord gave me the year 2022. It changed my life and made me meet a lot of important people that i could call sisters. They really make the community look like family. I am grateful for having the best tutors also.
                       </p>
                       <div className="flex gap-[8px] flex-col">
-                        <Image src="/images/img-2.png" alt="testimonial_avatar" height={1} width={50} />
+                        <Image src="/images/img-q-2.png" className="rounded-[50%]" alt="testimonial_avatar" height={1} width={50} />
                         <p className="font-[500]">
                           Swizzabane Mide
                         </p>
@@ -55,7 +55,7 @@ const Testimonial = () => {
                         A big thank you to the founder of WomenInDefi and the core team members, WID was a game changer for me. Today, I&apos;m an ardent believer in Decentralized Finance
                       </p>
                       <div className="flex gap-[8px] flex-col">
-                        <Image src="/images/img-3.png" alt="testimonial_avatar" height={1} width={50} />
+                        <Image src="/images/img-q-2.png" className="rounded-[50%]" alt="testimonial_avatar" height={1} width={50} />
                         <p className="font-[500]">
                           Vivian Adeniyi
                         </p>
@@ -68,7 +68,7 @@ const Testimonial = () => {
                         The WID team has not only taught me about Defi but also help me stand my feet in the decentralized finance space through the process of close watch and constant follow-up even after the class. After the class, i have been able to get jobs that have given me funds to get gadgets to improve my tech journey, funds to process admission, and also my upkeep. A big thanks to the team for also reaching out and helping.
                       </p>
                       <div className="flex gap-[8px] flex-col">
-                        <Image src="/images/img-4.png" alt="testimonial_avatar" height={1} width={50} />
+                        <Image src="/images/img-q-4.png" className="rounded-[50%]" alt="testimonial_avatar" height={1} width={50} />
                         <p className="font-[500]">
                           Lady Benny
                         </p>
@@ -79,7 +79,7 @@ const Testimonial = () => {
                         WID was the start of my defi journey and the start of my millionaire journey. I discovered so many opportunities that i can leverage to make myself financially stable in the defi space. The biggest motivation is the fact that i&apos;m taught by women who have broken records, which gives me the inspiration to do more. Then being part of a community that looks out for you can&apos;t be overemphasized as it speeds up my growth.
                       </p>
                       <div className="flex gap-[8px] flex-col">
-                        <Image src="/images/img-5.png" alt="testimonial_avatar" height={1} width={50} />
+                        <Image src="/images/img-q-5.png" className="rounded-[50%]" alt="testimonial_avatar" height={1} width={50} />
                         <p className="font-[500]">
                           Uwadimma Christabel
                         </p>
