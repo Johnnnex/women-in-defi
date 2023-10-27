@@ -35,8 +35,8 @@ const Homepage = () => {
             Women in DeFi raising the next generation of leading ladies in the Blockchain space.
           </p>
           <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
-            <button className="btn-trans">Donate Now</button>
-            <button className="btn-generic">Join Community</button>
+            <button className="btn-trans w-full md:w-fit">Donate Now</button>
+            <button className="btn-generic w-full md:w-fit">Join Community</button>
           </div>
           <section className="md:block hidden">
             <div className="pt-[80px] wow fadeIn flex justify-between w-full">
@@ -95,7 +95,7 @@ const Homepage = () => {
           />
         </section>
         <CountDown />
-        <section id="about" className="md:pt-[113px] pt-[40px] pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
+        <section id="about" className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:w-[49%]">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               About Us
@@ -104,13 +104,13 @@ const Homepage = () => {
               Women in Defi is a non-profit organization dedicated to promoting knowledge and empowerment among women in the areas of Blockchain Technology and Decentralized Finance. Our fundamental approach is to provide our community members with high-quality mentorship that focuses on their individual areas of expertise within the Blockchain Technology domain.
             </p>
           </div>
-          <div className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
               src="/images/frame-13.png" 
               alt="section-img" 
               fill
             />
-          </div>
+          </figure>
         </section>
         <section className="flex flex-col py-[46px] md:py-0 md:flex-row gap-[24px] max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:p-[32px] py-[32px] px-[16px] h-[500px] bg-[#FCFFF9] flex-1">
@@ -147,36 +147,36 @@ const Homepage = () => {
           </div>
         </section>
         <AttendEvent />
-        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <figure className="relative wow bounceIn h-[491px] w-[45%] max-w-[540px]">
+        <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
+          <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
               src="/images/Frame-15.png" 
               alt="section-img" 
               fill
             />
           </figure>
-          <div className="w-[49%]">
-            <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
+          <div className="md:w-[49%]">
+            <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               Embracing Partnerships and Collaborations
             </h3>
-            <p className="text-[#666481] wow fadeIn mb-[32px] text-[18px] font-[400] leading-[26px]">
+            <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Actively looking forward to embracing partners and corporations who concur with our vision and are willing to impact lives.
             </p>
             <button className="btn-generic wow fadeIn">Partner With Us</button>
           </div>
         </section>
-        <section className="pt-[113px] pb-[99px] justify-between flex items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <div className="w-[49%]">
-            <h3 className="mb-[16px] wow fadeInDown text-[#110138] font-[600] text-[40px] leading-[52px]">
+        <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
+          <div className="md:w-[49%]">
+            <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               Supporting The Women-In-Defi Cause
             </h3>
-            <p className="text-[#666481] wow fadeIn mb-[32px] text-[18px] font-[400] leading-[26px]">
+            <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Help sponsor our events and initiatives to empower more African women in Blockchain Technology via a donation or more.
               This donation will go a long way supporting our numerous initiatives and facilitating our events and programs across our several chapters.
             </p>
             <button className="btn-trans wow fadeIn">Donate Now</button>
           </div>
-          <figure className="relative wow bounceIn h-[491px] w-[45%] max-w-[540px]">
+          <figure className="relative wow bounceIn h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
               src="/images/Frame-16.png" 
               alt="section-img" 
