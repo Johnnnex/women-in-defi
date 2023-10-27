@@ -237,14 +237,14 @@ const Homepage = () => {
               </div>
             </div>
             <div className="grid-container wow bounceIn">
-              <Image src="/images/img-1.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-2.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-3.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-4.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-5.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-6.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-7.png" height={1} width={50} alt="connect-images" />
-              <Image src="/images/img-8.png" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-1.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-2.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-3.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-4.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-5.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-6.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-7.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
+              <Image src="/images/img-q-8.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
             </div>
           </div>
         </section>
