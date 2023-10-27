@@ -184,7 +184,7 @@ const Homepage = () => {
             />
           </figure>
         </section>
-        <section className="py-[64px]">
+        <section className="py-[64px] hidden md:block">
           <div className="max-w-[1272px] flex justify-between px-[24px] bg-[#0673EFCC] rounded-[24px] pt-[92px] pb-[70px] md:w-[85%] w-[90%] mx-auto">
             <div className="">
               <h3 className="mb-[25px] wow fadeInDown text-white text-[32px] font-[600] leading-[42px]">Follow Us On Our Social Media</h3>
@@ -234,7 +234,7 @@ const Homepage = () => {
         </section>
         <Testimonial />
         <Chapters />
-        <Connect />
+        {/* <Connect /> */}
       </main>
     </>
   )

@@ -158,7 +158,7 @@ const Chapters = () => {
         }
     }
   return (
-    <section id="chapters" className="pb-[40px] pt-[100px]">
+    <section id="chapters" className="pb-[40px] md:pt-[100px]">
         <h3 className="text-[32px] font-[600] mb-[16px] text-center leading-[42px]">
         WID <span className="text-[#0673EF]">Chapters</span>
         </h3>
