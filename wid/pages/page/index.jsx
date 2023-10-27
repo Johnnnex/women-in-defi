@@ -133,16 +133,16 @@ const Homepage = () => {
               <h3 className="mr-[8px] text-[24px] md:text-[32px] font-[600]">Core Values</h3>🥳
             </div>
             <div className="md:mb-[32px] mb-[16px] flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[50px]">
-              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Advocacy</button>
-              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empathy</button>
-              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Sustainability</button>
-              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Support</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Advocacy</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Empathy</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Sustainability</button>
+              <button className="p-[10px] wow fadeInDown border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Support</button>
             </div>
             <div className="flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[50px]">
-              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Empowerment</button>
-              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Inclusivity</button>
-              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Education</button>
-              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[24px] font-[500] leading-[42px] rounded-[16px]">Collaboration</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Empowerment</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Inclusivity</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Education</button>
+              <button className="p-[10px] wow fadeInUp border-[#FFFFFFCC] border text-[#FFFFFFCC] text-[18px] md:text-[24px] font-[500] leading-[42px] rounded-[16px]">Collaboration</button>
             </div>
           </div>
         </section>
