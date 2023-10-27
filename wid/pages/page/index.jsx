@@ -12,7 +12,7 @@ const Homepage = () => {
   const imgArr = [
     {
       key: 1,
-      imgSrc: "https://s3-alpha-sig.figma.com/img/6346/7d98/f2ead579dd74a6098c6301f692404191?Expires=1699228800&Signature=jASOt8sxV~6emt9i-Q4mHqdYT1Brb~kZNkkdtpEDMFQIzO71fL8hsOkqU~Igblg9799Q8GnRk2Ws2J0U3VF6PQ-SZKa9RFR9SoOvqp8GYq2NX0Wmt1ugmiSz7nKiBpiR0HgZZazLWYOZcefMMyh8Cy4hBVHUr8BOKIyg~4q3-AuhwzI9W~sAad8lQJ2-iCztap7zHLg~vbfMq5HTxWvVFi2E9ZrQ8I2aWcoNFJHox7UDnuPPS~wnfJ-AzjuIR8IGuIB8mtdsLfjkDvC0vLec1iX6i43ceny54KfYO4Un6OVBbNMaTDpKB9UC1UZDxeC9umh7R2aGILps2PFizHg59Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      imgSrc: "/images/hero-img-q-6.jpeg",
     },
     {
       key: 2,
@@ -40,40 +40,40 @@ const Homepage = () => {
           </div>
           <section className="md:block hidden">
             <div className="pt-[80px] wow fadeIn flex justify-between w-full">
-              <figure className="w-[24%] h-[390px] relative">
+              <figure className="w-[24%] rounded-[16px] overflow-hidden h-[390px] relative">
                 <Image 
-                  src="https://s3-alpha-sig.figma.com/img/6346/7d98/f2ead579dd74a6098c6301f692404191?Expires=1699228800&Signature=jASOt8sxV~6emt9i-Q4mHqdYT1Brb~kZNkkdtpEDMFQIzO71fL8hsOkqU~Igblg9799Q8GnRk2Ws2J0U3VF6PQ-SZKa9RFR9SoOvqp8GYq2NX0Wmt1ugmiSz7nKiBpiR0HgZZazLWYOZcefMMyh8Cy4hBVHUr8BOKIyg~4q3-AuhwzI9W~sAad8lQJ2-iCztap7zHLg~vbfMq5HTxWvVFi2E9ZrQ8I2aWcoNFJHox7UDnuPPS~wnfJ-AzjuIR8IGuIB8mtdsLfjkDvC0vLec1iX6i43ceny54KfYO4Un6OVBbNMaTDpKB9UC1UZDxeC9umh7R2aGILps2PFizHg59Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" 
+                  src="/images/hero-img-q-6.jpeg" 
                   alt="hero-image"  
                   fill
                 />
               </figure>
               <div className="w-[24%] flex h-[390px] flex-col justify-between">
-                <figure className="w-full h-[49%] relative">
+                <figure className="w-full h-[49%] rounded-[100px] overflow-hidden relative">
                   <Image 
-                    src="/images/hero-img-5.png" 
+                    src="/images/hero-img-q-5.jpeg" 
                     alt="hero-image" 
                     fill 
                   />
                 </figure>
-                <figure className="w-full h-[49%] relative">
+                <figure className="w-full rounded-[100px] overflow-hidden h-[49%] relative">
                   <Image 
-                    src="/images/hero-img-4.png" 
+                    src="/images/hero-img-q-4.jpeg" 
                     alt="hero-image" 
                     fill 
                   />
                 </figure>
               </div>
               <div className="w-[24%] flex h-[390px] flex-col justify-between">
-                <figure className="w-full h-[49%] relative">
+                <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
                   <Image 
-                    src="/images/hero-img-3.png" 
+                    src="/images/hero-img-q-3.jpeg" 
                     alt="hero-image"
                     fill 
                   />
                 </figure>
-                <figure className="w-full h-[49%] relative">
+                <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
                   <Image 
-                    src="/images/hero-img-2.png" 
+                    src="/images/hero-img-q-2.jpeg" 
                     alt="hero-image" 
                     fill 
                   />
