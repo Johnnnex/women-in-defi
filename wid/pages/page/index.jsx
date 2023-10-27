@@ -42,7 +42,7 @@ const Homepage = () => {
             <div className="pt-[80px] wow fadeIn flex justify-between w-full">
               <figure className="w-[24%] h-[390px] relative">
                 <Image 
-                  src="/images/hero-img-6.png" 
+                  src="https://s3-alpha-sig.figma.com/img/6346/7d98/f2ead579dd74a6098c6301f692404191?Expires=1699228800&Signature=jASOt8sxV~6emt9i-Q4mHqdYT1Brb~kZNkkdtpEDMFQIzO71fL8hsOkqU~Igblg9799Q8GnRk2Ws2J0U3VF6PQ-SZKa9RFR9SoOvqp8GYq2NX0Wmt1ugmiSz7nKiBpiR0HgZZazLWYOZcefMMyh8Cy4hBVHUr8BOKIyg~4q3-AuhwzI9W~sAad8lQJ2-iCztap7zHLg~vbfMq5HTxWvVFi2E9ZrQ8I2aWcoNFJHox7UDnuPPS~wnfJ-AzjuIR8IGuIB8mtdsLfjkDvC0vLec1iX6i43ceny54KfYO4Un6OVBbNMaTDpKB9UC1UZDxeC9umh7R2aGILps2PFizHg59Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" 
                   alt="hero-image"  
                   fill
                 />
