@@ -41,7 +41,7 @@ const EventCard = () => {
             <button onClick={() => setEventState("two")} className={`px-[32px] ${events == "two" ? "text-[#110138] font-[500] bg-white bx-shadw rounded-[200px]" : "font-[400] text-[#666481]"} py-[16px] leading-[24px]`}>International Women&apos;s Day  Celebration 2023</button>
             <button onClick={() => setEventState("three")} className={`px-[32px] ${events == "three" ? "text-[#110138] font-[500] bg-white bx-shadw rounded-[200px]" : "font-[400] text-[#666481]"} py-[16px] leading-[24px]`}>Codes Charts and Cocktails 2023</button>
         </div>
-        <section className={`${events != "one" ? "hidden" : ""}`}>
+        <section className={`${events != "one" ? "hidden" : ""}space-y-[16px] md:space-y-0`}>
             <div className="md:grid hidden grid-cols-3 gap-y-[16px] gap-x-[24px]">
                 <div className="w-full relative h-[452px]">
                     <Image 
@@ -96,17 +96,17 @@ const EventCard = () => {
                 imgArr={imgArrOne}
                 preferredEffect="fade"
                 wantsNav={false}
-            /> <br className="md:hidden"/> 
+            />
             <ImgSlider 
                 imgArr={imgArrTwo}
                 preferredEffect="coverflow"
                 wantsNav={false}
-            /> <br className="md:hidden"/>
+            />
             <ImgSlider 
                 imgArr={imgArrThr}
                 preferredEffect="flip"
                 wantsNav={false}
-            /> <br className="md:hidden"/>
+            />
         </section>
         <section className={`md:grid ${events != "two" ? "hidden" : ""} md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
             <figure className="w-full relative h-[452px]">
@@ -134,49 +134,66 @@ const EventCard = () => {
                 />
             </figure>
         </section>
-        <section className={`grid ${events != "three" ? "hidden" : ""} grid-cols-3 gap-y-[16px] gap-x-[24px]`}>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/ccc-6.png"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/ccc-5.png"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/ccc-4.png"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/ccc-3.png"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/ccc-2.png"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/ccc-1.png"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
+        <section className={`${events != "three" ? "hidden" : ""} space-y-[16px] md:space-y-0`}>
+            <div className="md:grid hidden grid-cols-3 gap-y-[16px] gap-x-[24px]">
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/ccc-6.png"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/ccc-5.png"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/ccc-4.png"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/ccc-3.png"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/ccc-2.png"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/ccc-1.png"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+            </div>
+            <ImgSlider 
+                imgArr={imgArrOne}
+                preferredEffect="fade"
+                wantsNav={false}
+            /> 
+            <ImgSlider 
+                imgArr={imgArrTwo}
+                preferredEffect="coverflow"
+                wantsNav={false}
+            /> 
+            <ImgSlider 
+                imgArr={imgArrThr}
+                preferredEffect="flip"
+                wantsNav={false}
+            /> 
         </section>
     </section>
   )
