@@ -108,72 +108,75 @@ const EventCard = () => {
                 wantsNav={false}
             /> <br className="md:hidden"/>
         </section>
-        <section className={`grid ${events != "two" ? "hidden" : ""} grid-cols-3 gap-y-[16px] gap-x-[24px]`}>
-            <div className="w-full relative h-[452px]">
+        <section className={`md:grid ${events != "two" ? "hidden" : ""} md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/wid-event-1.png"
                     alt="event_images"
+                    sizes="(max-width: 768px) 100%, 540px"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/wid-event-2.png"
                     alt="event_images"
+                    sizes="(max-width: 768px) 100%, 540px"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/wid-event-3.png"
+                    sizes="(max-width: 768px) 100%, 540px"
                     alt="event_images"
                     fill
                 />
-            </div>
+            </figure>
         </section>
         <section className={`grid ${events != "three" ? "hidden" : ""} grid-cols-3 gap-y-[16px] gap-x-[24px]`}>
-            <div className="w-full relative h-[452px]">
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-6.png"
                     alt="event_images"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-5.png"
                     alt="event_images"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-4.png"
                     alt="event_images"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-3.png"
                     alt="event_images"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-2.png"
                     alt="event_images"
                     fill
                 />
-            </div>
-            <div className="w-full relative h-[452px]">
+            </figure>
+            <figure className="w-full relative h-[452px]">
                 <Image 
                     src="/images/ccc-1.png"
                     alt="event_images"
                     fill
                 />
-            </div>
+            </figure>
         </section>
     </section>
   )
