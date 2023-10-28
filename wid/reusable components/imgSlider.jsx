@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, EffectCube, A11y, Autoplay } from "swiper/modules"
+import { Navigation, EffectCube, A11y, Autoplay, EffectFlip, EffectFade, EffectCoverflow, EffectCards } from "swiper/modules"
 import 'swiper/css/effect-cube';
 import "swiper/css/autoplay"
 import 'swiper/css/navigation'
@@ -28,7 +28,7 @@ const ImgSlider = ({imgArr, wantsNav, preferredEffect}) => {
     <section className="md:hidden">
         <Swiper
             className="w-[100%] h-fit"
-            modules={[Navigation, A11y, Autoplay, EffectCube]}
+            modules={[Navigation, A11y, Autoplay, EffectCube, EffectFlip, EffectFade, EffectCoverflow, EffectCards]}
             grabCursor={true}
             navigation = {wantsNav == true && true} 
             autoplay={{
