@@ -20,6 +20,12 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    transition: .4s;
+}
+.btn-generic:hover {
+    outline: 1px solid var(--brand-colour);
+    color: var(--brand-colour);
+    background: #fff;
 }
 .btn-trans, .btn-trans-w {
     padding: 18px 24px;
@@ -27,14 +33,23 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    transition: all .4s;
 }
 .btn-trans {
     outline: 1px solid var(--brand-colour);
     color: var(--brand-colour);
 }
+.btn-trans:hover {
+    color: #FFF;
+    background-color: var(--brand-colour);
+}
 .btn-trans-w {
     outline: 1px solid #fff;
     color: #fff;
+}
+.btn-trans-w:hover {
+    color: var(--brand-colour);
+    background-color: #fff;
 }
 .grid-container {
     display: grid !important;
