@@ -42,6 +42,7 @@ html {
 .btn-trans:hover {
     color: #FFF;
     background-color: var(--brand-colour);
+    outline: none;
 }
 .btn-trans-w {
     outline: 1px solid #fff;
@@ -50,6 +51,7 @@ html {
 .btn-trans-w:hover {
     color: var(--brand-colour);
     background-color: #fff;
+    outline: none;
 }
 .grid-container {
     display: grid !important;
