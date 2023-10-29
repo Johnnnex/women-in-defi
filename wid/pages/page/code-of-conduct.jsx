@@ -21,7 +21,7 @@ const CodeOfConduct = () => {
               <ol className="list-inside list-decimal">
                 <li className="text-[#0673EF] text-[18px] md:text-[24px] font-[500] leading-[30px] mb-[16px]">Respect and Inclusion</li>
                 <p className="text-[#666481] text-[16px] md:text-[18px] font-[400] leading-[30px] mb-[14px]">
-                  We value and respect every member's voice, regardless of background, experience, or expertise. We commit to creating an inclusive environment where everyone feels heard and valued.
+                  We value and respect every member&apos;s voice, regardless of background, experience, or expertise. We commit to creating an inclusive environment where everyone feels heard and valued.
                 </p>
                 <li className="text-[#0673EF] text-[18px] md:text-[24px] font-[500] leading-[30px] mb-[16px]">Harassment-Free Zone</li>
                 <p className="text-[#666481] text-[16px] md:text-[18px] font-[400] leading-[30px] mb-[14px]">
@@ -33,7 +33,7 @@ const CodeOfConduct = () => {
                 </p>
                 <li className="text-[#0673EF] text-[18px] md:text-[24px] font-[500] leading-[30px] mb-[16px]">Privacy and Confidentiality</li>
                 <p className="text-[#666481] text-[16px] md:text-[18px] font-[400] leading-[30px] mb-[14px]">
-                  Respect members' privacy and do not share personal information without explicit consent. Any information shared within the community should be treated confidentially.
+                  Respect members&apos; privacy and do not share personal information without explicit consent. Any information shared within the community should be treated confidentially.
                 </p>
                 <li className="text-[#0673EF] text-[18px] md:text-[24px] font-[500] leading-[30px] mb-[16px]">Professionalism</li>
                 <p className="text-[#666481] text-[16px] md:text-[18px] font-[400] leading-[30px] mb-[14px]">
@@ -41,7 +41,7 @@ const CodeOfConduct = () => {
                 </p>
                 <li className="text-[#0673EF] text-[18px] md:text-[24px] font-[500] leading-[30px] mb-[16px]">Intellectual Property</li>
                 <p className="text-[#666481] text-[16px] md:text-[18px] font-[400] leading-[30px] mb-[14px]">
-                  Respect copyright and intellectual property rights. Give proper credit and seek permission when using or referencing others' work.
+                  Respect copyright and intellectual property rights. Give proper credit and seek permission when using or referencing others&apos; work.
                 </p>
                 <li className="text-[#0673EF] text-[18px] md:text-[24px] font-[500] leading-[30px] mb-[16px]">Compliance with Applicable Laws</li>
                 <p className="text-[#666481] text-[16px] md:text-[18px] font-[400] leading-[30px] mb-[14px]">
