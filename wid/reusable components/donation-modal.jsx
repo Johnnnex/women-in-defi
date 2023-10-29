@@ -14,7 +14,7 @@ const DonationModal = ({removeModal, modalState}) => {
             <h4 className="leading-[24px] mb-[16px] font-[600] text-[24px] md:text-[32px] text-black">
                 Donation Option 🥳
             </h4>
-            <p className="font-[400] text-[18px] mb-[32px] text-[#666481]">
+            <p className="font-[400] text-[16px] md:text-[18px] mb-[32px] text-[#666481]">
                 Kindly use any of the payment option to make your donation
             </p>
             <div className="flex flex-col md:flex-row p-[10px] w-full md:w-fit mx-auto mb-[32px] rounded-[20px] md:rounded-[200px] justify-between bg-[#F9F9FF]">
@@ -22,7 +22,7 @@ const DonationModal = ({removeModal, modalState}) => {
                 <button onClick={() => setEventState("two")} className={`px-[32px] ${events == "two" ? "text-[#110138] font-[500] bg-white bx-shadw rounded-[200px]" : "font-[400] text-[#666481]"} py-[16px] leading-[24px]`}>Via Crypto</button>
             </div>
             <div className={`${events != "one" ? "hidden" : ""} `}>
-                <h5 className="mb-[24px] font-[600] text-[18px] text-[#110138]">
+                <h5 className="mb-[24px] font-[600] text-[16px] md:text-[18px] text-[#110138]">
                     Pay into this account
                 </h5>
                 <p className="text-center mb-[8px] text-[#666481] text-[18px] font-[400]">Moniepoint Microfinance  Bank</p>
@@ -31,10 +31,10 @@ const DonationModal = ({removeModal, modalState}) => {
                 </p>
             </div>
             <div className={`${events != "two" ? "hidden" : ""} `}>
-                <h5 className="mb-[24px] font-[600] text-[18px] text-[#110138]">
+                <h5 className="mb-[24px] font-[600] text-[16px] md:text-[18px] text-[#110138]">
                     Make payment of USDT/USDC ERC20 & BEP20 to this address
                 </h5>
-                <p className="font-[600] overflow-hidden text-[18px] text-[#0673EF]">
+                <p className="font-[600] overflow-hidden text-[16px] md:text-[18px] text-[#0673EF]">
                     <button onClick={() => navigator.clipboard.writeText("0x6cb448C4414dD9c6Aa26580CBe38EC7dDcD4A057")}>
                         0x6cb448C4414dD9c6Aa26580CBe38EC7dDcD4A057
                     </button>

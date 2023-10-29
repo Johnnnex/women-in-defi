@@ -180,7 +180,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.one == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/WIDLagos" target='_blank' className="text-[#0673EF]">https://linktr.ee/WIDLagos</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.two == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -199,7 +199,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.two == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/widEdo" target='_blank' className="text-[#0673EF]">https://linktr.ee/widEdo</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.three == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -218,7 +218,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.three == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/widakwaibom" target='_blank' className="text-[#0673EF]">https://linktr.ee/widakwaibom</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.four == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -237,7 +237,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.four == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/widrivers" target='_blank' className="text-[#0673EF]">https://linktr.ee/widrivers</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.five == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -256,7 +256,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.five == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/widabuja" target='_blank' className="text-[#0673EF]">https://linktr.ee/widabuja</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.six == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -275,7 +275,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.six == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/wid_ebonyi" target='_blank' className="text-[#0673EF]">https://linktr.ee/wid_ebonyi</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.seven == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -294,7 +294,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.seven == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/wid_ogun" target='_blank' className="text-[#0673EF]">https://linktr.ee/wid_ogun</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.eight == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -313,7 +313,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.eight == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/widoyo" target='_blank' className="text-[#0673EF]">https://linktr.ee/widoyo</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.nine == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
@@ -332,7 +332,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.nine == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/Widplateau" target='_blank' className="text-[#0673EF]">https://linktr.ee/Widplateau</a>
             </p>
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.ten == false ? "border-[#666481]" : "border-[#0673ef]"}`}>
@@ -351,7 +351,7 @@ const Chapters = () => {
                 </button>
             </div>
             <p className={`text-[16px] ${testimonials.ten == false ? "max-h-0" : "pt-[16px]"} overflow-hidden transition-[.4s] font-[400]`}>
-                <a href="https://linktr.ee/widcrs" target='_blank' className="text-[#0673EF]">https://linktr.ee/widcrs</a>
+                <a href="https://linktr.ee/WIDAnambra" target='_blank' className="text-[#0673EF]">https://linktr.ee/WIDAnambra</a>
             </p>
         </div>
         </section>
