@@ -140,7 +140,7 @@ const Donation = () => {
         </section>
         {/* <Connect /> */}
       </main>
-      <DonationModal />
+      {/* <DonationModal /> */}
     </>
   )
 }
