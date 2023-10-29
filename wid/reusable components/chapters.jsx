@@ -166,7 +166,7 @@ const Chapters = () => {
         <section className="md:w-[54%] wow fadeIn max-w-[819px] mx-auto py-[40px] px-[20px]">
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.one == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Lagos State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Lagos State Chapter</h5>
                 <button onClick={()=> toggleVisibility("one")}>
                     { testimonials.one == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -185,7 +185,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.two == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Edo State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Edo State Chapter</h5>
                 <button onClick={()=> toggleVisibility("two")}>
                     { testimonials.two == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -204,7 +204,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.three == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Akwa Ibom Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Akwa Ibom Chapter</h5>
                 <button onClick={()=> toggleVisibility("three")}>
                     { testimonials.three == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -223,7 +223,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.four == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Rivers State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Rivers State Chapter</h5>
                 <button onClick={()=> toggleVisibility("four")}>
                     { testimonials.four == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -242,7 +242,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.five == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Abuja State Chapter </h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Abuja State Chapter </h5>
                 <button onClick={()=> toggleVisibility("five")}>
                     { testimonials.five == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -261,7 +261,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.six == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Ebonyi State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Ebonyi State Chapter</h5>
                 <button onClick={()=> toggleVisibility("six")}>
                     { testimonials.six == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -280,7 +280,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.seven == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Ogun State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Ogun State Chapter</h5>
                 <button onClick={()=> toggleVisibility("seven")}>
                     { testimonials.seven == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -299,7 +299,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.eight == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Oyo State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Oyo State Chapter</h5>
                 <button onClick={()=> toggleVisibility("eight")}>
                     { testimonials.eight == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -318,7 +318,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.nine == false ? "border-[#666481]" : "border-[#0673ef]"} mb-[24px]`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Plateau State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Plateau State Chapter</h5>
                 <button onClick={()=> toggleVisibility("nine")}>
                     { testimonials.nine == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -337,7 +337,7 @@ const Chapters = () => {
         </div>
         <div className={`border py-[10px] px-[20px] rounded-[8px] ${testimonials.ten == false ? "border-[#666481]" : "border-[#0673ef]"}`}>
             <div className="flex justify-between items-center">
-                <h5 className="w-[80%] text-[#110138] text-[24px] font-[500]">WID Anambra State Chapter</h5>
+                <h5 className="w-[80%] text-[#110138] text-[18px] md:text-[24px] font-[500]">WID Anambra State Chapter</h5>
                 <button onClick={()=> toggleVisibility("ten")}>
                     { testimonials.ten == false ? 
                     (<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">

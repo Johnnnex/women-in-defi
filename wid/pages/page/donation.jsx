@@ -70,7 +70,7 @@ const Donation = () => {
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Organizational Training</h4>
             <p className="text-[#666481] wow fadeIn text-[16px] md:text-[18px] font-[400] leading-[32px] md:leading-[42px]">
               Is your company or organization interested in providing education on Web3, Crypto, Defi and NFTs for your employees? We provide customized corporate training programs aligned with your Web3 objectives. <br />
-              Contact <a href="mailto:sarahidahosa001@gmail.com" className="text-[#0673EF]" rel="noopener noreferrer">sarahidahosa001@gmail.com</a> today to bring your company to speed on crypto.
+              Contact <a href="mailto:sarah@womenindefi.org" className="text-[#0673EF]" rel="noopener noreferrer">sarah@womenindefi.org</a> today to bring your company to speed on crypto.
             </p>
           </div>
         </section>
