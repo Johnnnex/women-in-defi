@@ -66,7 +66,9 @@ const Donation = () => {
             <p className="wow fadeIn text-[16px] md:text-[18px] font-[400] mb-[24px] md:mb-[76px] leading-[32px] md:leading-[42px]">
               Have your protocol/infrastructure taught during a Skill up Cohort, co-organize events, support women going to hackathons and Web3 events, provide scholarships to advanced training, or reach out to us on other sponsorship opportunities
             </p>
-            <button className="btn-trans-w wow fadeIn">Enquire about Sponsorship</button>
+            <a href="mailto:programs@womenindefi.org?subject=Request for Sponsorship Details">
+              <button className="btn-trans-w wow fadeIn">Enquire about Sponsorship</button>
+            </a>
           </div>
           <div className="md:p-[32px] px-[16px] py-[32px] h-fit md:h-[500px] bg-[#F9F9FF] flex-1">
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Organizational Training</h4>
