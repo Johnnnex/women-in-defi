@@ -6,18 +6,19 @@ const HeadComp = ({title}) => {
     <Head>
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <meta name="description" content="John's version of 'SIGFLOW'" />
+        <meta name="description" content="Empowering Women Globally Through Decentralized Finance" />
+        <meta name="keyword" content="women in tech, women in defi, defi" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="sigflow-johnex.vercel.app" />
-        <meta name="twitter:title" content="John's Submission . Sigflow" />
-        <meta name="twitter:description" content="John's version of 'SIGFLOW'" />
-        <meta name="twitter:image" content="https://sigflow-johnex.vercel.app/images/open-graph-img.jpeg" />
-        <meta property="og:title" content="John's Submission . Sigflow" />
-        <meta property="og:url" content="https://sigflow-johnex.vercel.app" />
-        <meta property="og:image" content="https://sigflow-johnex.vercel.app/images/open-graph-img.jpeg" />
+        <meta name="twitter:site" content="womenindefi.org" />
+        <meta name="twitter:title" content="Women In DeFi" />
+        <meta name="twitter:description" content="Empowering Women Globally Through Decentralized Finance" />
+        {/* <meta name="twitter:image" content="https://womenindefi.org/images/open-graph-img.jpeg" /> */}
+        <meta property="og:title" content="Women in DeFi" />
+        <meta property="og:url" content="https://womenindefi.org" />
+        {/* <meta property="og:image" content="https://womenindefi.org/images/open-graph-img.jpeg" /> */}
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="John's version of 'SIGFLOW'" />
-        <meta property="og:site_name" content="John's Submission . Sigflow" /> */}
+        <meta property="og:description" content="Empowering Women Globally Through Decentralized Finance" />
+        <meta property="og:site_name" content="Women in DeFi" />
         <link rel="icon" href="/wid.ico" />
     </Head>
   )
