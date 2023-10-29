@@ -10,7 +10,7 @@ const Donation = () => {
     <>
       <HeadComp title="Women in DeFi || Donation" />
       <main className="">
-        <section className="md:pt-[113px] pt-[80px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
+        <section className="md:pt-[113px] pt-[130px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:w-[49%]">
           <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
             Partner With Our Community
