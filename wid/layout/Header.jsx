@@ -112,7 +112,9 @@ const Header = () => {
               {links}
             </ul>
             <div className="md:w-fit w-[90%] mx-auto">
-              <button type='button' className="btn-generic w-full">Join Community</button>
+              <a href="https://forms.gle/sVHUHnF9bz42BJui7" target="_blank" rel="noopener noreferrer">
+                <button type='button' className="btn-generic w-full">Join Community</button>
+              </a>
             </div>
           </nav>
           <button type='button' onClick={toggleNav} className="z-[2] md:hidden">
