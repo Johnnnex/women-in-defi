@@ -26,7 +26,9 @@ const Donation = () => {
           <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
             We partner with Web2/Web3 organizations to provide our community with access to events, protocols, and job opportunities.
           </p>
-          <button className="btn-trans wow fadeIn">Partnership Inquiries</button>
+          <a href="mailto:partnership@womenindefi.org?subject=Partnership Request with WID">
+            <button className="btn-trans wow fadeIn">Partnership Inquiries</button>
+          </a>
           </div>
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">

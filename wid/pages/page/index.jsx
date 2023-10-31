@@ -187,7 +187,9 @@ const Homepage = () => {
             <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Actively looking forward to embracing partners and corporations who concur with our vision and are willing to impact lives.
             </p>
-            <button className="btn-generic wow fadeIn">Partner With Us</button>
+            <Link href="/page/donation">
+              <button className="btn-generic wow fadeIn">Partner With Us</button>
+            </Link>
           </div>
         </section>
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
