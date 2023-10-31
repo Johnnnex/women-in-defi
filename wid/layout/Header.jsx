@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import DonationModal from '@/reusable components/donation-modal'
 import Image from 'next/image'
 import Link from 'next/link'
+import EventsModal from '@/reusable components/events-modal'
 
 
 const Header = () => {
@@ -132,6 +133,9 @@ const Header = () => {
       </header>
       <DonationModal 
         modalState={ modalState.donate }
+      />
+      <EventsModal
+        modalState={ modalState.event }
       />
     </>
   )

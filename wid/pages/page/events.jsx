@@ -8,7 +8,7 @@ const Events = () => {
   return (
     <>
       <HeadComp title="Women In DeFi || Events" />
-      <main className="pt-[80px]">
+      <main className="pt-[40px]">
         <AttendEvent />
         <section className="py-[54px] bg-white">
           <h3 className="text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[52px] text-center mb-[16px]">Previous Events</h3>
