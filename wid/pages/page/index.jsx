@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import HeadComp from '@/layout/HeadComp'
 import CountDown from '@/reusable components/count-down'
 import Chapters from '@/reusable components/chapters'
@@ -10,6 +11,7 @@ import Testimonial from '@/reusable components/testimonial'
 import ImgSlider from '@/reusable components/imgSlider'
 
 const Homepage = () => {
+  const { push } = useRouter()
   const imgArr = [
     {
       key: 1,
@@ -24,6 +26,11 @@ const Homepage = () => {
       imgSrc: "/images/hero-img-q-1.jpeg",
     },
   ]
+  const donateFnc = () => {
+    const currLcn = new URL(window.location)
+    currLcn.searchParams.set("donate", true)
+    push(currLcn)
+  }
   return (
     <>
       <HeadComp title="Women In DeFi || Home" />
@@ -36,9 +43,7 @@ const Homepage = () => {
             Women in DeFi raising the next generation of leading ladies in the Blockchain space.
           </p>
           <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
-            <Link href="/page/donation#donation-tab">
-              <button className="btn-trans w-full md:w-fit">Donate Now</button>
-            </Link>
+            <button onClick={donateFnc} className="btn-trans w-full md:w-fit">Donate Now</button>
             <a href="https://forms.gle/sVHUHnF9bz42BJui7" target="_blank" rel="noopener noreferrer">
               <button className="btn-generic w-full md:w-fit">Join Community</button>
             </a>

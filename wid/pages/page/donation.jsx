@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import HeadComp from '@/layout/HeadComp'
 import Connect from '@/reusable components/connect-w-us'
 import Link from 'next/link'
@@ -7,6 +8,12 @@ import DonationModal from '@/reusable components/donation-modal'
 
 const Donation = () => {
   const [modalState, setModalState] = useState(false)
+  const { push } = useRouter()
+  const donateFnc = () => {
+    const currLcn = new URL(window.location)
+    currLcn.searchParams.set("donate", true)
+    push(currLcn)
+  }
   return (
     <>
       <HeadComp title="Women in DeFi || Donation" />
@@ -87,7 +94,7 @@ const Donation = () => {
             Help sponsor our events and initiatives to empower more African women in Blockchain technology via a donation or more. <br />
             This donation will go a long way in supporting our numerous initiatives and facilitating our events and programs across several chapters. 
           </p>
-          <button onClick = {() => setModalState(true)} className="btn-trans wow fadeIn">Donate Now</button>
+          <button onClick = {donateFnc} className="btn-trans wow fadeIn">Donate Now</button>
           </div>
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
