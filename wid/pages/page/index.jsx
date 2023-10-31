@@ -23,7 +23,7 @@ const Homepage = () => {
     },
     {
       key: 3,
-      imgSrc: "/images/hero-img-q-1.jpeg",
+      imgSrc: "/images/hero-img-q-1-cr.png",
     },
   ]
   const donateFnc = () => {
