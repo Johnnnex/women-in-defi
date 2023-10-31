@@ -70,7 +70,7 @@ const Donation = () => {
           </div>
         </section>
         <section className="flex flex-col md:flex-row gap-[24px] max-w-[1272px] w-full md:w-[85%] mx-auto">
-          <div className="md:p-[32px] px-[16px] py-[32px] h-fit md:h-[500px] text-white bg-[#0673EF] flex-1">
+          <div className="md:p-[32px] px-[16px] py-[32px] h-full text-white bg-[#0673EF] flex-1">
             <h4 className="leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Sponsoring A Skill-Up Cohort</h4>
             <p className="wow fadeIn text-[16px] md:text-[18px] font-[400] mb-[24px] md:mb-[76px] leading-[32px] md:leading-[42px]">
               Have your protocol/infrastructure taught during a Skill up Cohort, co-organize events, support women going to hackathons and Web3 events, provide scholarships to advanced training, or reach out to us on other sponsorship opportunities
@@ -79,7 +79,7 @@ const Donation = () => {
               <button className="btn-trans-w wow fadeIn">Enquire about Sponsorship</button>
             </a>
           </div>
-          <div className="md:p-[32px] px-[16px] py-[32px] h-fit md:h-[500px] bg-[#F9F9FF] flex-1">
+          <div className="md:p-[32px] px-[16px] py-[32px] bg-[#F9F9FF] flex-1">
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Organizational Training</h4>
             <p className="text-[#666481] wow fadeIn text-[16px] md:text-[18px] font-[400] leading-[32px] md:leading-[42px]">
               Is your company or organization interested in providing education on Web3, Crypto, Defi and NFTs for your employees? We provide customized corporate training programs aligned with your Web3 objectives. <br />
