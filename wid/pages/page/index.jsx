@@ -15,7 +15,7 @@ const Homepage = () => {
   const imgArr = [
     {
       key: 1,
-      imgSrc: "/images/hero-img-q-6.jpeg",
+      imgSrc: "/images/index-hero-img.png",
     },
     {
       key: 2,
@@ -52,7 +52,7 @@ const Homepage = () => {
             <div className="pt-[80px] wow fadeIn flex justify-between w-full">
               <figure className="w-[24%] rounded-[16px] overflow-hidden h-[390px] relative">
                 <Image 
-                  src="/images/hero-img-q-6.jpeg" 
+                  src="/images/index-hero-img.png" 
                   alt="hero-image"  
                   fill
                   priority
