@@ -143,10 +143,6 @@ const Donation = () => {
         </section>
         {/* <Connect /> */}
       </main>
-      <DonationModal 
-        modalState={modalState}
-        removeModal= {() => setModalState(false)}
-      />
     </>
   )
 }

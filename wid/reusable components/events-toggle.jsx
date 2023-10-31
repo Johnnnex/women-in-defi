@@ -138,31 +138,33 @@ const EventCard = () => {
                 wantsNav={false}
             />
         </section>
-        <section className={`md:grid ${events != "two" ? "hidden" : ""} md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/wid-event-1.png"
-                    alt="event_images"
-                    sizes="(max-width: 768px) 100%, 540px"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/wid-event-2.png"
-                    alt="event_images"
-                    sizes="(max-width: 768px) 100%, 540px"
-                    fill
-                />
-            </figure>
-            <figure className="w-full relative h-[452px]">
-                <Image 
-                    src="/images/wid-event-3.png"
-                    sizes="(max-width: 768px) 100%, 540px"
-                    alt="event_images"
-                    fill
-                />
-            </figure>
+        <section className={events != "two" ? "hidden" : ""}>
+            <div className={`md:grid md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/wid-event-1.png"
+                        alt="event_images"
+                        sizes="(max-width: 768px) 100%, 540px"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/wid-event-2.png"
+                        alt="event_images"
+                        sizes="(max-width: 768px) 100%, 540px"
+                        fill
+                    />
+                </figure>
+                <figure className="w-full relative h-[452px]">
+                    <Image 
+                        src="/images/wid-event-3.png"
+                        sizes="(max-width: 768px) 100%, 540px"
+                        alt="event_images"
+                        fill
+                    />
+                </figure>
+            </div>
         </section>
         <section className={`${events != "three" ? "hidden" : ""} space-y-[16px] md:space-y-0`}>
             <div className="md:grid hidden grid-cols-3 gap-y-[16px] gap-x-[24px]">

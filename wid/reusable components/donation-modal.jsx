@@ -1,8 +1,15 @@
 import React from 'react'
 import { useState } from 'react'
+import { useRouter } from 'next/router'
 
-const DonationModal = ({removeModal, modalState}) => {
+const DonationModal = ({ modalState }) => {
     const [events, setEventState] = useState("one")
+    const { push } = useRouter()
+    const removeModal = () => {
+        const currLcn = new URL(window.location)
+        currLcn.searchParams.delete("donate")
+        push(currLcn)
+    }
   return (
     <section className={`fixed ${ modalState == false ? "scale-0 invisible" : ""} transition-[.4s] z-[2] top-0 left-0 bg-[#00000056] w-full h-[100vh]`}>
         <div className="md:w-[50%] w-[90%] text-center mx-auto relative max-w-[609px] rounded-[16px] bg-white py-[100px] px-[16px] md:px-[32px] mt-[10vh]">
