@@ -79,7 +79,7 @@ const Donation = () => {
               <button className="btn-trans-w wow fadeIn">Enquire about Sponsorship</button>
             </a>
           </div>
-          <div className="md:p-[32px] px-[16px] py-[32px] bg-[#F9F9FF] flex-1">
+          <div className="md:p-[32px] hidden md:block px-[16px] py-[32px] bg-[#F9F9FF] flex-1">
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Organizational Training</h4>
             <p className="text-[#666481] wow fadeIn text-[16px] md:text-[18px] font-[400] leading-[32px] md:leading-[42px]">
               Is your company or organization interested in providing education on Web3, Crypto, Defi and NFTs for your employees? We provide customized corporate training programs aligned with your Web3 objectives. <br />
@@ -96,7 +96,7 @@ const Donation = () => {
             Help sponsor our events and initiatives to empower more African women in Blockchain technology via a donation or more. <br />
             This donation will go a long way in supporting our numerous initiatives and facilitating our events and programs across several chapters. 
           </p>
-          <button onClick = {donateFnc} className="btn-trans wow fadeIn">Donate Now</button>
+          <button onClick={donateFnc} className="btn-trans wow fadeIn">Donate Now</button>
           </div>
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
@@ -129,6 +129,13 @@ const Donation = () => {
             </figure>
           </div>
         </section>
+        <div className="md:hidden px-[16px] py-[32px] bg-[#F9F9FF]">
+          <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Organizational Training</h4>
+          <p className="text-[#666481] wow fadeIn text-[16px] md:text-[18px] font-[400] leading-[32px] md:leading-[42px]">
+            Is your company or organization interested in providing education on Web3, Crypto, Defi and NFTs for your employees? We provide customized corporate training programs aligned with your Web3 objectives. <br />
+            Contact <a href="mailto:sarah@womenindefi.org" className="text-[#0673EF]" rel="noopener noreferrer">sarah@womenindefi.org</a> today to bring your company to speed on crypto.
+          </p>
+        </div>
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
