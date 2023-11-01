@@ -33,7 +33,7 @@ const Donation = () => {
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
                 <Image 
-                src="/images/donate-img-1.jpeg" 
+                src="/images/donate-quarterimg-1.png" 
                 alt="hero-img"  
                 fill
                 priority
@@ -42,7 +42,7 @@ const Donation = () => {
             </figure>
             <figure className="relative md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
                 <Image 
-                src="/images/donate-img-2.jpeg" 
+                src="/images/donate-quarterimg-2.png" 
                 alt="hero-img"  
                 fill
                 priority
@@ -51,7 +51,7 @@ const Donation = () => {
             </figure>
             <figure className="relative md:w-[216px] w-[100%] rounded-bl-[10px] overflow-hidden h-[212px]">
                 <Image 
-                src="/images/donate-img-3.jpeg" 
+                src="/images/donate-quarterimg-3.png" 
                 alt="hero-img"  
                 fill
                 priority
@@ -60,7 +60,7 @@ const Donation = () => {
             </figure>
             <figure className="relative md:w-[216px] w-[100%] rounded-br-[10px] overflow-hidden h-[212px]">
               <Image 
-                src="/images/donate-img-4.jpeg" 
+                src="/images/donate-quarterimg-4.png" 
                 alt="hero-img"  
                 fill
                 priority
