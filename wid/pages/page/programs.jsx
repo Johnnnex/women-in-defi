@@ -20,7 +20,7 @@ const Programs = () => {
           </div>
           <figure className="relative wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
             <Image 
-                src="/images/programs-q.jpeg" 
+                src="/images/programs-q.png" 
                 alt="hero-img" 
                 priority 
                 sizes="(max-width: 768px) 100%, 540px"
