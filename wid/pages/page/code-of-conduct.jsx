@@ -12,7 +12,8 @@ const CodeOfConduct = () => {
                 <Image
                     fill
                     alt="code-of-conduct-image"
-                    src="/images/code-of-conduct.jpeg"
+                    src="/images/code-of-conduct.png"
+                    priority
                 />
             </figure>
             <Link className="text-[#0673EF] hover:underline" href="/page/donation">Back</Link>
