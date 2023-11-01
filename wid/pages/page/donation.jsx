@@ -101,28 +101,28 @@ const Donation = () => {
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
               <Image 
-                src="/images/donation-fr-1.jpeg" 
+                src="/images/donation-fr-cr-1.png" 
                 alt="hero-img"  
                 fill
               />
             </figure>
             <figure className="relative md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
               <Image 
-                src="/images/donation-fr-2.jpeg" 
+                src="/images/donation-fr-cr-2.png" 
                 alt="hero-img"  
                 fill
               />
             </figure>
             <figure className="relative md:w-[216px] w-[100%] rounded-bl-[10px] overflow-hidden h-[212px]">
               <Image 
-                src="/images/donation-fr-3.jpeg" 
+                src="/images/donation-fr-cr-3.png" 
                 alt="hero-img"  
                 fill
               />
             </figure>
             <figure className="relative md:w-[216px] w-[100%] rounded-br-[10px] overflow-hidden h-[212px]">
               <Image 
-                src="/images/donation-fr-4.jpeg" 
+                src="/images/donation-fr-cr-4.png" 
                 alt="hero-img"  
                 fill
               />              
