@@ -208,7 +208,7 @@ const Homepage = () => {
           </div>
           <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/Frame-q-16.png" 
+              src="/images/supporting-wid-img.png" 
               alt="section-img" 
               fill
               sizes="(max-width: 768px) 100%, 540px"

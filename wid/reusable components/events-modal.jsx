@@ -19,7 +19,7 @@ const EventsModal = ({modalState}) => {
             </button>
             <Image src="/images/no-event-img.svg" className="w-fit mx-auto" alt="no-event-img" height={1} width={100}/>
             <h4 className="mt-[24px] text-[18px] font-[700] md:text-[24px] mb-[16px]">Oops!</h4>
-            <p className="md:text-[16px] text-[12px] font-[500] leading-[20px]">
+            <p className="md:text-[16px] text-[15px] font-[500] leading-[20px]">
                 We currently do not have any upcoming events, but not to worry you can check back soon.
             </p>
         </div>
