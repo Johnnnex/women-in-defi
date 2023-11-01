@@ -15,7 +15,7 @@ const ImgSlider = ({imgArr, wantsNav, preferredEffect}) => {
                 <figure className="h-[425px] rounded-[24px] overflow-hidden relative w-full">
                     <Image 
                     src={imgSrc}
-                    alt="hero-image"  
+                    alt="sliding-image"  
                     fill
                     priority
                     sizes="(max-width: 768px) 100%, 540px"
