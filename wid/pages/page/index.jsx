@@ -137,14 +137,14 @@ const Homepage = () => {
           </figure>
         </section>
         <section className="flex flex-col py-[46px] md:py-0 md:flex-row gap-[24px] max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <div className="md:p-[32px] py-[32px] px-[16px] h-[500px] bg-[#FCFFF9] flex-1">
+          <div className="md:p-[32px] py-[32px] px-[16px] h-fit bg-[#FCFFF9] flex-1">
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Mission</h4>
             <p className="text-[#666481] wow fadeIn text-[16px] font-[400] leading-[30px] md:leading-[42px]">
               We envision a thriving, inclusive community of women in the Blockchain space, where diverse talents and perspective converge to revolutionize the Web3 landscape. <br />
               Through mentorship, education, and collaboration, we strive to break down barriers, fostering innovation and leading the way towards a more equitable digital future.
             </p>
           </div>
-          <div className="md:p-[32px] py-[32px] px-[16px] h-[500px] bg-[#F9F9FF] flex-1">
+          <div className="md:p-[32px] py-[32px] px-[16px] bg-[#F9F9FF] flex-1">
             <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Vision</h4>
             <p className="text-[#666481] wow fadeIn text-[16px] font-[400] leading-[30px] md:leading-[42px]">
               We aim to educate 2,000,000 girls and women about blockchain technology, fostering understanding, creating opportunities, and nurturing future leaders in the blockchain space.
