@@ -139,7 +139,7 @@ const Donation = () => {
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/code-q-15.jpeg" 
+              src="/images/code-q-15.png" 
               alt="section-img" 
               fill
               sizes="(max-width: 768px) 100%, 540px"
