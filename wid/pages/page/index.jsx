@@ -128,7 +128,7 @@ const Homepage = () => {
           </div>
           <figure className="relative wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/frame-q-13.jpeg" 
+              src="/images/frame-q-13.png" 
               alt="section-img" 
               fill
               priority
