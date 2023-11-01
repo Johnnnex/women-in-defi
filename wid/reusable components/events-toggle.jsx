@@ -7,61 +7,61 @@ const EventCard = () => {
     const imgArrOne = [
         {
           key: 1,
-          imgSrc: "/images/frame-6.png",
+          imgSrc: "/images/frame-cr-6.png",
         },
         {
           key: 2,
-          imgSrc: "/images/frame-3.png",
+          imgSrc: "/images/frame-cr-3.png",
         },
       ]
     const imgArrTwo = [
         {
           key: 1,
-          imgSrc: "/images/frame-5.png",
+          imgSrc: "/images/frame-cr-5.png",
         },
         {
           key: 2,
-          imgSrc: "/images/frame-2.png",
+          imgSrc: "/images/frame-cr-2.png",
         },
       ]
     const imgArrThr = [
         {
           key: 1,
-          imgSrc: "/images/frame-4.png",
+          imgSrc: "/images/frame-cr-4.png",
         },
         {
           key: 2,
-          imgSrc: "/images/frame-1.png",
+          imgSrc: "/images/frame-cr-1.png",
         },
       ]
     const imgArrFour = [
         {
           key: 1,
-          imgSrc: "/images/ccc-6.png",
+          imgSrc: "/images/ccc-cr-6.png",
         },
         {
           key: 2,
-          imgSrc: "/images/ccc-3.png",
+          imgSrc: "/images/ccc-cr-3.png",
         },
     ]
     const imgArrFive = [
         {
           key: 1,
-          imgSrc: "/images/ccc-5.png",
+          imgSrc: "/images/ccc-cr-5.png",
         },
         {
           key: 2,
-          imgSrc: "/images/ccc-2.png",
+          imgSrc: "/images/ccc-cr-2.png",
         },
     ]
     const imgArrSix = [
         {
           key: 1,
-          imgSrc: "/images/ccc-4.png",
+          imgSrc: "/images/ccc-cr-4.png",
         },
         {
           key: 2,
-          imgSrc: "/images/ccc-1.png",
+          imgSrc: "/images/ccc-cr-1.png",
         },
     ]
   return (
@@ -73,49 +73,49 @@ const EventCard = () => {
         </div>
         <section className={`${events != "one" ? "hidden" : ""} space-y-[16px] md:space-y-0`}>
             <div className="md:grid hidden grid-cols-3 gap-y-[16px] gap-x-[24px]">
-                <figure className="w-full relative h-[452px]">
+                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
                     <Image 
-                        src="/images/frame-6.png"
+                        src="/images/frame-cr-6.png"
                         alt="event_images"
                         fill
                         sizes="(max-width: 768px) 100%, 540px"
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
                     <Image 
-                        src="/images/frame-5.png"
+                        src="/images/frame-cr-5.png"
                         alt="event_images"
                         fill
                         sizes="(max-width: 768px) 100%, 540px"
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
                     <Image 
-                        src="/images/frame-4.png"
+                        src="/images/frame-cr-4.png"
                         alt="event_images"
                         fill
                         sizes="(max-width: 768px) 100%, 540px"
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
                     <Image 
-                        src="/images/frame-3.png"
+                        src="/images/frame-cr-3.png"
                         alt="event_images"
                         fill
                         sizes="(max-width: 768px) 100%, 540px"
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
                     <Image 
-                        src="/images/frame-2.png"
+                        src="/images/frame-cr-2.png"
                         alt="event_images"
                         fill
                         sizes="(max-width: 768px) 100%, 540px"
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
                     <Image 
-                        src="/images/frame-1.png"
+                        src="/images/frame-cr-1.png"
                         alt="event_images"
                         fill
                         sizes="(max-width: 768px) 100%, 540px"
@@ -139,26 +139,26 @@ const EventCard = () => {
             />
         </section>
         <section className={events != "two" ? "hidden" : ""}>
-            <div className={`md:grid md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
-                <figure className="w-full relative h-[452px]">
+            <div className={`grid grid-cols-1 md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
+                <figure className="w-full relative overflow-hidden rounded-[16px] h-[452px]">
                     <Image 
-                        src="/images/wid-event-1.png"
+                        src="/images/wid-event-cr-1.jpeg"
                         alt="event_images"
                         sizes="(max-width: 768px) 100%, 540px"
                         fill
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="w-full relative overflow-hidden rounded-[16px] h-[452px]">
                     <Image 
-                        src="/images/wid-event-2.png"
+                        src="/images/wid-event-cr-2.jpeg"
                         alt="event_images"
                         sizes="(max-width: 768px) 100%, 540px"
                         fill
                     />
                 </figure>
-                <figure className="w-full relative h-[452px]">
+                <figure className="w-full relative overflow-hidden rounded-[16px] h-[452px]">
                     <Image 
-                        src="/images/wid-event-3.png"
+                        src="/images/wid-event-cr-3.jpeg"
                         sizes="(max-width: 768px) 100%, 540px"
                         alt="event_images"
                         fill
