@@ -219,7 +219,7 @@ const EventCard = () => {
             </div>
             <ImgSlider 
                 imgArr={imgArrFour}
-                preferredEffect="slide"
+                preferredEffect="fade"
                 wantsNav={false}
             /> 
             <ImgSlider 
@@ -229,7 +229,7 @@ const EventCard = () => {
             /> 
             <ImgSlider 
                 imgArr={imgArrSix}
-                preferredEffect="slide"
+                preferredEffect="flip"
                 wantsNav={false}
             /> 
         </section>
