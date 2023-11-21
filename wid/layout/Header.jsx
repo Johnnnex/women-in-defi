@@ -22,7 +22,7 @@ const Header = () => {
     },
     {
       path: "/page/donation",
-      text: "Donate",
+      text: "Partner",
     },
     {
       path: "/page/events",
