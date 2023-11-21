@@ -186,7 +186,7 @@ const Homepage = () => {
                 </figure>
               </div>
               <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
-                <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EDUCATION</h4>
+                <h4 className="mb-[16px] text-[22px] font-[600] text-[#110138]">EDUCATION</h4>
                 <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
                   Embark on or enhance your Web3 journey by joining our academy programs, including Defi training and Skill Up Program, under the guidance of seasoned mentors.
                 </p>
@@ -215,7 +215,7 @@ const Homepage = () => {
                 </figure>
               </div>
               <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
-                <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EVENTS</h4>
+                <h4 className="mb-[16px] text-[22px] font-[600] text-[#110138]">EVENTS</h4>
                 <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
                   Join us for a range of events, both online and in-person, which may include Twitter spaces, webinars, Codes, Charts and Cocktails, and many others.
                 </p>
@@ -245,7 +245,7 @@ const Homepage = () => {
               </figure>
             </div>
             <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
-              <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">CHAPTERS</h4>
+              <h4 className="mb-[16px] text-[22px] font-[600] text-[#110138]">CHAPTERS</h4>
               <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
                 Join our community and engage with over 3000+ fellow African women in the Web3 space, hailing from various corners of the continent.
               </p>
@@ -401,7 +401,7 @@ const Homepage = () => {
           </div>
         </section> */}
         <Testimonial />
-        <section className="pt-[54px]">
+        <section className="md:pt-[54px] pt-[30px]">
           <h3 className="md:text-[40px] text-[24px] text-center mb-[16px] font-[600] text-[#110138]">Picture Stories</h3>
           <p className="text-center mx-auto md:w-[35%] w-[90%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
           <div className="flex flex-col md:flex-row  gap-[16px] justify-between mb-[59px] w-[90%] mx-auto">
