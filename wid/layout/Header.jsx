@@ -118,16 +118,55 @@ const Header = () => {
               </a>
             </div>
           </nav>
-          <button type='button' onClick={toggleNav} className="z-[2] md:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "hidden" : ""}`} height="32" viewBox="0 0 32 1" fill="none">
-                  <path d="M5.33333 10.6667H26.6667M5.33333" stroke="#666481" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <button type='button' onClick={toggleNav} className={`z-[2] space-y-1 ${navState == true && "activeBtn"} md:hidden`}>
+              <svg
+                width="21"
+                className="transition-[.4s]"
+                height="2"
+                viewBox="0 0 21 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.38647 1H19.3865"
+                  stroke="#666481"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+					    </svg>
+              <svg
+                width="21"
+                className="transition-[.4s]"
+                height="2"
+                viewBox="0 0 21 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.38647 1H19.3865"
+                  stroke="#666481"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "rotate-[45deg] translate-x-[10%] translate-y-[13%]" : "hidden"}`} height="32" viewBox="0 10 32 2" fill="none">
-                  <path d="M5.333333 21.3334H18.6667" stroke="#666481" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "rotate-[-45deg] translate-y-[-50%] translate-x-[20%]" : ""}`} height="32" viewBox="0 20 32 32" fill="none">
-                  <path d="M5.333333 21.3334H18.6667" stroke="#666481" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+              <svg
+                width="21"
+                className="transition-[.4s]"
+                height="2"
+                viewBox="0 0 21 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.38647 1H19.3865"
+                  stroke="#666481"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+					    </svg>
           </button>
         </section>
       </header>
