@@ -18,7 +18,7 @@ const Events = () => {
           <EventCard />
           <div className="w-[90%] mt-[58px] mx-auto">
             <div className="ml-auto w-fit">
-              <a href="https://drive.google.com/drive/folders/1wDUWCsWTxja4Nacgrs53201nBw3xIkN6" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/drive/folders/1oglXz-N4YJRUwSpGSwvTF2HfZ80SaV0i" target="_blank" rel="noopener noreferrer">
                 <button className="btn-trans flex items-center">
                   View More Pictures
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
