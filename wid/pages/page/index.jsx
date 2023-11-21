@@ -118,7 +118,7 @@ const Homepage = () => {
           </section>
         </section>
         <section id="about" className="md:pt-[113px] pt-[70px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <div className="md:w-[49%]">
+          <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               About Us
             </h3>
@@ -172,8 +172,8 @@ const Homepage = () => {
         </section>
         <section className="py-[81px]">
           <h3 className="md:w-[35%] mb-[68px] text-[#110138] md:text-[40px] text-[24px] font-[600] leading-[40px] md:leading-[60px] text-center mx-auto w-full">Our Approach To Making A Difference</h3>
-          <div className="grid w-fit gap-x-[60px] mx-auto mb-[51px] grid-cols-2">
-            <div className="w-[474px] relative overflow-hidden pt-[300px]">
+          <div className="grid w-fit md:gap-x-[60px] grid-cols-1 mx-auto mb-[28px] space-y-[28px] md:space-y-0 md:mb-[51px] md:grid-cols-2">
+            <div className="md:w-[474px] mx-auto w-[90%] relative overflow-hidden pt-[300px]">
               <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
                 <figure className="relative h-full w-full">
                   <Image 
@@ -200,7 +200,7 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[474px] relative overflow-hidden pt-[300px]">
+            <div className="md:w-[474px] mx-auto w-[90%] relative overflow-hidden pt-[300px]">
               <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
                 <figure className="relative h-full w-full">
                   <Image 
@@ -228,7 +228,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[474px] mx-auto relative overflow-hidden pt-[300px]">
+          <div className="md:w-[474px] w-[90%] mx-auto relative overflow-hidden pt-[300px]">
             <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
               <figure className="relative h-full w-full">
                 <Image 
@@ -267,7 +267,7 @@ const Homepage = () => {
               sizes="(max-width: 768px) 100%, 540px"
             />
           </figure>
-          <div className="md:w-[49%]">
+          <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               Embracing Partnerships and Collaborations
             </h3>
@@ -281,22 +281,22 @@ const Homepage = () => {
         </section>
         <section className="md:py-[62px] py-[36px] bg-[#0673EF]">
           <h3 className="font-[600] leading-[52px] wow fadeInDown text-[24px] md:text-[32px] text-white text-center mb-[24px] md:mb-[40px]">Partners</h3>
-          <div className="flex fadeIn wow md:w-fit w-[90%] items-center justify-between md:gap-[60px] mx-auto">
-            <figure className="md:w-[194px] w-[30%] h-[24px] md:h-[55px] relative">
+          <div className="flex overflow-x-auto fadeIn wow md:w-fit items-center justify-between gap-[24px] md:gap-[60px] mx-auto">
+            <figure className="md:w-[194px] w-full h-[24px] md:h-[55px] relative">
               <Image
                 src="/images/metaschool.png"
                 alt="patner-img"
                 fill
               />
             </figure>
-            <figure className="md:w-[194px] w-[30%] h-[24px] md:h-[55px] relative">
+            <figure className="md:w-[194px] w-full h-[24px] md:h-[55px] relative">
               <Image
                 src="/images/propel.png"
                 alt="patner-img"
                 fill
               />
             </figure>
-            <figure className="md:w-[185px] w-[30%] h-[40px] md:h-[58px] relative">
+            <figure className="md:w-[185px] w-full h-[40px] md:h-[58px] relative">
               <Image
                 src="/images/tma.png"
                 alt="patner-img"
@@ -313,7 +313,7 @@ const Homepage = () => {
           </div>
         </section>
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <div className="md:w-[49%]">
+          <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               Supporting The Women-In-Defi Cause
             </h3>
@@ -395,9 +395,9 @@ const Homepage = () => {
         <Testimonial />
         <section className="pt-[54px]">
           <h3 className="text-[40px] text-center mb-[16px] font-[600] text-[#110138]">Picture Stories</h3>
-          <p className="text-center mx-auto w-[35%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
-          <div className="flex justify-between mb-[59px] w-[90%] mx-auto">
-            <figure className="relative w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+          <p className="text-center mx-auto md:w-[35%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
+          <div className="flex flex-col md:flex-row  gap-[16px] justify-between mb-[59px] w-[90%] mx-auto">
+            <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
               <Image 
                 src="/images/picture-stories-2.png" 
                 alt="section-img" 
@@ -406,7 +406,7 @@ const Homepage = () => {
                 sizes="(max-width: 768px) 100%, 540px"
               />
             </figure>
-            <figure className="relative w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+            <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
               <Image 
                 src="/images/picture-stories-1.png" 
                 alt="section-img" 
@@ -415,7 +415,7 @@ const Homepage = () => {
                 sizes="(max-width: 768px) 100%, 540px"
               />
             </figure>
-            <figure className="relative w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+            <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
               <Image 
                 src="/images/ccc-cr-6.png" 
                 alt="section-img" 

@@ -90,3 +90,13 @@ header {
       padding-bottom: env(safe-area-inset-bottom);
     }
 }
+
+@media all and (max-width: 768px){
+    .hero {
+        background-image: url(/images/hero-mobile.png);
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: #ffffff50;
+    }
+}
