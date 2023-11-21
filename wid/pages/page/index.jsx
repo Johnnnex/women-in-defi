@@ -6,7 +6,6 @@ import HeadComp from '@/layout/HeadComp'
 import CountDown from '@/reusable components/count-down'
 import Chapters from '@/reusable components/chapters'
 import Connect from '@/reusable components/connect-w-us'
-import AttendEvent from '@/reusable components/attend-an-event'
 import Testimonial from '@/reusable components/testimonial'
 import ImgSlider from '@/reusable components/imgSlider'
 
@@ -280,7 +279,39 @@ const Homepage = () => {
             </Link>
           </div>
         </section>
-        <AttendEvent />
+        <section className="md:py-[62px] py-[36px] bg-[#0673EF]">
+          <h3 className="font-[600] leading-[52px] wow fadeInDown text-[24px] md:text-[32px] text-white text-center mb-[24px] md:mb-[40px]">Partners</h3>
+          <div className="flex fadeIn wow md:w-fit w-[90%] items-center justify-between md:gap-[60px] mx-auto">
+            <figure className="md:w-[194px] w-[30%] h-[24px] md:h-[55px] relative">
+              <Image
+                src="/images/metaschool.png"
+                alt="patner-img"
+                fill
+              />
+            </figure>
+            <figure className="md:w-[194px] w-[30%] h-[24px] md:h-[55px] relative">
+              <Image
+                src="/images/propel.png"
+                alt="patner-img"
+                fill
+              />
+            </figure>
+            <figure className="md:w-[185px] w-[30%] h-[40px] md:h-[58px] relative">
+              <Image
+                src="/images/tma.png"
+                alt="patner-img"
+                fill
+              />
+            </figure>
+            <figure className="md:w-[71px] w-[45px] md:h-[71px] h-[45px] relative">
+              <Image
+                src="/images/rethinkable.png"
+                alt="patner-img"
+                fill
+              />
+            </figure>
+          </div>
+        </section>
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:w-[49%]">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
@@ -303,7 +334,7 @@ const Homepage = () => {
             />
           </figure>
         </section>
-        <section className="py-[64px] hidden md:block">
+        {/* <section className="py-[64px] hidden md:block">
           <div className="max-w-[1272px] flex justify-between px-[24px] bg-[#0673EFCC] rounded-[24px] pt-[92px] pb-[70px] md:w-[85%] w-[90%] mx-auto">
             <div className="">
               <h3 className="mb-[25px] wow fadeInDown text-white text-[32px] font-[600] leading-[42px]">Follow Us On Our Social Media</h3>
@@ -360,9 +391,51 @@ const Homepage = () => {
               <Image src="/images/img-q-8.png" className="rounded-[50%]" height={1} width={50} alt="connect-images" />
             </div>
           </div>
-        </section>
+        </section> */}
         <Testimonial />
-        <Chapters />
+        <section className="pt-[54px]">
+          <h3 className="text-[40px] text-center mb-[16px] font-[600] text-[#110138]">Picture Stories</h3>
+          <p className="text-center mx-auto w-[35%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
+          <div className="flex justify-between mb-[59px] w-[90%] mx-auto">
+            <figure className="relative w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+              <Image 
+                src="/images/picture-stories-2.png" 
+                alt="section-img" 
+                fill
+                priority
+                sizes="(max-width: 768px) 100%, 540px"
+              />
+            </figure>
+            <figure className="relative w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+              <Image 
+                src="/images/picture-stories-1.png" 
+                alt="section-img" 
+                fill
+                priority
+                sizes="(max-width: 768px) 100%, 540px"
+              />
+            </figure>
+            <figure className="relative w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+              <Image 
+                src="/images/ccc-cr-6.png" 
+                alt="section-img" 
+                fill
+                priority
+                sizes="(max-width: 768px) 100%, 540px"
+              />
+            </figure>
+          </div>
+          <div className="w-[90%] mx-auto">
+            <div className="ml-auto w-fit">
+              <button className="btn-trans flex items-center">
+                View More Pictures
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                  <path d="M8.91003 20.4201L15.43 13.9001C16.2 13.1301 16.2 11.8701 15.43 11.1001L8.91003 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
         {/* <Connect /> */}
       </main>
     </>

@@ -8,6 +8,9 @@
 html {
     scroll-behavior: smooth;
 }
+header {
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
+}
 .hero {
     background-image: url(/images/hero-section.png);
     background-position: center;
