@@ -280,9 +280,9 @@ const Homepage = () => {
             <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Actively looking forward to embracing partners and corporations who concur with our vision and are willing to impact lives.
             </p>
-            <Link href="/page/donation">
+            <a href="mailto:partnership@womenindefi.org?subject=Partnership Request with WID">
               <button className="btn-generic wow fadeIn">Partner With Us</button>
-            </Link>
+            </a>
           </div>
         </section>
         <section className="md:py-[62px] py-[36px] bg-[#0673EF]">
