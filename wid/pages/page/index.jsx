@@ -119,10 +119,11 @@ const Homepage = () => {
         </section>
         <section id="about" className="md:pt-[113px] pt-[70px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
-            <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
+            <h3 className="md:mb-[16px] text-center md:textl
+             mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               About Us
             </h3>
-            <p className="text-[#666481] wow fadeIn text-[16px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
+            <p className="text-[#666481] text-center md:text-left wow fadeIn text-[16px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Women in Defi is a non-profit organization dedicated to promoting knowledge and empowerment among women in the areas of Blockchain Technology and Decentralized Finance. Our fundamental approach is to provide our community members with high-quality mentorship that focuses on their individual areas of expertise within the Blockchain Technology domain.
             </p>
           </div>
@@ -138,15 +139,15 @@ const Homepage = () => {
         </section>
         <section className="flex flex-col py-[46px] md:py-0 md:flex-row gap-[24px] max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:p-[32px] py-[32px] px-[16px] h-fit bg-[#FCFFF9] flex-1">
-            <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Mission</h4>
-            <p className="text-[#666481] wow fadeIn text-[16px] font-[400] leading-[30px] md:leading-[42px]">
+            <h4 className="text-[#110138] text-center md:text-left leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Mission</h4>
+            <p className="text-[#666481] wow fadeIn text-center md:text-left text-[16px] font-[400] leading-[30px] md:leading-[42px]">
               We envision a thriving, inclusive community of women in the Blockchain space, where diverse talents and perspective converge to revolutionize the Web3 landscape. <br />
               Through mentorship, education, and collaboration, we strive to break down barriers, fostering innovation and leading the way towards a more equitable digital future.
             </p>
           </div>
           <div className="md:p-[32px] py-[32px] px-[16px] bg-[#F9F9FF] flex-1">
-            <h4 className="text-[#110138] leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Vision</h4>
-            <p className="text-[#666481] wow fadeIn text-[16px] font-[400] leading-[30px] md:leading-[42px]">
+            <h4 className="text-[#110138] text-center md:text-left leading-[42px] wow fadeInDown mb-[16px] font-[500] text-[24px] md:text-[32px]">Vision</h4>
+            <p className="text-[#666481] text-center md:text-left wow fadeIn text-[16px] font-[400] leading-[30px] md:leading-[42px]">
               We aim to educate 2,000,000 girls and women about blockchain technology, fostering understanding, creating opportunities, and nurturing future leaders in the blockchain space.
             </p>
           </div>
