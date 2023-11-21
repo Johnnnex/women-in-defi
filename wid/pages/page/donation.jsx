@@ -136,27 +136,6 @@ const Donation = () => {
             Contact <a href="mailto:sarah@womenindefi.org" className="text-[#0673EF]" rel="noopener noreferrer">sarah@womenindefi.org</a> today to bring your company to speed on crypto.
           </p>
         </div>
-        <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
-            <Image 
-              src="/images/code-q-15.png" 
-              alt="section-img" 
-              fill
-              sizes="(max-width: 768px) 100%, 540px"
-            />
-          </figure>
-          <div className="md:w-[49%]">
-            <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
-              Code of Conduct for Women In Defi Community
-            </h3>
-            <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
-              We value and respect every member of our community, regardless of background, experience, or expertise. We commit to creating an inclusive environment where everyone feels heard and valued.
-            </p>
-            <Link href="/page/code-of-conduct">
-              <button className="btn-trans wow fadeIn">Read Code of Conduct</button>
-            </Link>
-          </div>
-        </section>
         {/* <Connect /> */}
       </main>
     </>

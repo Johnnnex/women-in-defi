@@ -402,8 +402,8 @@ const Homepage = () => {
         </section> */}
         <Testimonial />
         <section className="pt-[54px]">
-          <h3 className="text-[40px] text-center mb-[16px] font-[600] text-[#110138]">Picture Stories</h3>
-          <p className="text-center mx-auto md:w-[35%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
+          <h3 className="md:text-[40px] text-[24px] text-center mb-[16px] font-[600] text-[#110138]">Picture Stories</h3>
+          <p className="text-center mx-auto md:w-[35%] w-[90%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
           <div className="flex flex-col md:flex-row  gap-[16px] justify-between mb-[59px] w-[90%] mx-auto">
             <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
               <Image 

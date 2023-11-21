@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 const Footer = () => {
   const { asPath } = useRouter()
   return (
-    <footer className="md:pt-[100px] md:pb-[60px] pt-[80px] mb-[50px] bg-white">
+    <footer className="md:pt-[100px] md:pb-[50px] py-[50px] bg-white">
       <section className="max-w-[1272px] flex gap-[16px] md:gap-0 justify-between flex-col md:flex-row w-[85%] mx-auto">
         <figure className="md:w-[100px] hidden md:block w-[58px] h-[58px] md:h-[100px] relative">
           <Image 
@@ -17,8 +17,8 @@ const Footer = () => {
           />
         </figure>
         <div className="">
-          <h5 className="text-[24px] font-[600] text-[#110138] mb-[16px]">Get Involved</h5>
-          <ul className="text-[#666481] pl-[10px] md:pl-0 texxt-[16px] font-[500]">
+          <h5 className="md:text-[24px] text-[16px] font-[600] text-[#110138] mb-[16px]">Get Involved</h5>
+          <ul className="text-[#666481] pl-[10px] md:pl-0 text-[16px] font-[500]">
             <Link href = "/page/donation">
               <li className={`hover:text-[#0673EF] ${asPath == "" && "active"} mb-[8px] transition-[.4s]`}>Partner With Us</li>
             </Link>
@@ -28,8 +28,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <h5 className="text-[24px] font-[600] text-[#110138] mb-[16px]">About Us</h5>
-          <ul className="text-[#666481] pl-[10px] md:pl-0 texxt-[16px] font-[500]">
+          <h5 className="md:text-[24px] text-[16px] font-[600] text-[#110138] mb-[16px]">About Us</h5>
+          <ul className="text-[#666481] pl-[10px] md:pl-0 text-[16px] font-[500]">
             <Link href = "/page/code-of-conduct">
               <li className={`hover:text-[#0673EF] ${asPath == "/page/code-of-conduct" && "active"} mb-[8px] transition-[.4s]`}>Code Of Conduct</li>
             </Link>
@@ -42,8 +42,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <h5 className="text-[24px] font-[600] text-[#110138] mb-[16px]">Community</h5>
-          <ul className="text-[#666481] pl-[10px] md:pl-0 texxt-[16px] font-[500]">
+          <h5 className="md:text-[24px] text-[16px] font-[600] text-[#110138] mb-[16px]">Community</h5>
+          <ul className="text-[#666481] pl-[10px] md:pl-0 text-[16px] font-[500]">
             <Link href = "/page/events">
               <li className={`hover:text-[#0673EF] ${asPath == "/page/events" && "active"} mb-[8px] transition-[.4s]`}>Upcoming Event</li>
             </Link>
