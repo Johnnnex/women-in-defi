@@ -14,7 +14,7 @@ const Homepage = () => {
   const imgArr = [
     {
       key: 1,
-      imgSrc: "/images/hero-img-q-2.jpeg",
+      imgSrc: "/images/hero-slider.png",
     },
     {
       key: 2,
@@ -267,7 +267,7 @@ const Homepage = () => {
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/patner-img.jpeg" 
+              src="/images/patner-img.png" 
               alt="section-img" 
               fill
               priority
@@ -275,10 +275,10 @@ const Homepage = () => {
             />
           </figure>
           <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
-            <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
+            <h3 className="md:mb-[16px] mb-[10px] text-center md:text-left wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               Embracing Partnerships and Collaborations
             </h3>
-            <p className="text-[#666481] wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
+            <p className="text-[#666481] text-center md:text-left wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Actively looking forward to embracing partners and corporations who concur with our vision and are willing to impact lives.
             </p>
             <a href="mailto:partnership@womenindefi.org?subject=Partnership Request with WID">
@@ -336,7 +336,7 @@ const Homepage = () => {
           </div>
           <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
-              src="/images/supporting-wid-img.png" 
+              src="/images/support.png" 
               alt="section-img" 
               fill
               sizes="(max-width: 768px) 100%, 540px"

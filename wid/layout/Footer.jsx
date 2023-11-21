@@ -47,7 +47,7 @@ const Footer = () => {
             <Link href = "/page/events">
               <li className={`hover:text-[#0673EF] ${asPath == "/page/events" && "active"} mb-[8px] transition-[.4s]`}>Upcoming Event</li>
             </Link>
-            <a href = "#">
+            <a href="https://forms.gle/sVHUHnF9bz42BJui7" target="_blank" rel="noopener noreferrer">
               <li className={`hover:text-[#0673EF] mb-[8px] transition-[.4s]`}>Join our Discord Community</li>
             </a>
             <a href="https://twitter.com/women_in_defi" target="_blank">
