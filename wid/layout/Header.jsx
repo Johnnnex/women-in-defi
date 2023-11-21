@@ -29,7 +29,7 @@ const Header = () => {
       text: "Event",
     },
     {
-      path: "/#chapters",
+      path: "/page/chapters",
       text: "Chapters",
     },
     {
