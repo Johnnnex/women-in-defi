@@ -14,11 +14,11 @@ const Homepage = () => {
   const imgArr = [
     {
       key: 1,
-      imgSrc: "/images/index-hero-img.png",
+      imgSrc: "/images/index-her-img.png",
     },
     {
       key: 2,
-      imgSrc: "/images/hero-img-q-2.jpeg",
+      imgSrc: "/images/her-img-q-2.png",
     },
     {
       key: 3,
@@ -52,7 +52,7 @@ const Homepage = () => {
               <div className="pt-[80px] wow fadeIn flex justify-between w-full">
                 <figure className="w-[24%] rounded-[16px] overflow-hidden h-[390px] relative">
                   <Image 
-                    src="/images/index-hero-img.png" 
+                    src="/images/index-her-img.png" 
                     alt="hero-image"  
                     fill
                     priority
@@ -80,18 +80,18 @@ const Homepage = () => {
                   </figure>
                 </div>
                 <div className="w-[24%] flex h-[390px] flex-col justify-between">
-                  <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
+                  <figure className="w-full h-[39%] rounded-[16px] overflow-hidden relative">
                     <Image 
-                      src="/images/hero-img-q-3.jpeg" 
+                      src="/images/her-img-q-3.png" 
                       alt="hero-image"
                       fill 
                       priority
                       sizes="(max-width: 768px) 100%, 540px"
                     />
                   </figure>
-                  <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
+                  <figure className="w-full h-[59%] rounded-[16px] overflow-hidden relative">
                     <Image 
-                      src="/images/hero-img-q-2.jpeg" 
+                      src="/images/her-img-q-2.png" 
                       alt="hero-image" 
                       fill
                       priority
