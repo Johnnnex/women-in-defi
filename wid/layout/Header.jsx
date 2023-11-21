@@ -97,7 +97,7 @@ const Header = () => {
   }, [pathname, asPath])
   return (
     <>
-      <header ref={header} className={`fixed z-[2] py-4 bg-white left-0 top-0 w-full`}>
+      <header ref={header} className={`fixed z-[3] py-4 bg-white left-0 top-0 w-full`}>
         <section className="w-[90%] flex gap-[218px] justify-between items-center max-w-[1267px] mx-auto">
           <div className="w-[100px] relative z-[2] h-[80px]">
             <Image 

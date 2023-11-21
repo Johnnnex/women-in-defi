@@ -118,7 +118,6 @@ const Homepage = () => {
             />
           </section>
         </section>
-        <CountDown />
         <section id="about" className="md:pt-[113px] pt-[70px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:w-[49%]">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
@@ -172,7 +171,93 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <AttendEvent />
+        <section className="py-[81px]">
+          <h3 className="md:w-[35%] mb-[68px] text-[#110138] md:text-[40px] text-[24px] font-[600] leading-[40px] md:leading-[60px] text-center mx-auto w-full">Our Approach To Making A Difference</h3>
+          <div className="grid w-fit gap-x-[60px] mx-auto mb-[51px] grid-cols-2">
+            <div className="w-[474px] relative overflow-hidden pt-[300px]">
+              <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
+                <figure className="relative h-full w-full">
+                  <Image 
+                    src="/images/making-a-diff-1.png" 
+                    alt="section-img" 
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
+                  />
+                </figure>
+              </div>
+              <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
+                <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EDUCATION</h4>
+                <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
+                  Embark on or enhance your Web3 journey by joining our academy programs, including Defi training and Skill Up Program, under the guidance of seasoned mentors.
+                </p>
+                <div className="ml-auto w-fit">
+                  <button className="py-[20px] text-[#0673EF] font-[500] text-[18px] hover:no-underline items-center underline flex">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                      <path d="M9.40997 20.4201L15.93 13.9001C16.7 13.1301 16.7 11.8701 15.93 11.1001L9.40997 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="w-[474px] relative overflow-hidden pt-[300px]">
+              <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
+                <figure className="relative h-full w-full">
+                  <Image 
+                    src="/images/making-a-diff-2.png" 
+                    alt="section-img" 
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
+                  />
+                </figure>
+              </div>
+              <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
+                <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EDUCATION</h4>
+                <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
+                  Embark on or enhance your Web3 journey by joining our academy programs, including Defi training and Skill Up Program, under the guidance of seasoned mentors.
+                </p>
+                <div className="ml-auto w-fit">
+                  <button className="py-[20px] text-[#0673EF] font-[500] text-[18px] hover:no-underline items-center underline flex">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                      <path d="M9.40997 20.4201L15.93 13.9001C16.7 13.1301 16.7 11.8701 15.93 11.1001L9.40997 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-[474px] mx-auto relative overflow-hidden pt-[300px]">
+            <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
+              <figure className="relative h-full w-full">
+                <Image 
+                  src="/images/making-a-diff-3.png" 
+                  alt="section-img" 
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100%, 540px"
+                />
+              </figure>
+            </div>
+            <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
+              <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EDUCATION</h4>
+              <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
+                Embark on or enhance your Web3 journey by joining our academy programs, including Defi training and Skill Up Program, under the guidance of seasoned mentors.
+              </p>
+              <div className="ml-auto w-fit">
+                <button className="py-[20px] text-[#0673EF] font-[500] text-[18px] hover:no-underline items-center underline flex">
+                  Learn more
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                    <path d="M9.40997 20.4201L15.93 13.9001C16.7 13.1301 16.7 11.8701 15.93 11.1001L9.40997 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <CountDown />
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
             <Image 
@@ -195,6 +280,7 @@ const Homepage = () => {
             </Link>
           </div>
         </section>
+        <AttendEvent />
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
           <div className="md:w-[49%]">
             <h3 className="md:mb-[16px] mb-[10px] wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
