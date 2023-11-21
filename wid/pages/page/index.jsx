@@ -14,7 +14,7 @@ const Homepage = () => {
   const imgArr = [
     {
       key: 1,
-      imgSrc: "/images/index-her-img.png",
+      imgSrc: "/images/hero-img-q-2.jpeg",
     },
     {
       key: 2,
@@ -39,7 +39,7 @@ const Homepage = () => {
             <h1 className="text-[#110138] wow fadeInDown text-[24px] md:text-[52px] font-[600] leading-[40px] md:leading-[68px] md:text-center mb-[16px]">
               Empowering Women Globally Through Decentralised  Finance
             </h1>
-            <p className="text-[#666481] wow fadeInDown text-[18px] mb-[32px] md:mb-[40px] font-[400] leading-[28px] md:text-center">
+            <p className="text-[#666481] wow fadeInDown md:text-[18px] text-[16px] mb-[32px] md:mb-[40px] font-[400] leading-[28px] md:text-center">
               Women in DeFi raising the next generation of leading ladies in the Blockchain space.
             </p>
             <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
@@ -192,7 +192,7 @@ const Homepage = () => {
                 </p>
                 <div className="ml-auto w-fit">
                   <Link href="/page/programs">
-                    <button className="py-[20px] text-[#0673EF] font-[500] text-[18px] hover:no-underline items-center underline flex">
+                    <button className="py-[20px] text-[#0673EF] font-[500] md:text-[18px] text-[16px] hover:no-underline items-center underline flex">
                       Learn more
                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                         <path d="M9.40997 20.4201L15.93 13.9001C16.7 13.1301 16.7 11.8701 15.93 11.1001L9.40997 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -215,13 +215,13 @@ const Homepage = () => {
                 </figure>
               </div>
               <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
-                <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EDUCATION</h4>
+                <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EVENTS</h4>
                 <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
-                  Embark on or enhance your Web3 journey by joining our academy programs, including Defi training and Skill Up Program, under the guidance of seasoned mentors.
+                  Join us for a range of events, both online and in-person, which may include Twitter spaces, webinars, Codes, Charts and Cocktails, and many others.
                 </p>
                 <div className="ml-auto w-fit">
                   <Link href="/page/programs">
-                    <button className="py-[20px] text-[#0673EF] font-[500] text-[18px] hover:no-underline items-center underline flex">
+                    <button className="py-[20px] text-[#0673EF] font-[500] md:text-[18px] text-[16px] hover:no-underline items-center underline flex">
                       Learn more
                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                         <path d="M9.40997 20.4201L15.93 13.9001C16.7 13.1301 16.7 11.8701 15.93 11.1001L9.40997 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -245,13 +245,13 @@ const Homepage = () => {
               </figure>
             </div>
             <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
-              <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">EDUCATION</h4>
+              <h4 className="mb-[16px] text-[24px] font-[600] text-[#110138]">CHAPTERS</h4>
               <p className="mb-[32px] text-[#666481] leading-[30px] font-[400] text-[16px]">
-                Embark on or enhance your Web3 journey by joining our academy programs, including Defi training and Skill Up Program, under the guidance of seasoned mentors.
+                Join our community and engage with over 3000+ fellow African women in the Web3 space, hailing from various corners of the continent.
               </p>
               <div className="ml-auto w-fit">
                 <Link href="/page/programs">
-                  <button className="py-[20px] text-[#0673EF] font-[500] text-[18px] hover:no-underline items-center underline flex">
+                  <button className="py-[20px] text-[#0673EF] font-[500] md:text-[18px] text-[16px] hover:no-underline items-center underline flex">
                     Learn more
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                       <path d="M9.40997 20.4201L15.93 13.9001C16.7 13.1301 16.7 11.8701 15.93 11.1001L9.40997 4.58008" stroke="#0673EF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
