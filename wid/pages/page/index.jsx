@@ -171,7 +171,7 @@ const Homepage = () => {
           </div>
         </section>
         <section className="py-[81px]">
-          <h3 className="md:w-[35%] mb-[68px] text-[#110138] md:text-[40px] text-[24px] font-[600] leading-[40px] md:leading-[60px] text-center mx-auto w-full">Our Approach To Making A Difference</h3>
+          <h3 className="md:w-[35%] w-[90%] mb-[68px] text-[#110138] md:text-[40px] text-[24px] font-[600] leading-[40px] md:leading-[60px] text-center mx-auto">Our Approach To Making A Difference</h3>
           <div className="grid w-fit md:gap-x-[60px] grid-cols-1 mx-auto mb-[28px] space-y-[28px] md:space-y-0 md:mb-[51px] md:grid-cols-2">
             <div className="md:w-[474px] mx-auto w-[90%] relative overflow-hidden pt-[300px]">
               <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">

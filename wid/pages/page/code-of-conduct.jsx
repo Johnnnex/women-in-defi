@@ -16,7 +16,6 @@ const CodeOfConduct = () => {
                     priority
                 />
             </figure>
-            <Link className="text-[#0673EF] hover:underline" href="/page/donation">Back</Link>
             <h3 className="text-black font-[600] text-[24px] md:text-[40px] leading-[30px] md:leading-[52px] mb-[24px] md:mb-[40px]">Code of Conduct for Women In DeFi Community</h3>
             <article className="">
               <ol className="list-inside list-decimal">

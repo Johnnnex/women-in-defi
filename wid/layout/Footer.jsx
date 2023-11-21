@@ -17,7 +17,7 @@ const Footer = () => {
           />
         </figure>
         <div className="">
-          <h5 className="md:text-[24px] text-[16px] font-[600] text-[#110138] mb-[16px]">Get Involved</h5>
+          <h5 className="text-[24px] font-[600] text-[#110138] mb-[16px]">Get Involved</h5>
           <ul className="text-[#666481] pl-[10px] md:pl-0 text-[16px] font-[500]">
             <Link href = "/page/donation">
               <li className={`hover:text-[#0673EF] ${asPath == "" && "active"} mb-[8px] transition-[.4s]`}>Partner With Us</li>
@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <h5 className="md:text-[24px] text-[16px] font-[600] text-[#110138] mb-[16px]">About Us</h5>
+          <h5 className="text-[24px] font-[600] text-[#110138] mb-[16px]">About Us</h5>
           <ul className="text-[#666481] pl-[10px] md:pl-0 text-[16px] font-[500]">
             <Link href = "/page/code-of-conduct">
               <li className={`hover:text-[#0673EF] ${asPath == "/page/code-of-conduct" && "active"} mb-[8px] transition-[.4s]`}>Code Of Conduct</li>
@@ -42,7 +42,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <h5 className="md:text-[24px] text-[16px] font-[600] text-[#110138] mb-[16px]">Community</h5>
+          <h5 className="text-[24px] font-[600] text-[#110138] mb-[16px]">Community</h5>
           <ul className="text-[#666481] pl-[10px] md:pl-0 text-[16px] font-[500]">
             <Link href = "/page/events">
               <li className={`hover:text-[#0673EF] ${asPath == "/page/events" && "active"} mb-[8px] transition-[.4s]`}>Upcoming Event</li>
