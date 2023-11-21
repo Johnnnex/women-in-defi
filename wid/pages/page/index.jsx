@@ -34,87 +34,89 @@ const Homepage = () => {
   return (
     <>
       <HeadComp title="Women In DeFi || Home" />
-      <main className="md:pt-[244px] pt-[150px]">
-        <section className="max-w-[1272px] md:w-[85%] w-[90%] pb-[30px] md:pb-[120px] mx-auto">
-          <h1 className="text-[#110138] wow fadeInDown text-[24px] md:text-[52px] font-[600] leading-[40px] md:leading-[68px] md:text-center mb-[16px]">
-            Empowering Women Globally Through Decentralised  Finance
-          </h1>
-          <p className="text-[#666481] wow fadeInDown text-[18px] mb-[32px] md:mb-[40px] font-[400] leading-[28px] md:text-center">
-            Women in DeFi raising the next generation of leading ladies in the Blockchain space.
-          </p>
-          <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
-            <button onClick={donateFnc} className="btn-trans w-full md:w-fit">Donate Now</button>
-            <a href="https://forms.gle/sVHUHnF9bz42BJui7" target="_blank" rel="noopener noreferrer">
-              <button className="btn-generic w-full md:w-fit">Join Community</button>
-            </a>
-          </div>
-          <section className="md:block hidden">
-            <div className="pt-[80px] wow fadeIn flex justify-between w-full">
-              <figure className="w-[24%] rounded-[16px] overflow-hidden h-[390px] relative">
-                <Image 
-                  src="/images/index-hero-img.png" 
-                  alt="hero-image"  
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100%, 540px"
-                />
-              </figure>
-              <div className="w-[24%] flex h-[390px] flex-col justify-between">
-                <figure className="w-full h-[49%] rounded-[100px] overflow-hidden relative">
+      <main className="">
+        <section className="hero md:pt-[244px] pt-[150px]">
+          <section className="max-w-[1272px md:w-[85%] w-[90%] pb-[30px] md:pb-[120px] mx-auto">
+            <h1 className="text-[#110138] wow fadeInDown text-[24px] md:text-[52px] font-[600] leading-[40px] md:leading-[68px] md:text-center mb-[16px]">
+              Empowering Women Globally Through Decentralised  Finance
+            </h1>
+            <p className="text-[#666481] wow fadeInDown text-[18px] mb-[32px] md:mb-[40px] font-[400] leading-[28px] md:text-center">
+              Women in DeFi raising the next generation of leading ladies in the Blockchain space.
+            </p>
+            <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
+              <button onClick={donateFnc} className="btn-trans w-full md:w-fit">Donate Now</button>
+              <a href="https://forms.gle/sVHUHnF9bz42BJui7" target="_blank" rel="noopener noreferrer">
+                <button className="btn-generic w-full md:w-fit">Join Community</button>
+              </a>
+            </div>
+            <section className="md:block hidden">
+              <div className="pt-[80px] wow fadeIn flex justify-between w-full">
+                <figure className="w-[24%] rounded-[16px] overflow-hidden h-[390px] relative">
                   <Image 
-                    src="/images/hero-img-q-5.jpeg" 
-                    alt="hero-image" 
-                    fill 
-                    priority
-                    sizes="(max-width: 768px) 100%, 540px"
-                  />
-                </figure>
-                <figure className="w-full rounded-[100px] overflow-hidden h-[49%] relative">
-                  <Image 
-                    src="/images/hero-img-q-4.jpeg" 
-                    alt="hero-image" 
-                    fill 
-                    priority
-                    sizes="(max-width: 768px) 100%, 540px"
-                  />
-                </figure>
-              </div>
-              <div className="w-[24%] flex h-[390px] flex-col justify-between">
-                <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
-                  <Image 
-                    src="/images/hero-img-q-3.jpeg" 
-                    alt="hero-image"
-                    fill 
-                    priority
-                    sizes="(max-width: 768px) 100%, 540px"
-                  />
-                </figure>
-                <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
-                  <Image 
-                    src="/images/hero-img-q-2.jpeg" 
-                    alt="hero-image" 
+                    src="/images/index-hero-img.png" 
+                    alt="hero-image"  
                     fill
                     priority
-                    sizes="(max-width: 768px) 100%, 540px" 
+                    sizes="(max-width: 768px) 100%, 540px"
                   />
                 </figure>
+                <div className="w-[24%] flex h-[390px] flex-col justify-between">
+                  <figure className="w-full h-[49%] rounded-[100px] overflow-hidden relative">
+                    <Image 
+                      src="/images/hero-img-q-5.jpeg" 
+                      alt="hero-image" 
+                      fill 
+                      priority
+                      sizes="(max-width: 768px) 100%, 540px"
+                    />
+                  </figure>
+                  <figure className="w-full rounded-[100px] overflow-hidden h-[49%] relative">
+                    <Image 
+                      src="/images/hero-img-q-4.jpeg" 
+                      alt="hero-image" 
+                      fill 
+                      priority
+                      sizes="(max-width: 768px) 100%, 540px"
+                    />
+                  </figure>
+                </div>
+                <div className="w-[24%] flex h-[390px] flex-col justify-between">
+                  <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
+                    <Image 
+                      src="/images/hero-img-q-3.jpeg" 
+                      alt="hero-image"
+                      fill 
+                      priority
+                      sizes="(max-width: 768px) 100%, 540px"
+                    />
+                  </figure>
+                  <figure className="w-full h-[49%] rounded-[16px] overflow-hidden relative">
+                    <Image 
+                      src="/images/hero-img-q-2.jpeg" 
+                      alt="hero-image" 
+                      fill
+                      priority
+                      sizes="(max-width: 768px) 100%, 540px" 
+                    />
+                  </figure>
+                </div>
+                <div className="w-[24%] h-[390px] rounded-[16px] overflow-hidden relative">
+                  <Image 
+                    src="/images/hero-img-q-1.jpeg" 
+                    alt="hero-image"  
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100%, 540px"
+                  />
+                </div>
               </div>
-              <div className="w-[24%] h-[390px] rounded-[16px] overflow-hidden relative">
-                <Image 
-                  src="/images/hero-img-q-1.jpeg" 
-                  alt="hero-image"  
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100%, 540px"
-                />
-              </div>
-            </div>
+            </section>
+            <ImgSlider
+              imgArr={imgArr}
+              wantsNav={false}
+              preferredEffect="cube"
+            />
           </section>
-          <ImgSlider
-            imgArr={imgArr}
-            wantsNav={false}
-            preferredEffect="cube"
-          />
         </section>
         <CountDown />
         <section id="about" className="md:pt-[113px] pt-[70px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
