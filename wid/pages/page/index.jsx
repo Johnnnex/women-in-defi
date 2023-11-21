@@ -281,35 +281,37 @@ const Homepage = () => {
         </section>
         <section className="md:py-[62px] py-[36px] bg-[#0673EF]">
           <h3 className="font-[600] leading-[52px] wow fadeInDown text-[24px] md:text-[32px] text-white text-center mb-[24px] md:mb-[40px]">Partners</h3>
-          <div className="flex overflow-x-auto fadeIn wow md:w-fit items-center justify-between gap-[24px] md:gap-[60px] mx-auto">
-            <figure className="md:w-[194px] w-full h-[24px] md:h-[55px] relative">
-              <Image
-                src="/images/metaschool.png"
-                alt="patner-img"
-                fill
-              />
-            </figure>
-            <figure className="md:w-[194px] w-full h-[24px] md:h-[55px] relative">
-              <Image
-                src="/images/propel.png"
-                alt="patner-img"
-                fill
-              />
-            </figure>
-            <figure className="md:w-[185px] w-full h-[40px] md:h-[58px] relative">
-              <Image
-                src="/images/tma.png"
-                alt="patner-img"
-                fill
-              />
-            </figure>
-            <figure className="md:w-[71px] w-[45px] md:h-[71px] h-[45px] relative">
-              <Image
-                src="/images/rethinkable.png"
-                alt="patner-img"
-                fill
-              />
-            </figure>
+          <div className="overflow-x-auto">
+            <div className="flex fadeIn wow md:w-fit w-max items-center md:justify-between gap-[24px] md:gap-[60px] md:mx-auto">
+              <figure className="md:w-[194px] w-[200px] h-[24px] md:h-[55px] relative">
+                <Image
+                  src="/images/metaschool.png"
+                  alt="patner-img"
+                  fill
+                />
+              </figure>
+              <figure className="md:w-[194px] w-[85px] h-[24px] md:h-[55px] relative">
+                <Image
+                  src="/images/propel.png"
+                  alt="patner-img"
+                  fill
+                />
+              </figure>
+              <figure className="md:w-[185px] w-[130px] h-[40px] md:h-[58px] relative">
+                <Image
+                  src="/images/tma.png"
+                  alt="patner-img"
+                  fill
+                />
+              </figure>
+              <figure className="md:w-[71px] w-[45px] md:h-[71px] h-[45px] relative">
+                <Image
+                  src="/images/rethinkable.png"
+                  alt="patner-img"
+                  fill
+                />
+              </figure>
+            </div>
           </div>
         </section>
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
