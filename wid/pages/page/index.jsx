@@ -221,7 +221,7 @@ const Homepage = () => {
                   Join us for a range of events, both online and in-person, which may include Twitter spaces, webinars, Codes, Charts and Cocktails, and many others.
                 </p>
                 <div className="ml-auto w-fit">
-                  <Link href="/page/programs">
+                  <Link href="/page/events">
                     <button className="py-[20px] text-[#0673EF] font-[500] md:text-[18px] text-[16px] hover:no-underline items-center underline flex">
                       Learn more
                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -251,7 +251,7 @@ const Homepage = () => {
                 Join our community and engage with over 3000+ fellow African women in the Web3 space, hailing from various corners of the continent.
               </p>
               <div className="ml-auto w-fit">
-                <Link href="/page/programs">
+                <Link href="/page/chapters">
                   <button className="py-[20px] text-[#0673EF] font-[500] md:text-[18px] text-[16px] hover:no-underline items-center underline flex">
                     Learn more
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
