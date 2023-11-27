@@ -40,7 +40,7 @@ const Homepage = () => {
               Empowering Women Globally Through Decentralised  Finance
             </h1>
             <p className="text-[#666481] wow fadeInDown md:text-[18px] text-[16px] mb-[32px] md:mb-[40px] font-[400] leading-[28px] md:text-center">
-              Women in DeFi raising the next generation of leading ladies in the Blockchain space.
+              Women in DeFi is raising the next generation of leading ladies in the Blockchain space.
             </p>
             <div className="flex gap-[16px] md:gap-[24px] mb-[24px] md:mb-0 flex-col md:flex-row wow fadeIn md:w-fit w-full mx-auto">
               <button onClick={donateFnc} className="btn-trans w-full md:w-fit">Donate Now</button>
@@ -275,10 +275,10 @@ const Homepage = () => {
             />
           </figure>
           <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
-            <h3 className="md:mb-[16px] mb-[10px] text-center md:text-left wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
+            <h3 className="md:mb-[16px] mb-[10px] md:text-left wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
               Embracing Partnerships and Collaborations
             </h3>
-            <p className="text-[#666481] text-center md:text-left wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
+            <p className="text-[#666481] md:text-left wow fadeIn text-[16px] mb-[32px] md:text-[18px] font-[400] leading-[30px] md:leading-[26px]">
               Actively looking forward to embracing partners and corporations who concur with our vision and are willing to impact lives.
             </p>
             <a href="mailto:partnership@womenindefi.org?subject=Partnership Request with WID">
