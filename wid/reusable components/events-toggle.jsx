@@ -73,53 +73,17 @@ const EventCard = () => {
         </div>
         <section className={`${events != "one" ? "hidden" : ""} space-y-[16px] md:space-y-0`}>
             <div className="md:grid hidden grid-cols-3 gap-y-[16px] gap-x-[24px]">
-                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
-                    <Image 
-                        src="/images/frame-cr-6.png"
-                        alt="event_images"
-                        fill
-                        sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure className="rounded-[16px] bg-no-repeat bg-[url('/images/frame-cr-6.png')] bg-cover bg-center overflow-hidden w-full relative h-[452px]">
                 </figure>
-                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
-                    <Image 
-                        src="/images/frame-cr-5.png"
-                        alt="event_images"
-                        fill
-                        sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure className="rounded-[16px] bg-no-repeat bg-[url('/images/frame-cr-5.png')] bg-cover bg-center overflow-hidden w-full relative h-[452px]">
                 </figure>
-                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
-                    <Image 
-                        src="/images/frame-cr-4.png"
-                        alt="event_images"
-                        fill
-                        sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure className="rounded-[16px] bg-no-repeat bg-[url('/images/frame-cr-4.png')] bg-cover bg-center overflow-hidden w-full relative h-[452px]">
                 </figure>
-                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
-                    <Image 
-                        src="/images/frame-cr-3.png"
-                        alt="event_images"
-                        fill
-                        sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure className="rounded-[16px] bg-no-repeat bg-[url('/images/frame-cr-3.png')] bg-cover bg-center overflow-hidden w-full relative h-[452px]">
                 </figure>
-                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
-                    <Image 
-                        src="/images/frame-cr-2.png"
-                        alt="event_images"
-                        fill
-                        sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure className="rounded-[16px] bg-no-repeat bg-[url('/images/frame-cr-2.png')] bg-cover bg-center overflow-hidden w-full relative h-[452px]">
                 </figure>
-                <figure className="rounded-[16px] overflow-hidden w-full relative h-[452px]">
-                    <Image 
-                        src="/images/frame-cr-1.png"
-                        alt="event_images"
-                        fill
-                        sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure className="rounded-[16px] bg-no-repeat bg-[url('/images/frame-cr-1.png')] bg-cover bg-center overflow-hidden w-full relative h-[452px]">
                 </figure>
             </div>
             <ImgSlider 
@@ -140,35 +104,17 @@ const EventCard = () => {
         </section>
         <section className={events != "two" ? "hidden" : ""}>
             <div className={`grid grid-cols-1 md:grid-cols-3 gap-y-[16px] md:gap-x-[24px]`}>
-                <figure className="w-full relative overflow-hidden rounded-[16px] h-[452px]">
-                    <Image 
-                        src="/images/wid-event-cr-1.jpeg"
-                        alt="event_images"
-                        sizes="(max-width: 768px) 100%, 540px"
-                        fill
-                    />
+                <figure className="w-full relative bg-no-repeat bg-[url('/images/wid-event-cr-1.jpeg')] bg-cover bg-center overflow-hidden rounded-[16px] h-[452px]">
                 </figure>
-                <figure className="w-full relative overflow-hidden rounded-[16px] h-[452px]">
-                    <Image 
-                        src="/images/wid-event-cr-2.jpeg"
-                        alt="event_images"
-                        sizes="(max-width: 768px) 100%, 540px"
-                        fill
-                    />
+                <figure className="w-full relative bg-no-repeat bg-[url('/images/wid-event-cr-2.jpeg')] bg-cover bg-center overflow-hidden rounded-[16px] h-[452px]">
                 </figure>
-                <figure className="w-full relative overflow-hidden rounded-[16px] h-[452px]">
-                    <Image 
-                        src="/images/wid-event-cr-3.jpeg"
-                        sizes="(max-width: 768px) 100%, 540px"
-                        alt="event_images"
-                        fill
-                    />
+                <figure className="w-full relative bg-no-repeat bg-[url('/images/wid-event-cr-3.jpeg')] bg-cover bg-center overflow-hidden rounded-[16px] h-[452px]">
                 </figure>
             </div>
         </section>
         <section className={`${events != "three" ? "hidden" : ""} space-y-[16px] md:space-y-0`}>
             <div className="md:grid hidden grid-cols-3 gap-y-[16px] gap-x-[24px]">
-                <figure className="w-full overflow-hidden rounded-[16px] relative h-[452px]">
+                <figure className="w-full overflow-hidden bg-no-repeat bg-[url('/images/hero-img-q-1-cr.png')] bg-cover bg-center rounded-[16px] relative h-[452px]">
                     <Image 
                         src="/images/ccc-cr-6.png"
                         alt="event_images"
@@ -176,7 +122,7 @@ const EventCard = () => {
                         fill
                     />
                 </figure>
-                <figure className="w-full overflow-hidden rounded-[16px] relative h-[452px]">
+                <figure className="w-full overflow-hidden bg-no-repeat bg-[url('/images/hero-img-q-1-cr.png')] bg-cover bg-center rounded-[16px] relative h-[452px]">
                     <Image 
                         src="/images/ccc-cr-5.png"
                         alt="event_images"
@@ -184,7 +130,7 @@ const EventCard = () => {
                         fill
                     />
                 </figure>
-                <figure className="w-full overflow-hidden rounded-[16px] relative h-[452px]">
+                <figure className="w-full overflow-hidden bg-no-repeat bg-[url('/images/hero-img-q-1-cr.png')] bg-cover bg-center rounded-[16px] relative h-[452px]">
                     <Image 
                         src="/images/ccc-cr-4.png"
                         alt="event_images"
@@ -192,7 +138,7 @@ const EventCard = () => {
                         fill
                     />
                 </figure>
-                <figure className="w-full overflow-hidden rounded-[16px] relative h-[452px]">
+                <figure className="w-full overflow-hidden bg-no-repeat bg-[url('/images/hero-img-q-1-cr.png')] bg-cover bg-center rounded-[16px] relative h-[452px]">
                     <Image 
                         src="/images/ccc-cr-3.png"
                         alt="event_images"
@@ -200,7 +146,7 @@ const EventCard = () => {
                         fill
                     />
                 </figure>
-                <figure className="w-full overflow-hidden rounded-[16px] relative h-[452px]">
+                <figure className="w-full overflow-hidden bg-no-repeat bg-[url('/images/hero-img-q-1-cr.png')] bg-cover bg-center rounded-[16px] relative h-[452px]">
                     <Image 
                         src="/images/ccc-cr-2.png"
                         alt="event_images"
@@ -208,7 +154,7 @@ const EventCard = () => {
                         fill
                     />
                 </figure>
-                <figure className="w-full overflow-hidden rounded-[16px] relative h-[452px]">
+                <figure className="w-full overflow-hidden bg-no-repeat bg-[url('/images/hero-img-q-1-cr.png')] bg-cover bg-center rounded-[16px] relative h-[452px]">
                     <Image 
                         src="/images/ccc-cr-1.png"
                         alt="event_images"

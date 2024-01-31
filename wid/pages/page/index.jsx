@@ -85,7 +85,7 @@ const Homepage = () => {
               Women in Defi is a non-profit organization dedicated to promoting knowledge and empowerment among women in the areas of Blockchain Technology and Decentralized Finance. Our fundamental approach is to provide our community members with high-quality mentorship that focuses on their individual areas of expertise within the Blockchain Technology domain.
             </p>
           </div>
-          <figure className="relative bg-no-repeat bg-[url('/images/frame-q-13.png')] bg-cover bg-center wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
+          <figure className="relative bg-no-repeat bg-[url('/images/frame-q-13.png')] bg-cover bg-center wow fadeIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
           </figure>
         </section>
         <section className="flex flex-col py-[46px] md:py-0 md:flex-row gap-[24px] max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
@@ -105,7 +105,7 @@ const Homepage = () => {
         </section>
         <section className="bg-[#0673EF] pt-[55px] md:pt-[86px] pb-[69px]">
           <div className="max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-            <div className="flex wow bounceIn mb-[32px] md:mb-[56px] items-center leading-[42px] text-white">
+            <div className="flex wow fadeIn mb-[32px] md:mb-[56px] items-center leading-[42px] text-white">
               <h3 className="mr-[8px] text-[24px] md:text-[32px] font-[600]">Core Values</h3>🥳
             </div>
             <div className="md:mb-[32px] mb-[16px] flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[50px]">
@@ -195,7 +195,7 @@ const Homepage = () => {
         </section>
         <CountDown />
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <figure className="relative bg-no-repeat bg-[url('/images/patner-img.png')] bg-cover bg-center wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
+          <figure className="relative bg-no-repeat bg-[url('/images/patner-img.png')] bg-cover bg-center wow fadeIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
           </figure>
           <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
             <h3 className="md:mb-[16px] mb-[10px] md:text-left wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
@@ -257,7 +257,7 @@ const Homepage = () => {
               <button className="btn-trans wow fadeIn">Donate Now</button>
             </Link>
           </div>
-          <figure className="relative bg-no-repeat bg-[url('/images/support.png')] bg-cover bg-center wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
+          <figure className="relative bg-no-repeat bg-[url('/images/support.png')] bg-cover bg-center wow fadeIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
           </figure>
         </section>
         <Testimonial />

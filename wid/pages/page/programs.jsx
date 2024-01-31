@@ -19,7 +19,7 @@ const Programs = () => {
               All of our programs are thoughtfully crafted to empower African girls and women in the Blockchain space, equipping them with the essential technical and career skills necessary to advance in their respective domains. We operate as a non-profit organization, dedicated to supporting women in the Web3 community.
             </p>
             </div>
-            <figure className="relative bg-no-repeat bg-[url('/images/programs-q.png')] bg-cover bg-center wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
+            <figure className="relative bg-no-repeat bg-[url('/images/programs-q.png')] bg-cover bg-center wow fadeIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
             </figure>
           </section>
         </section>

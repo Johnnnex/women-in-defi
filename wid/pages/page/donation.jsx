@@ -30,7 +30,7 @@ const Donation = () => {
             <button className="btn-trans wow fadeIn">Partnership Inquiries</button>
           </a>
           </div>
-          <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
+          <div className="wow fadeIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative bg-no-repeat bg-[url('/images/donate-quarterimg-1.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
             </figure>
             <figure className="relative bg-no-repeat bg-[url('/images/donate-quarterimg-2.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
@@ -70,7 +70,7 @@ const Donation = () => {
           </p>
           <button onClick={donateFnc} className="btn-trans wow fadeIn">Donate Now</button>
           </div>
-          <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
+          <div className="wow fadeIn h-fit grid grid-cols-2 w-full md:w-fit">
             <figure className="relative bg-no-repeat bg-[url('/images/donation-fr-cr-1.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
             </figure>
             <figure className="relative bg-no-repeat bg-[url('/images/donation-fr-cr-2.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
