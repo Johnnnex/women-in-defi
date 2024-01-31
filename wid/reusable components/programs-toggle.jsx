@@ -14,6 +14,11 @@ const ProgramToggle = () => {
             <p className="md:w-[60%] wow fadeIn text-[#666481] text-[18px] font-[400] leading-[30px] md:leading-[28px] text-center mx-auto">
                 Our DeFi training comprises a three-month cohort-based program aimed at instilling fundamental principles of decentralized finance, ranging from foundational to advanced levels. It is a mandatory training for all community members, as it serves as an introduction to blockchain technology before participants proceed to select their specialized focus.
             </p>
+            <div className="w-[60%] mx-auto mt-[16px]">
+                <a href="https://forms.gle/i8aMrceTVias7H7q6" target='_blank'>
+                    <button type='button' className="btn-generic w-full">Register for WID 2024</button>
+                </a>
+            </div>
           </section>
           <section className={`${events != "two" ? "hidden" : ""}`}>
             <h3 className="text-[#110138] wow fadeInDown font-[600] md:font-[500] text-[24px] md:text-[32px] text-center leading-[52px] mb-[16px]">Skill Up</h3>

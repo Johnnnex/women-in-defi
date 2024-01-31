@@ -31,41 +31,13 @@ const Donation = () => {
           </a>
           </div>
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
-            <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
-                <Image 
-                src="/images/donate-quarterimg-1.png" 
-                alt="hero-img"  
-                fill
-                priority
-                sizes="(max-width: 738px) 40vw, 216px"
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/donate-quarterimg-1.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
             </figure>
-            <figure className="relative md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
-                <Image 
-                src="/images/donate-quarterimg-2.png" 
-                alt="hero-img"  
-                fill
-                priority
-                sizes="(max-width: 738px) 40vw, 216px"
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/donate-quarterimg-2.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
             </figure>
-            <figure className="relative md:w-[216px] w-[100%] rounded-bl-[10px] overflow-hidden h-[212px]">
-                <Image 
-                src="/images/donate-quarterimg-3.png" 
-                alt="hero-img"  
-                fill
-                priority
-                sizes="(max-width: 738px) 40vw, 216px"
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/donate-quarterimg-3.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-bl-[10px] overflow-hidden h-[212px]">
             </figure>
-            <figure className="relative md:w-[216px] w-[100%] rounded-br-[10px] overflow-hidden h-[212px]">
-              <Image 
-                src="/images/donate-quarterimg-4.png" 
-                alt="hero-img"  
-                fill
-                priority
-                sizes="(max-width: 738px) 40vw, 216px"
-              />              
+            <figure className="relative bg-no-repeat bg-[url('/images/donate-quarterimg-4.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-br-[10px] overflow-hidden h-[212px]">             
             </figure>
           </div>
         </section>
@@ -99,33 +71,13 @@ const Donation = () => {
           <button onClick={donateFnc} className="btn-trans wow fadeIn">Donate Now</button>
           </div>
           <div className="wow bounceIn h-fit grid grid-cols-2 w-full md:w-fit">
-            <figure className="relative md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
-              <Image 
-                src="/images/donation-fr-cr-1.png" 
-                alt="hero-img"  
-                fill
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/donation-fr-cr-1.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tl-[10px] overflow-hidden h-[212px]">
             </figure>
-            <figure className="relative md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
-              <Image 
-                src="/images/donation-fr-cr-2.png" 
-                alt="hero-img"  
-                fill
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/donation-fr-cr-2.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-tr-[10px] overflow-hidden h-[212px]">
             </figure>
-            <figure className="relative md:w-[216px] w-[100%] rounded-bl-[10px] overflow-hidden h-[212px]">
-              <Image 
-                src="/images/donation-fr-cr-3.png" 
-                alt="hero-img"  
-                fill
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/donation-fr-cr-3.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-bl-[10px] overflow-hidden h-[212px]">
             </figure>
-            <figure className="relative md:w-[216px] w-[100%] rounded-br-[10px] overflow-hidden h-[212px]">
-              <Image 
-                src="/images/donation-fr-cr-4.png" 
-                alt="hero-img"  
-                fill
-              />              
+            <figure className="relative bg-no-repeat bg-[url('/images/donation-fr-cr-4.png')] bg-cover bg-center md:w-[216px] w-[100%] rounded-br-[10px] overflow-hidden h-[212px]">             
             </figure>
           </div>
         </section>

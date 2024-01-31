@@ -268,22 +268,8 @@ const Homepage = () => {
             <figure className="relative bg-no-repeat bg-[url('/images/picture-stories-2.png')] bg-cover bg-center md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
             </figure>
             <figure className="relative bg-no-repeat bg-[url('/images/picture-stories-1.png')] bg-cover bg-center md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
-              <Image 
-                src="/images/picture-stories-1.png" 
-                alt="section-img" 
-                fill
-                priority
-                sizes="(max-width: 768px) 100%, 540px"
-              />
             </figure>
-            <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
-              <Image 
-                src="/images/ccc-cr-6.png" 
-                alt="section-img" 
-                fill
-                priority
-                sizes="(max-width: 768px) 100%, 540px"
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/ccc-cr-6.png')] bg-cover bg-center md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
             </figure>
           </div>
           <div className="w-[90%] mx-auto">
