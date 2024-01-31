@@ -16,7 +16,7 @@ const ProgramToggle = () => {
             </p>
             <div className="w-[60%] mx-auto mt-[16px]">
                 <a href="https://forms.gle/i8aMrceTVias7H7q6" target='_blank'>
-                    <button type='button' className="btn-generic w-full">Register for WID 2024</button>
+                    <button type='button' className="btn-generic w-full">Register for DeFi Cohort 8 training</button>
                 </a>
             </div>
           </section>
