@@ -12,14 +12,15 @@ const ImgSlider = ({imgArr, wantsNav, preferredEffect}) => {
     const renderImg = imgArr.map (({key, imgSrc}) => {
         return (
             <SwiperSlide key={key}>
-                <figure className="h-[425px] rounded-[24px] overflow-hidden relative w-full">
-                    <Image 
-                    src={imgSrc}
-                    alt="sliding-image"  
-                    fill
-                    priority
-                    sizes="(max-width: 768px) 100%, 540px"
-                    />
+                <figure 
+                    style={ {
+                        backgroundImage: `url(${imgSrc})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center"
+                    } } 
+                    className={`h-[425px] bg-no-repeat bg-cover bg-center rounded-[24px] overflow-hidden relative w-full`}
+                >
                 </figure>
             </SwiperSlide>
         )

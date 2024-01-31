@@ -21,6 +21,10 @@ const Header = () => {
       text: "About",
     },
     {
+      path: "/page/programs",
+      text: "Programs",
+    },
+    {
       path: "/page/donation",
       text: "Partner",
     },
@@ -31,10 +35,6 @@ const Header = () => {
     {
       path: "/page/chapters",
       text: "Chapters",
-    },
-    {
-      path: "/page/programs",
-      text: "Programs",
     },
   ]
   useEffect(() => {
