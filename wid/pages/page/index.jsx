@@ -85,14 +85,7 @@ const Homepage = () => {
               Women in Defi is a non-profit organization dedicated to promoting knowledge and empowerment among women in the areas of Blockchain Technology and Decentralized Finance. Our fundamental approach is to provide our community members with high-quality mentorship that focuses on their individual areas of expertise within the Blockchain Technology domain.
             </p>
           </div>
-          <figure className="relative wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
-            <Image 
-              src="/images/frame-q-13.png" 
-              alt="section-img" 
-              fill
-              priority
-              sizes="(max-width: 768px) 100%, 540px"
-            />
+          <figure className="relative bg-no-repeat bg-[url('/images/frame-q-13.png')] bg-cover bg-center wow bounceIn h-[491px] rounded-[24px] md:rounded-[100px] overflow-hidden md:w-[45%] max-w-[540px]">
           </figure>
         </section>
         <section className="flex flex-col py-[46px] md:py-0 md:flex-row gap-[24px] max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
@@ -134,14 +127,7 @@ const Homepage = () => {
           <div className="grid w-fit md:gap-x-[60px] grid-cols-1 mx-auto mb-[28px] space-y-[28px] md:space-y-0 md:mb-[51px] md:grid-cols-2">
             <div className="md:w-[474px] mx-auto w-[90%] relative overflow-hidden pt-[300px]">
               <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
-                <figure className="relative h-full w-full">
-                  <Image 
-                    src="/images/making-a-diff-1.png" 
-                    alt="section-img" 
-                    fill
-                    priority
-                    sizes="(max-width: 768px) 100%, 540px"
-                  />
+                <figure className="relative bg-no-repeat bg-[url('/images/making-a-diff-1.png')] bg-cover bg-center h-full w-full">
                 </figure>
               </div>
               <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
@@ -163,14 +149,7 @@ const Homepage = () => {
             </div>
             <div className="md:w-[474px] mx-auto w-[90%] relative overflow-hidden pt-[300px]">
               <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
-                <figure className="relative h-full w-full">
-                  <Image 
-                    src="/images/making-a-diff-2.png" 
-                    alt="section-img" 
-                    fill
-                    priority
-                    sizes="(max-width: 768px) 100%, 540px"
-                  />
+                <figure className="relative bg-no-repeat bg-[url('/images/making-a-diff-2.png')] bg-cover bg-center h-full w-full">
                 </figure>
               </div>
               <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
@@ -193,14 +172,7 @@ const Homepage = () => {
           </div>
           <div className="md:w-[474px] w-[90%] mx-auto relative overflow-hidden pt-[300px]">
             <div className="w-full absolute overflow-hidden top-0 h-[485px] rounded-[24px]">
-              <figure className="relative h-full w-full">
-                <Image 
-                  src="/images/making-a-diff-3.png" 
-                  alt="section-img" 
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100%, 540px"
-                />
+              <figure className="relative bg-no-repeat bg-[url('/images/making-a-diff-3.png')] bg-cover bg-center h-full w-full">
               </figure>
             </div>
             <div className="p-[20px] relative z-[2] rounded-[24px] border border-[#0673EF] bg-white">
@@ -223,14 +195,7 @@ const Homepage = () => {
         </section>
         <CountDown />
         <section className="md:pt-[113px] pt-[40px] pb-[29px] md:pb-[99px] md:justify-between flex flex-col-reverse md:flex-row gap-[38px] md:gap-0 md:items-center max-w-[1272px] md:w-[85%] w-[90%] mx-auto">
-          <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
-            <Image 
-              src="/images/patner-img.png" 
-              alt="section-img" 
-              fill
-              priority
-              sizes="(max-width: 768px) 100%, 540px"
-            />
+          <figure className="relative bg-no-repeat bg-[url('/images/patner-img.png')] bg-cover bg-center wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
           </figure>
           <div className="md:w-[49%] border border-[#0673EF] md:border-0 rounded-[24px] md:rounded-none p-[20px] md:p-0">
             <h3 className="md:mb-[16px] mb-[10px] md:text-left wow fadeInDown text-[#110138] font-[600] text-[24px] md:text-[40px] leading-[40px] md:leading-[52px]">
@@ -292,13 +257,7 @@ const Homepage = () => {
               <button className="btn-trans wow fadeIn">Donate Now</button>
             </Link>
           </div>
-          <figure className="relative wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
-            <Image 
-              src="/images/support.png" 
-              alt="section-img" 
-              fill
-              sizes="(max-width: 768px) 100%, 540px"
-            />
+          <figure className="relative bg-no-repeat bg-[url('/images/support.png')] bg-cover bg-center wow bounceIn rounded-[24px] overflow-hidden md:rounded-[100px] h-[491px] md:w-[45%] max-w-[540px]">
           </figure>
         </section>
         <Testimonial />
@@ -306,16 +265,9 @@ const Homepage = () => {
           <h3 className="md:text-[40px] text-[24px] text-center mb-[16px] font-[600] text-[#110138]">Picture Stories</h3>
           <p className="text-center mx-auto md:w-[35%] w-[90%] mb-[74px] text-[#666481] text-[18px] font-[400] leading-[26px]">View some of our amazing events and the amazing moments</p>
           <div className="flex flex-col md:flex-row  gap-[16px] justify-between mb-[59px] w-[90%] mx-auto">
-            <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
-              <Image 
-                src="/images/picture-stories-2.png" 
-                alt="section-img" 
-                fill
-                priority
-                sizes="(max-width: 768px) 100%, 540px"
-              />
+            <figure className="relative bg-no-repeat bg-[url('/images/picture-stories-2.png')] bg-cover bg-center md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
             </figure>
-            <figure className="relative md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
+            <figure className="relative bg-no-repeat bg-[url('/images/picture-stories-1.png')] bg-cover bg-center md:w-[30%] h-[452px] rounded-[16px] overflow-hidden">
               <Image 
                 src="/images/picture-stories-1.png" 
                 alt="section-img" 
