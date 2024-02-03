@@ -15,7 +15,7 @@ const ProgramToggle = () => {
                 Our DeFi training comprises a three-month cohort-based program aimed at instilling fundamental principles of decentralized finance, ranging from foundational to advanced levels. It is a mandatory training for all community members, as it serves as an introduction to blockchain technology before participants proceed to select their specialized focus.
             </p>
             <div className="w-[60%] mx-auto mt-[16px]">
-                <a href="https://forms.gle/i8aMrceTVias7H7q6" target='_blank'>
+                <a href="https://bit.ly/widcohort8application" target='_blank'>
                     <button type='button' className="btn-generic w-full">Register for DeFi Cohort 8 training</button>
                 </a>
             </div>
