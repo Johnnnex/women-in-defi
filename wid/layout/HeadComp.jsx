@@ -12,10 +12,10 @@ const HeadComp = ({title}) => {
         <meta name="twitter:site" content="womenindefi.org" />
         <meta name="twitter:title" content="Women In DeFi" />
         <meta name="twitter:description" content="Empowering Women Globally Through Decentralized Finance" />
-        {/* <meta name="twitter:image" content="https://womenindefi.org/images/open-graph-img.jpeg" /> */}
+        <meta name="twitter:image" content="https://womenindefi.org/images/seo-img.jpg" />
         <meta property="og:title" content="Women in DeFi" />
         <meta property="og:url" content="https://womenindefi.org" />
-        {/* <meta property="og:image" content="https://womenindefi.org/images/open-graph-img.jpeg" /> */}
+        <meta property="og:image" content="https://womenindefi.org/images/seo-img.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Empowering Women Globally Through Decentralized Finance" />
         <meta property="og:site_name" content="Women in DeFi" />
