@@ -52,7 +52,7 @@ const Homepage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn-generic w-full md:w-fit">
+                <button className="btn-generic hover:bg-transparent w-full md:w-fit">
                   Join Community
                 </button>
               </a>
