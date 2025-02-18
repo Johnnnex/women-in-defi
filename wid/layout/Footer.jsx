@@ -13,9 +13,10 @@ const Footer = () => {
 			<section className='max-w-[1272px] flex gap-[16px] md:gap-0 justify-between flex-col md:flex-row w-[85%] mx-auto'>
 				<figure className='md:w-[100px] hidden md:block w-[58px] h-[58px] md:h-[100px] relative'>
 					<Image
-						src='/images/wid.svg'
+						src='/images/WID-Logo15.png'
 						alt='logo'
-						fill
+						height={150}
+						width={150}
 					/>
 				</figure>
 				<div className=''>

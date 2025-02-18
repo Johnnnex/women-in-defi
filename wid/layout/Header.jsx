@@ -105,10 +105,11 @@ const Header = () => {
 				<section className='w-[90%] flex gap-[218px] justify-between items-center max-w-[1267px] mx-auto'>
 					<div className='w-[100px] relative z-[2] h-[80px]'>
 						<Image
-							src='/images/wid.svg'
+							src='/images/WID-Logo22.png'
 							alt='logo'
 							priority
-							fill
+							height={200}
+							width={200}
 							// sizes="100px"
 						/>
 					</div>
