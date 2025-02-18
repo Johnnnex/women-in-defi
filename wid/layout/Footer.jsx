@@ -15,6 +15,11 @@ const Footer = () => {
 					<Image
 						src='/images/WID-Logo15.png'
 						alt='logo'
+						style={{
+							maxHeight: '200px',
+							width: '9.5rem',
+							maxWidth: 'max-content',
+						}}
 						height={150}
 						width={150}
 					/>

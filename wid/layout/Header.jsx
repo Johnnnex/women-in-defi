@@ -103,16 +103,20 @@ const Header = () => {
 				className={`fixed z-[3] py-3 bg-white left-0 top-0 w-full`}
 			>
 				<section className='w-[90%] flex gap-[218px] justify-between items-center max-w-[1267px] mx-auto'>
-					<div className='w-[100px] relative z-[2] h-[80px]'>
+					<figure className='w-[100px] ml-[2rem] md:ml-0 flex items-center justify-center relative z-[2] h-[80px]'>
 						<Image
 							src='/images/WID-Logo22.png'
 							alt='logo'
 							priority
+							style={{
+								maxHeight: '200px',
+								width: '12.5rem',
+								maxWidth: 'max-content',
+							}}
 							height={200}
 							width={200}
-							// sizes="100px"
 						/>
-					</div>
+					</figure>
 					<nav
 						className={`flex md:flex-1 h-[100vh] md:h-fit fixed top-0 w-full bg-[#ffffffee] transition-[.4s] pt-[20vh] md:pt-0 gap-[50px] left-0 md:relative ${
 							navState ? 'translate-y-0' : 'translate-y-[-100%] md:translate-y-0'
