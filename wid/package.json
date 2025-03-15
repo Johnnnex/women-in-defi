@@ -10,6 +10,8 @@
     "format": "npx prettier --write ."
   },
   "dependencies": {
+    "embla-carousel-autoplay": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
     "next": "13.5.4",
     "react": "^18",
     "react-countup": "^6.4.2",

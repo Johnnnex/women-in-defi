@@ -55,8 +55,10 @@ const Header = () => {
 			<li
 				key={text}
 				className={`${
-					asPath === path ? 'active' : ''
-				} hover:text-[#0673EF] transition-[.4s] font-[500] text-[#666481]`}
+					asPath === path
+						? 'text-[#0375F2] border-[#0375F2] border rounded-[.5rem]'
+						: 'text-[#666481]'
+				} hover:text-[#0673EF] p-[.75rem_1.5rem] transition-[.4s] font-[500]`}
 			>
 				<Link href={path}>{text}</Link>
 			</li>
@@ -102,7 +104,7 @@ const Header = () => {
 				ref={header}
 				className={`fixed z-[3] py-3 bg-white left-0 top-0 w-full`}
 			>
-				<section className='w-[90%] flex gap-[218px] justify-between items-center max-w-[1267px] mx-auto'>
+				<section className='w-[90%] flex md:gap-[218px] justify-between items-center max-w-[1400px] mx-auto'>
 					<figure className='w-[100px] ml-[2rem] md:ml-0 flex items-center justify-center relative z-[2] h-[80px]'>
 						<Image
 							src='/images/WID-Logo22.png'
@@ -122,24 +124,36 @@ const Header = () => {
 							navState ? 'translate-y-0' : 'translate-y-[-100%] md:translate-y-0'
 						} items-center flex-col md:flex-row md:justify-between md:gap-[50px]`}
 					>
-						<ul className='flex flex-col gap-[5vh] md:flex-row md:flex-1 items-center md:justify-between'>
+						<ul className='flex flex-col md:gap-0 gap-[5vh] md:flex-row items-center'>
 							{links}
 						</ul>
-						<div className='md:w-fit w-[90%] mx-auto'>
-							<a
-								href='https://forms.gle/sVHUHnF9bz42BJui7'
-								target='_blank'
-								rel='noopener noreferrer'
+						<a
+							href='https://forms.gle/sVHUHnF9bz42BJui7'
+							target='_blank'
+							rel='noopener noreferrer'
+							className='block md:hidden'
+						>
+							<button
+								type='button'
+								className='p-[.75rem_1.5rem] bg-[#0375F2] text-white rounded-[.5rem] w-full'
 							>
-								<button
-									type='button'
-									className='btn-generic w-full'
-								>
-									Join Community
-								</button>
-							</a>
-						</div>
+								Join Community
+							</button>
+						</a>
 					</nav>
+					<a
+						href='https://forms.gle/sVHUHnF9bz42BJui7'
+						target='_blank'
+						className='hidden md:block'
+						rel='noopener noreferrer'
+					>
+						<button
+							type='button'
+							className='p-[.75rem_1.5rem] bg-[#0375F2] text-white rounded-[.5rem] w-full'
+						>
+							Join Community
+						</button>
+					</a>
 					<button
 						type='button'
 						onClick={toggleNav}
