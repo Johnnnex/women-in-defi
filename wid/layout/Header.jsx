@@ -5,6 +5,7 @@ import DonationModal from '@/reusable components/donation-modal';
 import Image from 'next/image';
 import Link from 'next/link';
 import EventsModal from '@/reusable components/events-modal';
+import { ReactSVG } from 'react-svg';
 
 const Header = () => {
 	const { pathname, asPath, events } = useRouter();
@@ -30,7 +31,7 @@ const Header = () => {
 		},
 		{
 			path: '/events',
-			text: 'Event',
+			text: 'Events',
 		},
 		{
 			path: '/chapters',
@@ -104,38 +105,30 @@ const Header = () => {
 				ref={header}
 				className={`fixed z-[3] py-3 bg-white left-0 top-0 w-full`}
 			>
-				<section className='w-[90%] flex md:gap-[218px] justify-between items-center max-w-[1400px] mx-auto'>
-					<figure className='w-[100px] ml-[2rem] md:ml-0 flex items-center justify-center relative z-[2] h-[80px]'>
-						<Image
-							src='/images/WID-Logo22.png'
-							alt='logo'
-							priority
-							style={{
-								maxHeight: '200px',
-								width: '12.5rem',
-								maxWidth: 'max-content',
-							}}
-							height={200}
-							width={200}
-						/>
+				<section className='w-[90%] flex xl:gap-[218px] justify-between items-center max-w-[1400px] mx-auto'>
+					<figure className='relative z-[2] hidden md:block'>
+						<ReactSVG src='/images/wid-bgless.svg' />
+					</figure>
+					<figure className='relative z-[2] md:hidden block'>
+						<ReactSVG src='/images/wid-bgless-smol.svg' />
 					</figure>
 					<nav
-						className={`flex md:flex-1 h-[100vh] md:h-fit fixed top-0 w-full bg-[#ffffffee] transition-[.4s] pt-[20vh] md:pt-0 gap-[50px] left-0 md:relative ${
-							navState ? 'translate-y-0' : 'translate-y-[-100%] md:translate-y-0'
-						} items-center flex-col md:flex-row md:justify-between md:gap-[50px]`}
+						className={`flex xl:flex-1 h-[100vh] xl:h-fit fixed top-0 w-full bg-[#ffffffee] transition-[.4s] pt-[20vh] xl:pt-0 gap-[50px] left-0 xl:relative ${
+							navState ? 'translate-y-0' : 'translate-y-[-100%] xl:translate-y-0'
+						} items-center flex-col xl:flex-row xl:justify-between xl:gap-[50px]`}
 					>
-						<ul className='flex flex-col md:gap-0 gap-[5vh] md:flex-row items-center'>
+						<ul className='flex flex-col xl:gap-0 gap-[5vh] xl:flex-row items-center'>
 							{links}
 						</ul>
 						<a
 							href='https://forms.gle/sVHUHnF9bz42BJui7'
 							target='_blank'
 							rel='noopener noreferrer'
-							className='block md:hidden'
+							className='block xl:hidden'
 						>
 							<button
 								type='button'
-								className='p-[.75rem_1.5rem] bg-[#0375F2] text-white rounded-[.5rem] w-full'
+								className='p-[.75rem_1.5rem] bg-[#0375F2] whitespace-nowrap text-white rounded-[.5rem] w-full'
 							>
 								Join Community
 							</button>
@@ -144,12 +137,12 @@ const Header = () => {
 					<a
 						href='https://forms.gle/sVHUHnF9bz42BJui7'
 						target='_blank'
-						className='hidden md:block'
+						className='hidden xl:block'
 						rel='noopener noreferrer'
 					>
 						<button
 							type='button'
-							className='p-[.75rem_1.5rem] bg-[#0375F2] text-white rounded-[.5rem] w-full'
+							className='p-[.75rem_1.5rem] bg-[#0375F2] whitespace-nowrap text-white rounded-[.5rem] w-full'
 						>
 							Join Community
 						</button>
@@ -157,7 +150,7 @@ const Header = () => {
 					<button
 						type='button'
 						onClick={toggleNav}
-						className={`z-[2] space-y-1 ${navState == true && 'activeBtn'} md:hidden`}
+						className={`z-[2] space-y-1 ${navState == true && 'activeBtn'} xl:hidden`}
 					>
 						<svg
 							width='21'

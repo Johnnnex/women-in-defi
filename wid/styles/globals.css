@@ -3,113 +3,138 @@
 @tailwind utilities;
 
 :root {
-  --brand-colour: #0673ef;
+	--brand-colour: #0673ef;
 }
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 1366px) {
+	html {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	html {
+		font-size: 75%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 65%;
+	}
+}
+
 header {
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
 }
 .hero {
-  background-image: url(/images/hero-section.png);
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-color: #ffffff50;
+	background-image: url(/images/hero-section.png);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #ffffff50;
 }
 .active {
-  color: var(--brand-colour) !important;
-  text-decoration: underline;
+	color: var(--brand-colour) !important;
+	text-decoration: underline;
 }
 .btn-generic {
-  padding: 18px 24px;
-  background-color: var(--brand-colour);
-  border-radius: 32px;
-  color: #fff;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  transition: 0.4s;
+	padding: 18px 24px;
+	background-color: var(--brand-colour);
+	border-radius: 32px;
+	color: #fff;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	transition: 0.4s;
 }
 .btn-generic:hover {
-  outline: 1px solid var(--brand-colour);
-  color: var(--brand-colour);
-  background: #fff;
+	outline: 1px solid var(--brand-colour);
+	color: var(--brand-colour);
+	background: #fff;
 }
 .btn-trans,
 .btn-trans-w {
-  padding: 18px 24px;
-  border-radius: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  transition: all 0.4s;
+	padding: 18px 24px;
+	border-radius: 32px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	transition: all 0.4s;
 }
 .btn-trans {
-  outline: 1px solid var(--brand-colour);
-  color: var(--brand-colour);
+	outline: 1px solid var(--brand-colour);
+	color: var(--brand-colour);
 }
 .btn-trans:hover {
-  color: #fff;
-  background-color: var(--brand-colour);
-  outline: none;
+	color: #fff;
+	background-color: var(--brand-colour);
+	outline: none;
 }
 .btn-trans-w {
-  outline: 1px solid #fff;
-  color: #fff;
+	outline: 1px solid #fff;
+	color: #fff;
 }
 .btn-trans-w:hover {
-  color: var(--brand-colour);
-  background-color: #fff;
-  outline: none;
+	color: var(--brand-colour);
+	background-color: #fff;
+	outline: none;
 }
 .grid-container {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px 16px;
+	display: grid !important;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px 16px;
 }
 .header-sticky {
-  padding-block: 0px !important;
-  transition: 0.4s !important;
+	padding-block: 8px !important;
+	transition: 0.4s !important;
 }
 header {
-  transition: 0.4s !important;
+	transition: 0.4s !important;
 }
 .bx-shadw {
-  box-shadow: 0px 4px 20px 0px rgba(6, 6, 11, 0.05);
+	box-shadow: 0px 4px 20px 0px rgba(6, 6, 11, 0.05);
 }
 .activeBtn svg {
-  transition: 0.6s;
+	transition: 0.6s;
 }
 .activeBtn svg:first-child {
-  transform: rotate(45deg) translateX(20%);
+	transform: rotate(45deg) translateX(20%);
 }
 .activeBtn svg:nth-child(2) {
-  display: none;
+	display: none;
 }
 .activeBtn svg:last-child {
-  transform: rotate(-45deg) translateX(20%);
+	transform: rotate(-45deg) translateX(20%);
 }
 /* removing highlight issue */
 
 @layer base {
-  html {
-    -webkit-tap-highlight-color: transparent;
-  }
+	html {
+		-webkit-tap-highlight-color: transparent;
+	}
 }
 @layer utilities {
-  .pb-safe {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
+	.pb-safe {
+		padding-bottom: env(safe-area-inset-bottom);
+	}
 }
 
 @media all and (max-width: 768px) {
-  .hero {
-    background-image: url(/images/hero-mobile.png);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: #ffffff50;
-  }
+	.hero {
+		background-image: url(/images/hero-mobile.png);
+		background-position: center;
+		background-size: cover;
+		background-blend-mode: overlay;
+		background-color: #ffffff50;
+	}
 }
